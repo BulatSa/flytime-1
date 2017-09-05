@@ -5,13 +5,16 @@
 	position: relative;
 	z-index: 2;
 	padding: $pad-s 0;
+	@include res(xl){
+		padding: $pad-xs 0;
+	}
 
 	&:after{
 		content: '';
 		width: 100%;
 		height: 10px;
 		background: url("../img/waves/top-panel-wave.svg") bottom center no-repeat;
-		top: 95%;
+		top: 93%;
 		left: 0;
 		position: absolute;
 	}
@@ -26,6 +29,9 @@
 .top-nav{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	flex: 1;
+	max-width: 740px;
 
 	a{
 		display: inline-block;
@@ -35,12 +41,16 @@
 		background: transparent;
 		white-space: nowrap;
 		font-size: 12px;
+		font-weight: 500;
 		text-transform: uppercase;
 		border-radius: 20px;
 		transition: background 0.3s ease;
+		@include res(xl){
+			font-size: 10px;
+		}
 
 		&:hover{
-			background: darken($blue,15%);
+			background: darken($blue,10%);
 		}
 
 		&.active{
@@ -50,4 +60,123 @@
 		}
 	}
 }
+
+
+.user-nav{
+	display: flex;
+	align-items: center;
+
+	&__link{
+		display: flex;
+		align-items: center;
+		margin-left: $pad-l;
+		@include res(xl){
+			margin-left: $pad-s;
+		}
+
+		&:hover{
+			span,i{
+				color: $orange;
+			}
+			strong{
+				background: #FFF;
+				color: $orange;
+			}
+		}
+
+		i{
+			font-size: 18px;
+			display: inline-block;
+			position: relative;
+			transition: color 0.3s ease;
+
+			&.i-cart{
+				font-size: 24px;
+				top: -3px;
+				@include res(xl){
+					top: 0;
+				}
+			}
+		}
+
+		span{
+			display: inline-block;
+			font-size: 12px;
+			text-transform: uppercase;
+			line-height: 1;
+			margin-left: $pad-xs;
+			font-weight: 700;
+			transition: color 0.3s ease;
+			white-space: nowrap;
+			@include res(xl){
+				margin-left: 4px;
+			}
+		}
+
+		strong{
+			font-family: $font;
+			border-radius: 50%;
+			background: $orange;
+			color: #FFF;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 1;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 18px;
+			height: 18px;
+			position: relative;
+			margin-left: -5px;
+			transition: background 0.3s ease,color 0.3s ease;
+		}
+	}
+}
 //s-top-panel
+
+
+//s-head-contacts
+.s-head-contacts{
+	padding: $pad-l 0 $pad-s 0;
+
+	.container{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.head-cont{
+	font-size: 14px;
+	padding-left: 40px;
+	position: relative;
+	font-weight: 500;
+
+	.h3{
+		display: block;
+		line-height: 1;
+	}
+
+	span{
+		display: block;
+	}
+
+	i{
+		position: absolute;
+		left: 0;
+		top: 0;
+		font-size: 30px;
+	}
+}
+
+.head-logo{
+	transition: opacity 0.3s ease;
+	@include res(l){
+		width: 150px;
+		height: auto;
+	}
+
+	&:hover{
+		opacity: 0.8;
+	}
+}
+//s-head-contacts
