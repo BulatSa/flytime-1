@@ -1,0 +1,53 @@
+//s-top-panel
+.s-top-panel{
+	background: $blue;
+	color: #FFF;
+	position: relative;
+	z-index: 2;
+	padding: $pad-s 0;
+
+	&:after{
+		content: '';
+		width: 100%;
+		height: 10px;
+		background: url("../img/waves/top-panel-wave.svg") bottom center no-repeat;
+		top: 95%;
+		left: 0;
+		position: absolute;
+	}
+
+	.container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.top-nav{
+	display: flex;
+	justify-content: space-between;
+
+	a{
+		display: inline-block;
+		vertical-align: top;
+		padding: $pad-xs;
+		line-height: 1;
+		background: transparent;
+		white-space: nowrap;
+		font-size: 12px;
+		text-transform: uppercase;
+		border-radius: 20px;
+		transition: background 0.3s ease;
+
+		&:hover{
+			background: darken($blue,15%);
+		}
+
+		&.active{
+			background: #FFF;
+			color: $black;
+			font-weight: bold;
+		}
+	}
+}
+//s-top-panel

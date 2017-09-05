@@ -1,0 +1,28 @@
+$breakpoints: (
+	'xl': (max-width: 1400px),
+	'l': (max-width: 1024px),
+	'm': (max-width: 768px),
+	's': (max-width: 680px),
+	'xs': (max-width: 480px),
+);
+
+$font: 'Ubuntu', sans-serif;
+$font-title: 'Lena', sans-serif;
+
+$black: #282828;
+$orange: #f65d2a;
+$orange-hover: #f67f28;
+$blue: #4bcddf;
+$grey: #b6b6b6;
+$grey-light: #d7d7d7;
+
+$container_width: 1320px;
+
+$gutter: 20px;
+
+$pad-xs: 8px;
+$pad-s: 16px;
+$pad-m: 24px;
+$pad-l: 40px;
+$pad-xl: 56px;
+$pad-xxl: 80px;
