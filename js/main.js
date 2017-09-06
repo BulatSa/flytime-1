@@ -154,3 +154,38 @@ $(document).ready(function(){
 /***********************
  Прокрутка к секциям END
  ***********************/
+
+
+/***********************
+ Mobile menu BEGIN
+ ***********************/
+$(document).ready(function(){
+	$('.menu-btn').click(function() {
+		$(this).toggleClass('active');
+		$('.mob-panel,.mob-panel__back').toggleClass('opened');
+	});
+
+	$(document).on('click touchstart',function (e){
+		var div = $(".mob-panel,.menu-btn,.mob-panel__back");
+		if (!div.is(e.target) && div.has(e.target).length === 0){
+			$('.mob-panel,.mob-panel__back').removeClass('opened');
+			$('.menu-btn').removeClass('active');
+		}
+	});
+
+	$('.cat-menu-item--search').click(function() {
+		$(this).toggleClass('active');
+		$('.search-panel').toggleClass('opened').find('input').focus();
+	});
+
+	$(document).on('click touchstart',function (e){
+		var div = $(".search-panel,.cat-menu-item--search");
+		if (!div.is(e.target) && div.has(e.target).length === 0){
+			$('.search-panel').removeClass('opened');
+			$('.cat-menu-item--search').removeClass('active');
+		}
+	});
+});
+/***********************
+ Mobile menu END
+ ***********************/

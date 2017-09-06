@@ -1,0 +1,234 @@
+//menu-btn
+.menu-btn{
+	width: 42px;
+	height: 42px;
+	cursor: pointer;
+	white-space: nowrap;
+	display: none;
+	user-select: none;
+	position: fixed;
+	z-index: 1010;
+	left: $pad-s;
+	top: $pad-s;
+	background-color: $orange;
+	border-radius: 50%;
+	box-shadow: 2px 2px 8px -1px rgba(0,0,0,0.3);
+	color: #FFF;
+	@include res(l){
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	figure{
+		display: inline-block;
+		vertical-align: middle;
+		position: relative;
+		width: 21px;
+		height: 3px;
+		border-radius: 3px;
+		background-color: #FFF;
+		transition: all 0.3s ease;
+		will-change: transform,opacity;
+		transform: translate3d(0,0,0);
+
+		&:before,&:after{
+			content: "";
+			width: 21px;
+			height: 3px;
+			position: absolute;
+			left: 0;
+			border-radius: 3px;
+			background-color: #FFF;
+			transition: all 0.3s ease;
+			will-change: transform,opacity;
+			transform: translate3d(0,0,0);
+		}
+
+		&:before{
+			top: -7px;
+		}
+
+		&:after{
+			bottom: -7px;
+		}
+	}
+
+	&.active{
+		background: $red;
+		figure{
+			transform: rotate(45deg);
+
+			&:after{
+				transform: scale3d(0.5,0.5,0.5);
+				opacity: 0;
+
+			}
+			&:before{
+				transform: rotate(-90deg);
+				top: 0;
+			}
+		}
+	}
+}
+//menu-btn
+
+
+//mob-panel
+.mob-panel{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 500px;
+	max-width: 100%;
+	height: 100%;
+	overflow: auto;
+	background: darken(#e7f1f4,10%);
+	z-index: 1000;
+	visibility: hidden;
+	transform: translate3d(-500px,0,0);
+	display: none;
+	padding-top: 26px;
+	transition: transform 0.4s ease, visibility 0.4s ease;
+	will-change: transform,visibility;
+	@include res(l){
+		display: block;
+	}
+
+	&.opened{
+		transform: none;
+		visibility: visible;
+		transition: transform 0.4s ease 0.1s, visibility 0.4s ease 0.1s;
+	}
+
+	.mob-phone{
+		text-align: right;
+	}
+
+	.top-nav{
+		border-top: 2px dotted #FFF;
+		margin-top: $pad-s;
+		margin-bottom: $pad-m;
+		padding-top: $pad-m;
+		display: block;
+		width: 100%;
+		@include res(s){
+			margin-top: $pad-xs;
+			padding-top: $pad-s;
+		}
+
+		a{
+			margin: 0 4px 4px 0;
+			font-size: 12px;
+		}
+	}
+
+	.cat-menu{
+		border-top: 2px dotted #FFF;
+		margin-top: $pad-s;
+		padding-top: $pad-s;
+		display: block;
+		width: 100%;
+		@include res(s){
+			padding-top: $pad-xs;
+		}
+
+		&-item{
+			width: auto;
+			@include res(s){
+				padding: 0 4px;
+			}
+
+			span{
+				font-size: 18px;
+				@include res(s){
+					font-size: 16px;
+				}
+			}
+		}
+	}
+
+	.user-nav{
+		display: block;
+		margin-top: $pad-s;
+		padding-top: $pad-s;
+
+		&__link{
+
+			margin: 0 $pad-s $pad-s 0;
+		}
+	}
+
+	.mob-search{
+		form{
+			width: 100%;
+			position: relative;
+
+			input{
+				width: 100%;
+				border: 1px solid #FFF;
+				&:hover{
+					border: 1px solid $orange-hover;
+				}
+
+				&:focus{
+					border: 1px solid $orange;
+				}
+			}
+
+			button{
+				color: $black;
+				font-size: 24px;
+				border: none;
+				background: transparent;
+				position: absolute;
+				right: 0;
+				top: 0;
+				height: 100%;
+				width: 44px;
+				line-height: 44px;
+				text-align: center;
+				-webkit-appearance: none;
+				transition: color 0.3s ease;
+				z-index: 2;
+				cursor: pointer;
+
+				&:focus{
+					outline: none;
+					color: $orange;
+				}
+
+				&:hover{
+					color: $orange;
+				}
+			}
+		}
+	}
+
+	&__back{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 504px;
+		height: 100%;
+		max-width: 100%;
+		z-index: 990;
+		background: $orange;
+		box-shadow: 2px 0 25px 0 rgba(0,0,0,0.4);
+		visibility: hidden;
+		transform: translate3d(-504px,0,0);
+		transition: transform 0.4s ease 0.1s, visibility 0.4s ease 0.1s;
+		will-change: transform,visibility;
+		display: none;
+		@include res(l){
+			display: block;
+		}
+
+		&.opened{
+			transform: none;
+			visibility: visible;
+			transition: transform 0.4s ease, visibility 0.4s ease;
+		}
+	}
+}
+//mob-panel

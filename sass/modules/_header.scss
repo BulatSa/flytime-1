@@ -4,16 +4,19 @@
 	color: #FFF;
 	position: relative;
 	z-index: 2;
-	padding: $pad-s 0;
+	padding: $pad-s 0 14px 0;
 	user-select: none;
 	@include res(xl){
-		padding: $pad-xs 0;
+		padding: $pad-xs 0 6px 0;
+	}
+	@include res(s){
+		display: none;
 	}
 
 	&:after{
 		content: '';
 		width: 100%;
-		height: 10px;
+		height: 12px;
 		background: url("../img/waves/top-panel-wave.svg") bottom center no-repeat;
 		top: 93%;
 		left: 0;
@@ -24,6 +27,15 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		@include res(l){
+			justify-content: flex-end;
+		}
+	}
+
+	.top-nav{
+		@include res(l){
+			display: none;
+		}
 	}
 }
 
@@ -33,6 +45,7 @@
 	align-items: center;
 	width: 740px;
 	flex-shrink: 1;
+	user-select: none;
 
 	a{
 		display: inline-block;
@@ -66,9 +79,11 @@
 .user-nav{
 	display: flex;
 	align-items: center;
+	user-select: none;
 
 	&__link{
-		display: flex;
+		display: inline-flex;
+		vertical-align: middle;
 		align-items: center;
 		margin-left: $pad-l;
 		@include res(xl){
@@ -138,31 +153,63 @@
 
 //s-head-contacts
 .s-head-contacts{
-	padding: $pad-l 0 $pad-s 0;
+	padding: $pad-l 0;
 	@include res(xl){
-		padding: $pad-m 0 $pad-s 0;
+		padding: $pad-m 0;
+	}
+	@include res(s){
+		padding: $pad-s 0;
 	}
 
 	.container{
 		display: flex;
 		justify-content: space-between;
+		@include res(m){
+			flex-wrap: wrap;
+		}
 	}
 }
 
 .head-cont{
-	font-size: 14px;
 	padding-left: 40px;
 	position: relative;
 	font-weight: 500;
 	margin-top: $pad-s;
+	@include res(l){
+		margin-top: 0;
+	}
+	@include res(m){
+		order: 2;
+		width: 50%;
+		padding-left: 0;
+	}
 
 	.h3{
 		display: block;
 		line-height: 1;
+		@include res(l){
+			font-size: 20px;
+			line-height: 1.2;
+		}
+		@include res(m){
+			font-family: $font;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 1;
+			margin-bottom: 0.3em;
+		}
+		@include res(s){
+			font-size: 14px;
+		}
 	}
 
 	span{
 		display: block;
+		line-height: 1.5;
+		@include res(s){
+			font-size: 12px;
+			line-height: 1.2;
+		}
 	}
 
 	i{
@@ -170,19 +217,56 @@
 		left: 0;
 		top: 0;
 		font-size: 30px;
+		@include res(m){
+			display: none;
+		}
+	}
+
+	.link{
+		@include res(l){
+			font-size: 14px;
+		}
+		@include res(s){
+			font-size: 12px;
+		}
+	}
+
+	&--right{
+		@include res(m){
+			text-align: right;
+		}
 	}
 }
 
 .head-logo{
-	margin: 0 $pad-s;
 	transition: opacity 0.3s ease;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transform: translate(-50px,0);
 	@include res(l){
 		width: 150px;
 		height: auto;
+		transform: translate(-30px,0);
+	}
+	@include res(m){
+		transform: none;
+	}
+	@include res(s){
+		width: 115px;
 	}
 
 	&:hover{
 		opacity: 0.8;
+	}
+
+	&__wrap{
+		margin: 0 $pad-s;
+		text-align: center;
+		@include res(m){
+			width: 100%;
+			margin: 0 0 $pad-s 0;
+		}
 	}
 }
 //s-head-contacts
@@ -190,8 +274,11 @@
 
 //s-cat-menu
 .s-cat-menu{
-	padding: $pad-s 0 $pad-l 0;
+	padding-bottom: $pad-l;
 	user-select: none;
+	@include res(l){
+		display: none;
+	}
 
 	.container{
 		display: flex;
@@ -210,6 +297,7 @@
 	justify-content: space-between;
 	width: 1070px;
 	flex-shrink: 1;
+	user-select: none;
 
 	&-item{
 		&--1{
@@ -308,7 +396,8 @@
 }
 
 .cat-menu-item{
-	display: flex;
+	display: inline-flex;
+	vertical-align: top;
 	align-items: center;
 	position: relative;
 	font-family: $font-title;
@@ -322,7 +411,11 @@
 
 	&__iconwrap{
 		position: relative;
+		z-index: 2;
 		margin-right: $pad-xs;
+		@include res(l){
+			transform: scale(0.8);
+		}
 	}
 
 	&__icon{
@@ -392,3 +485,84 @@
 	}
 }
 //s-cat-menu
+
+
+//search-panel
+.search-panel{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: $blue;
+	box-shadow: 0 10px 25px 0 rgba(0,0,0,0.3);
+	z-index: 100;
+	padding: $pad-s 0 $pad-xs 0;
+	text-align: center;
+	transform: translate3d(0,-120px,0);
+	transition: transform 0.4s ease;
+	@include res(l){
+		display: none;
+	}
+
+	&:after{
+		content: '';
+		width: 100%;
+		height: 15px;
+		background: url("../img/waves/top-panel-wave.svg") bottom center no-repeat;
+		top: 100%;
+		left: 0;
+		position: absolute;
+	}
+	
+	&.opened{
+		transform: none;
+	}
+
+	form{
+		position: relative;
+		width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+
+		input{
+			width: 100%;
+			border: 1px solid #FFF;
+			&:hover{
+				border: 1px solid $orange-hover;
+			}
+
+			&:focus{
+				border: 1px solid $orange;
+			}
+		}
+
+		button{
+			color: $black;
+			font-size: 24px;
+			border: none;
+			background: transparent;
+			position: absolute;
+			right: 0;
+			top: 0;
+			height: 100%;
+			width: 60px;
+			line-height: 58px;
+			text-align: center;
+			-webkit-appearance: none;
+			transition: color 0.3s ease;
+			z-index: 2;
+			cursor: pointer;
+
+			&:focus{
+				outline: none;
+				color: $orange;
+			}
+
+			&:hover{
+				color: $orange;
+			}
+		}
+
+	}
+}
+//search-panel
