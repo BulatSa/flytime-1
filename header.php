@@ -193,7 +193,7 @@
 		</div>
 
 		<div class="head-logo__wrap">
-			<a href="/"><img src="/img/logo.png" alt="Logotype" class="head-logo"></a>
+			<a href="/"><img src="/img/logo.png" alt="Logotype" class="head-logo" title="На главную"></a>
 		</div>
 
 		<div class="head-cont head-cont--right">
