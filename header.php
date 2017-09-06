@@ -28,7 +28,7 @@
 <body>
 
 
-<div class="s-top-panel">
+<section class="s-top-panel">
 	<div class="container">
 		
 		<nav class="top-nav">
@@ -66,9 +66,10 @@
 		</nav>
 		
 	</div>
-</div>
+</section>
 
-<div class="s-head-contacts">
+
+<section class="s-head-contacts">
 	<div class="container">
 
 		<div class="head-cont">
@@ -88,4 +89,65 @@
 		</div>
 
 	</div>
-</div>
+</section>
+
+
+<section class="s-cat-menu">
+	<div class="container">
+		
+		<nav class="cat-menu">
+			<a href="#" class="cat-menu-item cat-menu-item--1">
+				<div class="cat-menu-item__iconwrap">
+					<figure class="cat-menu-item__decor"></figure>
+					<figure class="cat-menu-item__icon"></figure>
+				</div>
+				<span>Каталог<br>шаров</span>
+			</a>
+			<a href="#" class="cat-menu-item cat-menu-item--2">
+				<div class="cat-menu-item__iconwrap">
+					<figure class="cat-menu-item__decor"></figure>
+					<figure class="cat-menu-item__icon"></figure>
+				</div>
+				<span>Оформление<br>по&nbsp;событиям</span>
+			</a>
+			<a href="#" class="cat-menu-item cat-menu-item--3">
+				<div class="cat-menu-item__iconwrap">
+					<figure class="cat-menu-item__decor"></figure>
+					<figure class="cat-menu-item__icon"></figure>
+				</div>
+				<span>Готовые<br>решения</span>
+			</a>
+			<a href="#" class="cat-menu-item cat-menu-item--4 active">
+				<div class="cat-menu-item__iconwrap">
+					<figure class="cat-menu-item__decor"></figure>
+					<figure class="cat-menu-item__icon"></figure>
+				</div>
+				<span>Все для<br>праздника</span>
+			</a>
+			<a href="#" class="cat-menu-item cat-menu-item--5">
+				<div class="cat-menu-item__iconwrap">
+					<figure class="cat-menu-item__decor"></figure>
+					<figure class="cat-menu-item__icon"></figure>
+				</div>
+				<span>Услуги<br>и&nbsp;цены</span>
+			</a>
+			<a href="#" class="cat-menu-item cat-menu-item--6">
+				<div class="cat-menu-item__iconwrap">
+					<figure class="cat-menu-item__decor"></figure>
+					<figure class="cat-menu-item__icon"></figure>
+				</div>
+				<span>Распродажа</span>
+			</a>
+		</nav>
+
+		<div class="search-link">
+			<a href="#" class="cat-menu-item cat-menu-item--search">
+				<div class="cat-menu-item__iconwrap">
+					<figure class="cat-menu-item__icon"></figure>
+				</div>
+				<span>Поиск</span>
+			</a>
+		</div>
+		
+	</div>
+</section>
