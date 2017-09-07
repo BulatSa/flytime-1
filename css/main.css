@@ -1917,6 +1917,7 @@ button::-moz-focus-inner {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .top-nav a {
@@ -1964,6 +1965,7 @@ button::-moz-focus-inner {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .user-nav__link {
@@ -2089,7 +2091,7 @@ button::-moz-focus-inner {
   justify-content: space-between;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 680px) {
   .s-head-contacts .container {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
@@ -2111,6 +2113,12 @@ button::-moz-focus-inner {
 }
 
 @media (max-width: 768px) {
+  .head-cont {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 680px) {
   .head-cont {
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
@@ -2145,7 +2153,7 @@ button::-moz-focus-inner {
 
 @media (max-width: 680px) {
   .head-cont .h3 {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
@@ -2237,7 +2245,7 @@ button::-moz-focus-inner {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 680px) {
   .head-logo__wrap {
     width: 100%;
     margin: 0 0 16px 0;
@@ -2250,12 +2258,6 @@ button::-moz-focus-inner {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-@media (max-width: 1024px) {
-  .s-cat-menu {
-    display: none;
-  }
 }
 
 .s-cat-menu .container {
@@ -2272,6 +2274,12 @@ button::-moz-focus-inner {
 .s-cat-menu .search-link {
   padding-left: 16px;
   margin-left: auto;
+}
+
+@media (max-width: 1024px) {
+  .s-cat-menu .search-link {
+    display: none;
+  }
 }
 
 .cat-menu {
@@ -2295,6 +2303,12 @@ button::-moz-focus-inner {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+@media (max-width: 900px) {
+  .cat-menu {
+    display: none;
+  }
 }
 
 .cat-menu-item--1 .cat-menu-item__decor {
@@ -2388,6 +2402,7 @@ button::-moz-focus-inner {
 }
 
 .cat-menu-item {
+  -webkit-tap-highlight-color: transparent;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2610,8 +2625,8 @@ button::-moz-focus-inner {
   user-select: none;
   position: fixed;
   z-index: 1010;
-  left: 16px;
-  top: 16px;
+  left: 8px;
+  top: 8px;
   background-color: #f65d2a;
   border-radius: 50%;
   -webkit-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.3);
@@ -2709,16 +2724,15 @@ button::-moz-focus-inner {
   overflow: auto;
   background: #c4dde4;
   z-index: 1000;
-  visibility: hidden;
   -webkit-transform: translate3d(-500px, 0, 0);
   transform: translate3d(-500px, 0, 0);
   display: none;
-  padding-top: 26px;
-  -webkit-transition: visibility 0.4s ease, -webkit-transform 0.4s ease;
-  transition: visibility 0.4s ease, -webkit-transform 0.4s ease;
-  -o-transition: transform 0.4s ease, visibility 0.4s ease;
-  transition: transform 0.4s ease, visibility 0.4s ease;
-  transition: transform 0.4s ease, visibility 0.4s ease, -webkit-transform 0.4s ease;
+  padding-top: 20px;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  -o-transition: transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
   will-change: transform,visibility;
 }
 
@@ -2732,12 +2746,11 @@ button::-moz-focus-inner {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
-  visibility: visible;
-  -webkit-transition: visibility 0.4s ease 0.1s, -webkit-transform 0.4s ease 0.1s;
-  transition: visibility 0.4s ease 0.1s, -webkit-transform 0.4s ease 0.1s;
-  -o-transition: transform 0.4s ease 0.1s, visibility 0.4s ease 0.1s;
-  transition: transform 0.4s ease 0.1s, visibility 0.4s ease 0.1s;
-  transition: transform 0.4s ease 0.1s, visibility 0.4s ease 0.1s, -webkit-transform 0.4s ease 0.1s;
+  -webkit-transition: -webkit-transform 0.4s ease 0.1s;
+  transition: -webkit-transform 0.4s ease 0.1s;
+  -o-transition: transform 0.4s ease 0.1s;
+  transition: transform 0.4s ease 0.1s;
+  transition: transform 0.4s ease 0.1s, -webkit-transform 0.4s ease 0.1s;
 }
 
 .mob-panel .mob-phone {
@@ -2801,7 +2814,7 @@ button::-moz-focus-inner {
 
 .mob-panel .user-nav {
   display: block;
-  margin-top: 16px;
+  margin-top: 8px;
   padding-top: 16px;
 }
 
@@ -2865,17 +2878,16 @@ button::-moz-focus-inner {
   max-width: 100%;
   z-index: 990;
   background: #f65d2a;
-  -webkit-box-shadow: 2px 0 25px 0 rgba(0, 0, 0, 0.4);
-  box-shadow: 2px 0 25px 0 rgba(0, 0, 0, 0.4);
-  visibility: hidden;
+  -webkit-box-shadow: 2px 0 25px 0 transparent;
+  box-shadow: 2px 0 25px 0 transparent;
   -webkit-transform: translate3d(-504px, 0, 0);
   transform: translate3d(-504px, 0, 0);
-  -webkit-transition: visibility 0.4s ease 0.1s, -webkit-transform 0.4s ease 0.1s;
-  transition: visibility 0.4s ease 0.1s, -webkit-transform 0.4s ease 0.1s;
-  -o-transition: transform 0.4s ease 0.1s, visibility 0.4s ease 0.1s;
-  transition: transform 0.4s ease 0.1s, visibility 0.4s ease 0.1s;
-  transition: transform 0.4s ease 0.1s, visibility 0.4s ease 0.1s, -webkit-transform 0.4s ease 0.1s;
-  will-change: transform,visibility;
+  -webkit-transition: -webkit-transform 0.4s ease 0.1s;
+  transition: -webkit-transform 0.4s ease 0.1s;
+  -o-transition: transform 0.4s ease 0.1s;
+  transition: transform 0.4s ease 0.1s;
+  transition: transform 0.4s ease 0.1s, -webkit-transform 0.4s ease 0.1s;
+  will-change: transform;
   display: none;
 }
 
@@ -2890,9 +2902,11 @@ button::-moz-focus-inner {
   -ms-transform: none;
   transform: none;
   visibility: visible;
-  -webkit-transition: visibility 0.4s ease, -webkit-transform 0.4s ease;
-  transition: visibility 0.4s ease, -webkit-transform 0.4s ease;
-  -o-transition: transform 0.4s ease, visibility 0.4s ease;
-  transition: transform 0.4s ease, visibility 0.4s ease;
-  transition: transform 0.4s ease, visibility 0.4s ease, -webkit-transform 0.4s ease;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  -o-transition: transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+  -webkit-box-shadow: 2px 0 25px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 0 25px 0 rgba(0, 0, 0, 0.4);
 }

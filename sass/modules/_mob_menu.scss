@@ -8,8 +8,8 @@
 	user-select: none;
 	position: fixed;
 	z-index: 1010;
-	left: $pad-s;
-	top: $pad-s;
+	left: $pad-xs;
+	top: $pad-xs;
 	background-color: $orange;
 	border-radius: 50%;
 	box-shadow: 2px 2px 8px -1px rgba(0,0,0,0.3);
@@ -85,11 +85,10 @@
 	overflow: auto;
 	background: darken(#e7f1f4,10%);
 	z-index: 1000;
-	visibility: hidden;
 	transform: translate3d(-500px,0,0);
 	display: none;
-	padding-top: 26px;
-	transition: transform 0.4s ease, visibility 0.4s ease;
+	padding-top: 20px;
+	transition: transform 0.4s ease;
 	will-change: transform,visibility;
 	@include res(l){
 		display: block;
@@ -97,8 +96,7 @@
 
 	&.opened{
 		transform: none;
-		visibility: visible;
-		transition: transform 0.4s ease 0.1s, visibility 0.4s ease 0.1s;
+		transition: transform 0.4s ease 0.1s;
 	}
 
 	.mob-phone{
@@ -150,11 +148,10 @@
 
 	.user-nav{
 		display: block;
-		margin-top: $pad-s;
+		margin-top: $pad-xs;
 		padding-top: $pad-s;
 
 		&__link{
-
 			margin: 0 $pad-s $pad-s 0;
 		}
 	}
@@ -214,11 +211,10 @@
 		max-width: 100%;
 		z-index: 990;
 		background: $orange;
-		box-shadow: 2px 0 25px 0 rgba(0,0,0,0.4);
-		visibility: hidden;
+		box-shadow: 2px 0 25px 0 rgba(0,0,0,0);
 		transform: translate3d(-504px,0,0);
-		transition: transform 0.4s ease 0.1s, visibility 0.4s ease 0.1s;
-		will-change: transform,visibility;
+		transition: transform 0.4s ease 0.1s;
+		will-change: transform;
 		display: none;
 		@include res(l){
 			display: block;
@@ -227,7 +223,8 @@
 		&.opened{
 			transform: none;
 			visibility: visible;
-			transition: transform 0.4s ease, visibility 0.4s ease;
+			transition: transform 0.4s ease;
+			box-shadow: 2px 0 25px 0 rgba(0,0,0,0.4);
 		}
 	}
 }

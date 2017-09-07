@@ -46,6 +46,7 @@
 	width: 740px;
 	flex-shrink: 1;
 	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
 	a{
 		display: inline-block;
@@ -80,6 +81,7 @@
 	display: flex;
 	align-items: center;
 	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
 	&__link{
 		display: inline-flex;
@@ -164,7 +166,7 @@
 	.container{
 		display: flex;
 		justify-content: space-between;
-		@include res(m){
+		@include res(s){
 			flex-wrap: wrap;
 		}
 	}
@@ -179,6 +181,9 @@
 		margin-top: 0;
 	}
 	@include res(m){
+		padding-left: 0;
+	}
+	@include res(s){
 		order: 2;
 		width: 50%;
 		padding-left: 0;
@@ -199,7 +204,7 @@
 			margin-bottom: 0.3em;
 		}
 		@include res(s){
-			font-size: 14px;
+			font-size: 13px;
 		}
 	}
 
@@ -263,7 +268,7 @@
 	&__wrap{
 		margin: 0 $pad-s;
 		text-align: center;
-		@include res(m){
+		@include res(s){
 			width: 100%;
 			margin: 0 0 $pad-s 0;
 		}
@@ -276,9 +281,6 @@
 .s-cat-menu{
 	padding-bottom: $pad-l;
 	user-select: none;
-	@include res(l){
-		display: none;
-	}
 
 	.container{
 		display: flex;
@@ -288,6 +290,9 @@
 	.search-link{
 		padding-left: $pad-s;
 		margin-left: auto;
+		@include res(l){
+			display: none;
+		}
 	}
 }
 
@@ -298,6 +303,9 @@
 	width: 1070px;
 	flex-shrink: 1;
 	user-select: none;
+	@media (max-width: 900px){
+		display: none;
+	}
 
 	&-item{
 		&--1{
@@ -396,6 +404,7 @@
 }
 
 .cat-menu-item{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	display: inline-flex;
 	vertical-align: top;
 	align-items: center;
