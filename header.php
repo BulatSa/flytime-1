@@ -266,6 +266,3 @@
 		
 	</div>
 </section>
-
-
-<input type="text" placeholder="Иванов" value="Иванов">

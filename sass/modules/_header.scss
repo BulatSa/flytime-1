@@ -6,6 +6,7 @@
 	z-index: 2;
 	padding: $pad-s 0 14px 0;
 	user-select: none;
+	transform: translate3d(0,0,0);
 	@include res(xl){
 		padding: $pad-xs 0 6px 0;
 	}
@@ -281,6 +282,9 @@
 .s-cat-menu{
 	padding-bottom: $pad-l;
 	user-select: none;
+	@media (max-width: 900px){
+		display: none;
+	}
 
 	.container{
 		display: flex;
@@ -415,6 +419,7 @@
 	padding: 0 $pad-s;
 	height: 62px;
 	transform: translate3d(0,0,0);
+	overflow: hidden;
 	@include res(xl){
 		padding: 0 $pad-xs;
 	}
@@ -467,7 +472,7 @@
 		background-size: 100% 100%;
 		z-index: 1;
 		opacity: 0;
-		transform: scale3d(0.7,1,1) skewX(40deg);
+		transform: scale3d(0.7,1,1) skewX(50deg);
 		transition: all 0.3s ease;
 		will-change: transform,opacity;
 	}

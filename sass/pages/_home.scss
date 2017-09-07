@@ -1,0 +1,125 @@
+//intro-slider
+.intro-slider{
+
+	.flickity-prev-next-button{
+		z-index: 50;
+		@include res(s){
+			top: 16px;
+			transform: none;
+		}
+
+		&.previous{
+			left: 4px;
+		}
+
+		&.next{
+			right: 4px;
+		}
+	}
+}
+
+.intro-slide{
+	width: 100%;
+	padding: 130px 95px 60px 95px;
+	height: 652px;
+	min-height: inherit;
+	@include res(xl){
+		height: 500px;
+		padding: 80px 95px 60px 95px;
+	}
+	@include res(l){
+		height: 400px;
+		padding: 40px 80px 40px 80px;
+	}
+	@include res(s){
+		height: auto;
+		padding: 20px 20px 40px 20px;
+	}
+
+	.h1{
+		display: block;
+		color: #FFF;
+		font-size: 72px;
+		text-shadow: 0 0.1em 8px rgba(135,81,95,0.4);
+		margin-bottom: $pad-s;
+		@include res(xl){
+			font-size: 54px;
+		}
+		@include res(l){
+			font-size: 48px;
+		}
+		@include res(s){
+			font-size: 24px;
+			padding-left: 30px;
+			padding-right: 30px;
+			min-height: 2em;
+		}
+	}
+}
+
+.intro-slide-sale{
+	display: flex;
+	align-items: center;
+	@include res(s){
+		flex-wrap: wrap;
+	}
+
+	strong{
+		display: block;
+		font-size: 100px;
+		font-family: $font-title;
+		font-weight: normal;
+		line-height: 1;
+		margin-right: $pad-m;
+		text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+		@include res(xl){
+			font-size: 80px;
+		}
+		@include res(l){
+			font-size: 54px;
+		}
+		@include res(s){
+			font-size: 36px;
+			width: 100%;
+			margin-bottom: $pad-xs;
+		}
+	}
+
+	small{
+		display: block;
+		margin-top: -0.8em;
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 1.2;
+		text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+		@include res(xl){
+			font-size: 20px;
+		}
+		@include res(l){
+			font-size: 18px;
+		}
+		@include res(s){
+			font-size: 16px;
+		}
+	}
+}
+
+.intro-slide-promocode{
+	margin-top: $pad-l;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFF;
+	padding: 20px 40px;
+	background: url("../img/svg/promocode-outline.svg") center top no-repeat;
+	background-size: 100% 100%;
+	text-shadow: 0 2px 5px rgba(135,81,95,0.5);
+	@include res(s){
+		font-size: 14px;
+		padding: 10px 20px;
+		margin-top: $pad-s;
+	}
+}
+//intro-slider

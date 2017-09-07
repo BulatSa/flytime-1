@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.11 97.41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>slider-left-black</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M1.41,52.11a4.83,4.83,0,0,1,0-6.81L45.3,1.41a4.75,4.75,0,0,1,6.75,0l4.06,4.06L16.29,45.3a4.83,4.83,0,0,0,0,6.81L56.11,91.94,52,96a4.75,4.75,0,0,1-6.75,0L1.41,52.11Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,75 @@
+.s-intro{
+	padding: 0 $pad-xs 140px $pad-xs;
+	@include res(xl){
+		padding-bottom: 100px;
+	}
+	@include res(l){
+		padding-bottom: $pad-xxl;
+	}
+	@include res(s){
+		padding-top: $pad-s;
+		padding-bottom: $pad-l;
+	}
+}
+
+.intro-wrapper{
+	width: 1350px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background: $orange;
+
+	&:before{
+		content: '';
+		width: calc(100% + 4px);
+		height: calc(100% + 4px);
+		top: -2px;
+		left: -2px;
+		background: url("../img/svg/intro-frame.svg") center top no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		z-index: 10;
+		pointer-events: none;
+		user-select: none;
+	}
+
+	&:after{
+		content: '';
+		position: absolute;
+		bottom: -$pad-xl;
+		width: 80%;
+		left: 0;
+		right: 0;
+		margin: auto;
+		height: 14px;
+		border-radius: 50%;
+		background: rgba(213,223,225,0.9);
+		filter: blur(3px);
+		@include res(l){
+			bottom: -$pad-l;
+		}
+		@include res(s){
+			display: none;
+		}
+	}
+}
+
+.intro{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 652px;
+	padding: 60px;
+	@include res(xl){
+		min-height: 500px;
+	}
+	@include res(l){
+		min-height: 400px;
+	}
+
+	&__content{
+		width: 610px;
+		max-width: 100%;
+	}
+}

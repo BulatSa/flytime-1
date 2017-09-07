@@ -136,13 +136,6 @@
 			@include res(s){
 				padding: 0 4px;
 			}
-
-			span{
-				font-size: 18px;
-				@include res(s){
-					font-size: 16px;
-				}
-			}
 		}
 	}
 

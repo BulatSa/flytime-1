@@ -157,7 +157,7 @@ $(document).ready(function(){
 
 
 /***********************
- Mobile menu BEGIN
+ Mobile menu and search BEGIN
  ***********************/
 $(document).ready(function(){
 	$('.menu-btn').click(function() {
@@ -187,5 +187,26 @@ $(document).ready(function(){
 	});
 });
 /***********************
- Mobile menu END
+ Mobile menu and search END
  ***********************/
+
+
+/***********************
+Intro slider BEGIN
+***********************/
+$(document).ready(function() {
+	if ($('.intro-slider').length){
+		var intro_slider = $('.intro-slider').flickity({
+			contain: true,
+			wrapAround: true,
+			selectedAttraction: 0.025,
+			friction: 0.3,
+			adaptiveHeight: true,
+			arrowShape: 'M19.3,53.1c-1.9-1.9-1.9-4.9,0-6.8L63.2,2.4c1.9-1.9,4.9-1.9,6.8,0L74,6.5L34.2,46.3c-1.9,1.9-1.9,4.9,0,6.8 L74,92.9L69.9,97c-1.9,1.9-4.9,1.9-6.8,0L19.3,53.1L19.3,53.1z'
+		});
+		intro_slider.flickity('resize');
+	}
+});
+/***********************
+Intro slider END
+***********************/

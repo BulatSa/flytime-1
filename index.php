@@ -1,5 +1,36 @@
 ﻿<?php include('header.php'); ?>
 
+
+<section class="s-intro">
+	<div class="intro-wrapper">
+
+		<div class="intro-slider">
+			<div class="intro intro-slide" style="background-image: url('/img/home/intro-bg.jpg');" data-flickity-bg-lazyload="image.jpg">
+				<div class="intro__content">
+					<span class="h1">Эксклюзивное предложение</span>
+					<div class="intro-slide-sale">
+						<strong>-50%</strong>
+						<small>на все яркие<br>текстурные шары</small>
+					</div>
+					<div class="intro-slide-promocode">Промокод: sunsale</div>
+				</div>
+			</div>
+			<div class="intro intro-slide" style="background-image: url('/img/home/intro-bg-2.jpg');">
+				<div class="intro__content">
+					<span class="h1">Успей забронировать в&nbsp;октябре!</span>
+					<div class="intro-slide-sale">
+						<strong>-35%</strong>
+						<small>на декоративные элементы<br>к&nbsp;красным шарам на&nbsp;праздник</small>
+					</div>
+					<div class="intro-slide-promocode">Промокод: red-is-cool</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
 <section>
 	<div class="container">
 		<h1>Отзывы наших клиентов Отзывы наших клиентов Отзывы наших клиентов Отзывы наших клиентов Отзывы наших клиентов Отзывы наших клиентов </h1>
@@ -16,7 +47,6 @@
 
 		<a href="#" class="fancy btn" data-src="#modal-order-1">Открыть order</a>
 		<a href="#" class="fancy btn" data-src="#modal-order-2">Открыть order 2</a>
-		<a href="img/img.png" class="fancy btn">Открыть img</a>
 
 
 
