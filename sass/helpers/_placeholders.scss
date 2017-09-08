@@ -1,0 +1,12 @@
+%padding-for-sections{
+	padding-top: $pad-xxl;
+	padding-bottom: $pad-xxl;
+	@include res(xl){
+		padding-top: $pad-xl;
+		padding-bottom: $pad-xl;
+	}
+	@include res(l){
+		padding-top: $pad-l;
+		padding-bottom: $pad-l;
+	}
+}

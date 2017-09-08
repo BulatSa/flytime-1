@@ -19,6 +19,10 @@
 	font-weight: 500;
 	border: 1px solid $orange;
 	border-radius: 30px;
+	@include res(xs){
+		padding: 8px $pad-xs;
+		font-size: 12px;
+	}
 
 	&:hover,&:focus{
 		outline: none;
@@ -35,9 +39,8 @@
 		margin-left: auto;
 		padding-left: $pad-s;
 		line-height: 1;
-
-		&.i-right{
-			font-size: 15px;
+		@include res(xs){
+			padding-left: $pad-xs;
 		}
 	}
 }
@@ -77,5 +80,9 @@ button::-moz-focus-inner {
 	@include res(s){
 		padding: 14px $pad-s 16px $pad-s;
 		font-size: 14px;
+	}
+	@include res(xs){
+		padding: 8px $pad-xs;
+		font-size: 12px;
 	}
 }

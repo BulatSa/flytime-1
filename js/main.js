@@ -207,6 +207,10 @@ $(document).ready(function() {
 			arrowShape: 'M19.3,53.1c-1.9-1.9-1.9-4.9,0-6.8L63.2,2.4c1.9-1.9,4.9-1.9,6.8,0L74,6.5L34.2,46.3c-1.9,1.9-1.9,4.9,0,6.8 L74,92.9L69.9,97c-1.9,1.9-4.9,1.9-6.8,0L19.3,53.1L19.3,53.1z'
 		});
 		intro_slider.flickity('resize');
+
+		setTimeout(function () {
+			intro_slider.flickity('resize');
+		},100)
 	}
 });
 /***********************

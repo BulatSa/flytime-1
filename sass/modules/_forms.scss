@@ -190,6 +190,7 @@ label{cursor: pointer;}
 	&--policy{
 		.style-checkbox__descr{
 			color: $grey;
+			font-size: 12px;
 			@include res(s){
 				font-size: 10px;
 			}

@@ -1,5 +1,6 @@
 .s-intro{
 	padding: 0 $pad-xs 140px $pad-xs;
+	position: relative;
 	@include res(xl){
 		padding-bottom: 100px;
 	}

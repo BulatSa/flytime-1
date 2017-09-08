@@ -123,3 +123,100 @@
 	}
 }
 //intro-slider
+
+
+//s-home-triggers
+.s-home-triggers{
+	background: #FFF;
+	padding: $pad-m 0;
+	@include res(l){
+		padding: $pad-s 0;
+	}
+	@include res(s){
+		padding-top: 0;
+	}
+}
+
+.home-triggers-row{
+	display: flex;
+	justify-content: space-between;
+	margin-left: -$pad-s;
+	margin-right: -$pad-s;
+	@include res(s){
+		flex-wrap: wrap;
+	}
+}
+
+.home-trigger{
+	display: flex;
+	align-items: flex-start;
+	margin: 0 $pad-s;
+	flex-shrink: 1;
+	@include res(m){
+		align-items: center;
+		text-align: center;
+		flex-direction: column;
+	}
+	@include res(s){
+		width: 100%;
+		margin-bottom: $pad-m;
+	}
+
+	.h3{
+		display: block;
+		margin-bottom: $pad-s;
+		@include res(l){
+			margin-bottom: $pad-xs;
+		}
+		@include res(m){
+			margin-bottom: 0;
+		}
+	}
+
+	&__descr{
+		display: block;
+		line-height: 1.4;
+		font-weight: 500;
+		@include res(l){
+			font-size: 12px;
+		}
+	}
+
+	&__text{
+		max-width: 220px;
+		margin-right: $pad-xs;
+		flex-shrink: 1;
+		@include res(m){
+			width: 100%;
+			max-width: 300px;
+			flex-shrink: 1;
+			order: 2;
+			margin-right: 0;
+		}
+	}
+
+	img{
+		flex-shrink: 0;
+		pointer-events: none;
+		user-select: none;
+		@include res(xl){
+			width: 100px;
+			height: auto;
+		}
+		@include res(l){
+			width: 70px;
+		}
+		@include res(m){
+			order: 1;
+			width: 50px;
+		}
+	}
+}
+//s-home-triggers
+
+
+//s-home-ready
+.s-home-ready{
+	@extend %padding-for-sections;
+}
+//s-home-ready

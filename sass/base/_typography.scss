@@ -29,16 +29,49 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
 h1,.h1{
 	font-size: 55px;
 	line-height: 1;
+	@include res(xl){
+		font-size: 48px;
+	}
+	@include res(l){
+		font-size: 40px;
+	}
+	@include res(s){
+		font-size: 30px;
+	}
+	@include res(xs){
+		font-size: 24px;
+	}
 }
 
 h2,.h2{
 	font-size: 48px;
 	line-height: 1;
+	@include res(xl){
+		font-size: 40px;
+	}
+	@include res(l){
+		font-size: 34px;
+	}
+	@include res(s){
+		font-size: 24px;
+	}
+	@include res(xs){
+		font-size: 20px;
+	}
 }
 
 h3,.h3{
 	font-size: 24px;
 	line-height: 1;
+	@include res(l){
+		font-size: 20px;
+	}
+	@include res(s){
+		font-size: 18px;
+	}
+	@include res(xs){
+		font-size: 16px;
+	}
 }
 
 
@@ -64,3 +97,21 @@ h3,.h3{
 	}
 }
 //links
+
+
+.section-title{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	@include res(m){
+		flex-wrap: wrap;
+	}
+
+	.h1{
+		display: block;
+		@include res(m){
+			width: 100%;
+			margin-bottom: 0.3em;
+		}
+	}
+}

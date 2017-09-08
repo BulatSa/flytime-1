@@ -424,6 +424,7 @@
 	padding: 0 $pad-s;
 	height: 62px;
 	transform: translate3d(0,0,0);
+	will-change: transform;
 	overflow: hidden;
 	@include res(xl){
 		padding: 0 $pad-xs;
@@ -431,16 +432,12 @@
 
 	&__iconwrap{
 		position: relative;
-		z-index: 2;
+		z-index: 5;
 		margin-right: $pad-xs;
-		@include res(l){
-			transform: scale(0.8);
-		}
 	}
 
 	&__icon{
 		display: block;
-		z-index: 3;
 		position: relative;
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
@@ -449,7 +446,6 @@
 	&__decor{
 		display: block;
 		position: absolute;
-		z-index: 2;
 		top: 0;
 		left: 0;
 		transition: all 0.3s ease;
@@ -458,7 +454,7 @@
 
 	span{
 		display: inline-block;
-		z-index: 2;
+		z-index: 5;
 		position: relative;
 		font-size: 18px;
 		@include res(l){
@@ -475,7 +471,7 @@
 		top: -2px;
 		background: url("../img/catmenu/cat-menu-bg.svg") center top no-repeat;
 		background-size: 100% 100%;
-		z-index: 1;
+		z-index: -1;
 		opacity: 0;
 		transform: scale3d(0.7,1,1) skewX(50deg);
 		transition: all 0.3s ease;
