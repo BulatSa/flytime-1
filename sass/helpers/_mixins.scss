@@ -18,11 +18,11 @@
 /// Иоконка закрытия модальных окон в виде креста.
 $full_cross_size: 36px;
 $cross_size: 20px;
-$cross_weight: 2px;
+$cross_weight: 3px;
 $cross_color: #FFF;
-$cross-color--hover: #000;
-$cross-bg-color: #000;
-$cross-bg-color--hover: #fffb42;
+$cross-color--hover: #FFF;
+$cross-bg-color: $orange;
+$cross-bg-color--hover: $red;
 
 @mixin cross() {
 	position: absolute;

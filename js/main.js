@@ -53,7 +53,7 @@ $(document).ready(function(){
 					console.log(result);
 					$.fancybox.close();
 					$.fancybox.open({src  : '#modal-thanks'});
-					setTimeout(function() {$.fancybox.close();},4500);
+					// setTimeout(function() {$.fancybox.close();},4500);
 					form[0].reset();
 				})
 			});
@@ -87,12 +87,14 @@ function init_fancy() {
 		transitionEffect : "slide",
 		autoFocus : false,
 		backFocus : false,
-		animationDuration : 400
+		animationDuration : 400,
+		touch : {
+			vertical : false
+		}
 	});
 	$('.fancy-map').fancybox({
 		toolbar: false,
 		smallBtn : true,
-		transitionEffect : "slide",
 		autoFocus : false,
 		backFocus : false,
 		animationDuration : 400

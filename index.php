@@ -31,6 +31,13 @@
 </section>
 
 
+<section class="s-home-triggers">
+	<div class="container">
+
+	</div>
+</section>
+
+
 <section>
 	<div class="container">
 		<h1>Отзывы наших клиентов Отзывы наших клиентов Отзывы наших клиентов Отзывы наших клиентов Отзывы наших клиентов Отзывы наших клиентов </h1>
@@ -47,6 +54,12 @@
 
 		<a href="#" class="fancy btn" data-src="#modal-order-1">Открыть order</a>
 		<a href="#" class="fancy btn" data-src="#modal-order-2">Открыть order 2</a>
+
+		<button type="submit" class="btn btn--big">Отправить</button>
+		<button type="submit" class="btn btn--outline">Отправить</button>
+		<button type="submit" class="btn btn--big btn--outline">Все готовые решения <i class="i-right"></i></button>
+		<button type="submit" class="btn btn--big btn--outline" style="width: 300px">Все готовые решения <i class="i-down"></i></button>
+		<button type="submit" class="btn btn--big">Все готовые решения <i class="i-right"></i></button>
 
 
 

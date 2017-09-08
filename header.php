@@ -67,7 +67,7 @@
 
 		<div class="mob-search">
 			<form action="#">
-				<input type="text" placeholder="Поиск...">
+				<input type="text" placeholder="Поиск..." class="input-text">
 				<button><i class="i-search"></i></button>
 			</form>
 		</div>
@@ -136,7 +136,7 @@
 
 <div class="search-panel">
 	<form action="#">
-		<input type="text" placeholder="Поиск...">
+		<input type="text" class="input-text" placeholder="Поиск...">
 		<button title="Найти"><i class="i-search"></i></button>
 	</form>
 </div>
@@ -189,7 +189,7 @@
 			<i class="i-delivery"></i>
 			<div class="h3">Бесплатная доставка</div>
 			<span>Самовывоз:</span>
-			<a href="#" class="link link--orange">Москва, Волгоградский проспект, д. 32</a>
+			<a href="https://yandex.ru/map-widget/v1/-/CBUfaYCegB" class="link link--orange fancy-map" data-type="iframe">Москва, Волгоградский проспект, д. 32</a>
 		</div>
 
 		<div class="head-logo__wrap">
@@ -264,5 +264,23 @@
 			</a>
 		</div>
 		
+	</div>
+</section>
+
+
+<section class="s-breadcrumbs">
+	<div class="container">
+
+		<!--Если не главная страница-->
+		<? if ($_SERVER['REQUEST_URI'] == '/index.php') : ?>
+			<div class="breadcrumbs">
+				<a href="#">Главная</a>
+				<a href="#">Каталог</a>
+				<a href="#">Оформление по событиям</a>
+				<a href="#">Красные шары на праздник</a href="#">
+			</div>
+		<? endif; ?>
+		<!--Если не главная страница-->
+
 	</div>
 </section>

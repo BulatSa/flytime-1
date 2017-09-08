@@ -7,8 +7,27 @@
 		padding-bottom: $pad-xxl;
 	}
 	@include res(s){
-		padding-top: $pad-s;
 		padding-bottom: $pad-l;
+	}
+
+	&:after{
+		content: '';
+		position: absolute;
+		z-index: 1;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 140px;
+		background: linear-gradient(to bottom, $color-bg, #f7f6f1 50%, #FFF 100%);
+		@include res(xl){
+			height: 100px;
+		}
+		@include res(l){
+			height:$pad-xxl;
+		}
+		@include res(s){
+			height: $pad-l;
+		}
 	}
 }
 
@@ -19,6 +38,7 @@
 	margin-right: auto;
 	position: relative;
 	background: $orange;
+	z-index: 2;
 
 	&:before{
 		content: '';
