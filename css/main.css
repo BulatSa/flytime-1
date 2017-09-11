@@ -1,17 +1,17 @@
-.s-home-ready {
+.s-home-ready, .s-home-sales {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
 @media (max-width: 1400px) {
-  .s-home-ready {
+  .s-home-ready, .s-home-sales {
     padding-top: 56px;
     padding-bottom: 56px;
   }
 }
 
 @media (max-width: 1024px) {
-  .s-home-ready {
+  .s-home-ready, .s-home-sales {
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -4368,4 +4368,9 @@ button::-moz-focus-inner {
     order: 1;
     width: 50px;
   }
+}
+
+.s-home-sales {
+  background: url("../img/home/sales-bg.jpg") center top no-repeat #f7f6f1;
+  background-size: cover;
 }

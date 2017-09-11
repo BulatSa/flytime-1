@@ -220,3 +220,12 @@
 	@extend %padding-for-sections;
 }
 //s-home-ready
+
+
+//s-home-sales
+.s-home-sales{
+	@extend %padding-for-sections;
+	background: url("../img/home/sales-bg.jpg") center top no-repeat #f7f6f1;
+	background-size: cover;
+}
+//s-home-sales
