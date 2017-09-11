@@ -1,0 +1,129 @@
+.cat-list{
+	.cat-item{
+		margin-bottom: 36px;
+		@include res(l){
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.cat-item{
+	display: block;
+	position: relative;
+	overflow: hidden;
+
+	&:after{
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -50%;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+		background: transparentize($blue,0.1);
+		border-radius: 50%;
+		transform: scale3d(0,0,0);
+		will-change: transform;
+		transition: transform 0.3s ease;
+	}
+
+	&:before{
+		content: '';
+		width: calc(100% + 4px);
+		height: calc(100% + 4px);
+		top: -2px;
+		left: -2px;
+		background: url("../img/svg/cat-frame.svg") center top no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		z-index: 10;
+		pointer-events: none;
+		user-select: none;
+	}
+
+	&__img{
+		display: block;
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		height: auto;
+		transition: transform 1s ease;
+		transform: scale3d(1,1,1);
+		will-change: transform;
+	}
+
+	&__content{
+		position: absolute;
+		z-index: 4;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		padding: $pad-m;
+		color: #FFF;
+		background: linear-gradient(to bottom,transparent, transparentize(#261e32,0.2));
+		@include res(l){
+			padding: $pad-s;
+		}
+		@include res(xs){
+			padding: $pad-xs;
+		}
+	}
+
+	&__title{
+		display: block;
+
+		@include res(xs){
+			font-size: 12px;
+		}
+	}
+
+	&:hover{
+		.cat-item__img{
+			transform: scale3d(1.1,1.1,1.1);
+		}
+		&:after{
+			transform: scale3d(1,1,1);
+		}
+	}
+
+
+	&--big{
+		.cat-item__content{
+			padding: $pad-m $pad-l $pad-l $pad-l;
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			@include res(xs){
+				padding: $pad-s $pad-m $pad-m $pad-m;
+			}
+
+			&:before{
+				content: '';
+				width: calc(100% - 80px);
+				position: absolute;
+				top: 0;
+				left: $pad-l;
+				height: 1px;
+				background: #FFF;
+				@include res(xs){
+					width: calc(100% - 48px);
+					left: $pad-m;
+				}
+			}
+
+			.cat-item__title{
+				margin-right: $pad-s;
+			}
+		}
+	}
+}
+
+
+.news-counter{
+	font-size: 14px;
+	border: 1px solid #FFF;
+	line-height: 1;
+	border-radius: 30px;
+	padding: 10px $pad-s;
+}

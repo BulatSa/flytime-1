@@ -74,6 +74,28 @@ h3,.h3{
 	}
 }
 
+h4,.h4{
+	font-size: 18px;
+	line-height: 1.1;
+	@include res(l){
+		font-size: 16px;
+	}
+	@include res(xs){
+		font-size: 14px;
+	}
+}
+
+h5,.h5{
+	font-size: 16px;
+	line-height: 1.2;
+	@include res(l){
+		font-size: 15px;
+	}
+	@include res(xs){
+		font-size: 14px;
+	}
+}
+
 
 //links
 .link{
@@ -103,8 +125,10 @@ h3,.h3{
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+	margin-bottom: $pad-l;
 	@include res(m){
 		flex-wrap: wrap;
+		margin-bottom: $pad-m;
 	}
 
 	.h1{

@@ -66,10 +66,88 @@
 
 <section class="s-home-ready wave-bottom-light-blue">
 	<div class="container">
+
 		<div class="section-title">
 			<span class="h1">Готовые уникальные решения</span>
 			<a href="#" class="btn btn--big btn--outline">Все готовые решения <i class="i-right"></i></a>
 		</div>
+
+		<div class="cat-list row-float">
+			<div class="grid-6 grid-12_m">
+				<a href="#" class="cat-item cat-item--big">
+					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
+					<div class="cat-item__content">
+						<span class="h4 cat-item__title">Свадьба в стиле надувного шара</span>
+						<div class="news-counter">13</div>
+					</div>
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m">
+				<a href="#" class="cat-item">
+					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
+					<div class="cat-item__content">
+						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
+					</div>
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m">
+				<a href="#" class="cat-item">
+					<img src="/img/thumbs/cat-thumb--white.jpg" alt="cat" class="cat-item__img">
+					<div class="cat-item__content">
+						<span class="h5 cat-item__title">Украшение на хеллоуин</span>
+					</div>
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m">
+				<a href="#" class="cat-item">
+					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
+					<div class="cat-item__content">
+						<span class="h5 cat-item__title">Новогоднее супер красочное украшение шарами</span>
+					</div>
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m">
+				<a href="#" class="cat-item">
+					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
+					<div class="cat-item__content">
+						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
+					</div>
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m">
+				<a href="#" class="cat-item">
+					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
+					<div class="cat-item__content">
+						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
+					</div>
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m">
+				<a href="#" class="cat-item">
+					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
+					<div class="cat-item__content">
+						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
+					</div>
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m">
+				<a href="#" class="cat-item">
+					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
+					<div class="cat-item__content">
+						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
+					</div>
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m">
+				<a href="#" class="cat-item">
+					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
+					<div class="cat-item__content">
+						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
+					</div>
+				</a>
+			</div>
+		</div>
+
 	</div>
 </section>
 
