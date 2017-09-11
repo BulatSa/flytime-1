@@ -73,6 +73,28 @@ button::-moz-focus-inner {
 	}
 }
 
+.btn--outline-white{
+	color: #FFF;
+	background: transparent;
+	border-color: #FFF;
+
+	&:hover,&:focus{
+		background: transparent;
+		border-color: $orange-hover;
+		color: $orange;
+	}
+
+	&:active{
+		background: transparent;
+		border-color: darken($orange,10%);
+		color: darken($orange,10%);
+	}
+
+	i{
+		color: $orange;
+	}
+}
+
 
 .btn--big{
 	padding: 18px $pad-m 20px $pad-m;

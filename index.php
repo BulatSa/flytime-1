@@ -161,9 +161,200 @@
 			<a href="#" class="btn btn--big btn--outline">Все скидки <i class="i-right"></i></a>
 		</div>
 
+		<div class="products-list row">
+
+			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
+				<div class="b-product">
+					<a href="#" class="b-product__imgwrap">
+						<img src="/img/thumbs/product-thumb.jpg" alt="1" class="b-product__img">
+					</a>
+					<div class="b-product__content">
+						<div class="b-product__sale">-50%</div>
+						<a href="#" class="b-product__title">Короткое название</a>
+						<span class="b-product__oldprice">3 500 руб.</span>
+						<span class="b-product__price">1 500 руб.</span>
+						<div class="b-product__triggers">
+							<i class="i-tr-gift" title="Подарок"></i>
+							<i class="i-tr-car" title="Бесплатная доставка"></i>
+							<i class="i-tr-box" title="Упаковка"></i>
+							<i class="i-tr-shield" title="Гарантия"></i>
+							<i class="i-tr-camera" title="Фото"></i>
+						</div>
+					</div>
+					<div class="b-product__actions">
+						<a href="#" class="btn">В корзину</a>
+						<a href="#" class="link">В 1 клик</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
+				<div class="b-product">
+					<a href="#" class="b-product__imgwrap">
+						<img src="/img/thumbs/product-thumb.jpg" alt="1" class="b-product__img">
+					</a>
+					<div class="b-product__content">
+						<a href="#" class="b-product__title">Большой прозрачный шар Морской пузырик</a>
+						<span class="b-product__price">1 500 руб.</span>
+						<div class="b-product__triggers">
+							<i class="i-tr-gift" title="Подарок"></i>
+							<i class="i-tr-car" title="Бесплатная доставка"></i>
+							<i class="i-tr-box" title="Упаковка"></i>
+							<i class="i-tr-shield" title="Гарантия"></i>
+							<i class="i-tr-camera" title="Фото"></i>
+						</div>
+					</div>
+					<div class="b-product__actions">
+						<a href="#" class="btn">В корзину</a>
+						<a href="#" class="link">В 1 клик</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
+				<div class="b-product">
+					<a href="#" class="b-product__imgwrap">
+						<img src="/img/thumbs/product-thumb.jpg" alt="1" class="b-product__img">
+					</a>
+					<div class="b-product__content">
+						<div class="b-product__sale">-50%</div>
+						<a href="#" class="b-product__title">Большой прозрачный шар Морской пузырик очень длинное название</a>
+						<span class="b-product__oldprice">3 500 руб.</span>
+						<span class="b-product__price">1 500 руб.</span>
+						<div class="b-product__triggers">
+							<i class="i-tr-gift" title="Подарок"></i>
+							<i class="i-tr-car" title="Бесплатная доставка"></i>
+							<i class="i-tr-box" title="Упаковка"></i>
+							<i class="i-tr-shield" title="Гарантия"></i>
+							<i class="i-tr-camera" title="Фото"></i>
+						</div>
+					</div>
+					<div class="b-product__actions">
+						<a href="#" class="btn">В корзину</a>
+						<a href="#" class="link">В 1 клик</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
+				<div class="b-product">
+					<a href="#" class="b-product__imgwrap">
+						<img src="/img/thumbs/product-thumb.jpg" alt="1" class="b-product__img">
+					</a>
+					<div class="b-product__content">
+						<a href="#" class="b-product__title">Большой прозрачный шар Морской пузырик</a>
+						<span class="b-product__price">1 500 руб.</span>
+						<div class="b-product__triggers">
+							<i class="i-tr-gift" title="Подарок"></i>
+							<i class="i-tr-car" title="Бесплатная доставка"></i>
+							<i class="i-tr-box" title="Упаковка"></i>
+							<i class="i-tr-shield" title="Гарантия"></i>
+							<i class="i-tr-camera" title="Фото"></i>
+						</div>
+					</div>
+					<div class="b-product__actions">
+						<a href="#" class="btn">В корзину</a>
+						<a href="#" class="link">В 1 клик</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
 	</div>
 </section>
 
+
+<section class="s-home-reviews wave-bottom-light-blue">
+	<div class="container">
+
+
+
+	</div>
+</section>
+
+
+<section class="s-photoalbums">
+	<div class="container">
+
+		<div class="section-title">
+			<span class="h1">Фотоальбомы</span>
+			<a href="#" class="btn btn--big btn--outline-white">Все фотоальбомы <i class="i-right"></i></a>
+		</div>
+
+		<div class="row">
+			<div class="grid-3 grid-6_m">
+				<a href="#" class="b-photoalbum">
+					<div class="b-photoalbum__stack">
+						<div class="b-photoalbum__back">
+							<img src="/img/thumbs/photoalbum.jpg" alt="1">
+						</div>
+						<div class="b-photoalbum__middle">
+							<img src="/img/thumbs/photoalbum.jpg" alt="1">
+						</div>
+						<img src="/img/thumbs/photoalbum.jpg" alt="1" class="b-photoalbum__front">
+					</div>
+					<div class="b-photoalbum__details">
+						<span class="b-photoalbum__title">Корпоратив Газпрома</span>
+						<div class="news-counter">2</div>
+					</div>
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m">
+				<a href="#" class="b-photoalbum">
+					<div class="b-photoalbum__stack">
+						<div class="b-photoalbum__back">
+							<img src="/img/thumbs/photoalbum-2.jpg" alt="1">
+						</div>
+						<div class="b-photoalbum__middle">
+							<img src="/img/thumbs/photoalbum-2.jpg" alt="1">
+						</div>
+						<img src="/img/thumbs/photoalbum-2.jpg" alt="1" class="b-photoalbum__front">
+					</div>
+					<div class="b-photoalbum__details">
+						<span class="b-photoalbum__title">Корпоратив Газпрома</span>
+						<div class="news-counter">13</div>
+					</div>
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m">
+				<a href="#" class="b-photoalbum">
+					<div class="b-photoalbum__stack">
+						<div class="b-photoalbum__back">
+							<img src="/img/thumbs/photoalbum.jpg" alt="1">
+						</div>
+						<div class="b-photoalbum__middle">
+							<img src="/img/thumbs/photoalbum.jpg" alt="1">
+						</div>
+						<img src="/img/thumbs/photoalbum.jpg" alt="1" class="b-photoalbum__front">
+					</div>
+					<div class="b-photoalbum__details">
+						<span class="b-photoalbum__title">Корпоратив Газпрома</span>
+						<div class="news-counter">13</div>
+					</div>
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m">
+				<a href="#" class="b-photoalbum">
+					<div class="b-photoalbum__stack">
+						<div class="b-photoalbum__back">
+							<img src="/img/thumbs/photoalbum-2.jpg" alt="1">
+						</div>
+						<div class="b-photoalbum__middle">
+							<img src="/img/thumbs/photoalbum-2.jpg" alt="1">
+						</div>
+						<img src="/img/thumbs/photoalbum-2.jpg" alt="1" class="b-photoalbum__front">
+					</div>
+					<div class="b-photoalbum__details">
+						<span class="b-photoalbum__title">Корпоратив Газпрома</span>
+						<div class="news-counter">13</div>
+					</div>
+				</a>
+			</div>
+		</div>
+
+	</div>
+</section>
 
 
 <section style="background:#FFF;">

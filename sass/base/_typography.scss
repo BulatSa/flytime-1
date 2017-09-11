@@ -125,7 +125,10 @@ h5,.h5{
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	margin-bottom: $pad-l;
+	margin-bottom: 60px;
+	@include res(xl){
+		margin-bottom: $pad-l;
+	}
 	@include res(m){
 		flex-wrap: wrap;
 		margin-bottom: $pad-m;

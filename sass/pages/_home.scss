@@ -227,5 +227,35 @@
 	@extend %padding-for-sections;
 	background: url("../img/home/sales-bg.jpg") center top no-repeat #f7f6f1;
 	background-size: cover;
+	@include res(s){
+		background: #f7f6f1;
+	}
+
+	.products-list{
+		.grid-3:nth-child(4){
+			@include res(l){
+				display: none;
+			}
+			@include res(s){
+				display: block;
+			}
+		}
+	}
 }
 //s-home-sales
+
+
+//s-home-reviews
+.s-home-reviews{
+	height: 500px;
+}
+//s-home-reviews
+
+
+//s-photoalbums
+.s-photoalbums{
+	color: #FFF;
+	@extend %padding-for-sections;
+	background: url("../img/home/photoalbums-bg.jpg") center top no-repeat $blue;
+}
+//s-photoalbums

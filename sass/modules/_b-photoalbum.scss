@@ -1,0 +1,115 @@
+.b-photoalbum{
+	display: block;
+	margin-bottom: $pad-l;
+	padding: 0 $pad-s;
+	@include res(xs){
+		padding: 0;
+		margin-bottom: $pad-m;
+	}
+
+	&__stack{
+		position: relative;
+		user-select: none;
+
+		img{
+			display: block;
+			width: 100%;
+			height: auto;
+			border-radius: 30px;
+		}
+	}
+
+	&__front{
+		position: relative;
+		z-index: 3;
+		transform: scale3d(1,1,1);
+		transition: transform 0.3s ease;
+		will-change: transform;
+		box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+	}
+
+	&__middle{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+		transform: rotate(-3deg);
+		transition: transform 0.3s ease;
+		will-change: transform;
+
+		&:after{
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			border-radius: 30px;
+			background: rgba(0,0,0,0.12);
+		}
+	}
+
+	&__back{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		transform: rotate(-6deg);
+		transition: transform 0.3s ease;
+		will-change: transform;
+
+		&:after{
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			border-radius: 30px;
+			background: rgba(0,0,0,0.3);
+		}
+	}
+
+	&__details{
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		margin-top: $pad-m;
+		@include res(l){
+			margin-top: $pad-m;
+			flex-direction: column;
+		}
+		@include res(xs){
+			margin-top: $pad-s;
+		}
+	}
+
+	&__title{
+		display: inline-block;
+		line-height: 1.2;
+		padding-right: $pad-s;
+		@include res(l){
+			margin-bottom: 4px;
+			padding-right: 0;
+		}
+		@include res(xs){
+			font-size: 12px;
+		}
+	}
+
+	&:hover{
+		.b-photoalbum__middle{
+			transform: rotate(-8deg);
+		}
+		.b-photoalbum__back{
+			transform: rotate(-16deg);
+		}
+		.b-photoalbum__front{
+			transform: scale3d(0.95,0.95,0.95);
+		}
+	}
+}
