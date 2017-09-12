@@ -101,14 +101,14 @@
 				</div>
 				<span>Все для<br>праздника</span>
 			</a>
-			<a href="#" class="cat-menu-item cat-menu-item--5">
+			<a href="/price-list.php" class="cat-menu-item cat-menu-item--5">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
 				</div>
 				<span>Услуги<br>и&nbsp;цены</span>
 			</a>
-			<a href="#" class="cat-menu-item cat-menu-item--6">
+			<a href="/sales-list.php" class="cat-menu-item cat-menu-item--6">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
@@ -239,14 +239,14 @@
 				</div>
 				<span>Все для<br>праздника</span>
 			</a>
-			<a href="#" class="cat-menu-item cat-menu-item--5">
+			<a href="/price-list.php" class="cat-menu-item cat-menu-item--5">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
 				</div>
 				<span>Услуги<br>и&nbsp;цены</span>
 			</a>
-			<a href="#" class="cat-menu-item cat-menu-item--6">
+			<a href="/sales-list.php" class="cat-menu-item cat-menu-item--6">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
