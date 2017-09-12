@@ -1,0 +1,170 @@
+.footer-sec {
+	padding-top: $pad-xxl;
+	padding-bottom: $pad-xl;
+	box-shadow: 0 -10px 45px #fff;
+	background: #fff;
+	@include res(xl) {
+		padding-top: $pad-xl;
+		padding-bottom: $pad-l;
+	}
+	@include res(l) {
+		padding-top: $pad-l;
+		padding-bottom: $pad-m;
+	}
+	@include res(xs) {
+		padding-top: $pad-m;
+		padding-bottom: $pad-s;
+	}
+}
+
+.footer {}
+
+.footer__payment {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding-bottom: $pad-l;
+	@include res(l) {
+		padding-bottom: $pad-m;
+	}
+	.h3 {
+		@include res(s) {
+			margin-bottom: 15px;
+			text-align: center;
+		}
+	}
+}
+
+.footer__payment-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	img {
+		@include res(l) {
+			max-width: 80px;
+			margin: 5px 5px;
+		}
+		@include res(m) {
+			max-width: 70px;
+		}
+	}
+}
+
+.footer__info {
+	padding-top: $pad-l;
+	padding-bottom: $pad-l;
+	border-top: 1px solid #f1f1f5;
+	@include res(xs) {
+		padding-top: $pad-m;
+		padding-bottom: $pad-m;
+	}
+}
+
+.footer__title {
+	display: block;
+	margin-bottom: 8px;
+	font-size: 16px;
+}
+
+.footer__nav {
+	@include res(s) {
+		margin-bottom: 20px;
+	}
+	ul {
+		list-style: none;
+	}
+	a {
+		display: inline-block;
+		font-size: 14px;
+		color: $orange;
+		transition: all 0.3s ease;
+		@include res(xs) {
+			line-height: 1.3;
+			margin-bottom: 6px;
+		}
+		&:hover {
+			color: $orange-hover;
+		}
+	}
+}
+
+.footer__contact {}
+
+.footer__contact-descr {
+	display: block;
+	font-size: 14px;
+	@include res(m) {
+		font-size: 12px;
+	}
+	@include res(xs) {
+		line-height:1.2;
+		font-size: 10px;
+	}
+}
+
+.footer__contact-phone {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.footer__contact-mail {
+	color: $orange;
+	transition: all 0.3s ease;
+	&:hover {
+		color: $orange-hover;
+	}
+}
+
+.footer__soc {}
+
+.footer__soc-list {
+	display: flex;
+	flex-wrap: wrap;
+	a {
+		display: block;
+		margin-bottom: 10px;
+		margin-right: 10px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	img {
+		display: block;
+		@include res(m) {
+			max-width: 32px;
+		}
+	}
+}
+
+.footer__bottom {
+	padding-top: $pad-l;
+	border-top: 1px solid #f1f1f5;
+	@include res(l) {
+		padding-top: $pad-m;
+	}
+}
+
+.footer__bottom-col {
+	font-size: 14px;
+	color: #d7d7d7;
+	line-height:1.2;
+	@include res(m) {
+		font-size: 12px;
+		margin-bottom: 5px;
+	}
+	@include res(xs) {
+		margin-bottom: 5px;
+	}
+	&--last {
+		text-align: right;
+	}
+	a {
+		color: #d7d7d7;
+		transition: all 0.3s ease;
+		&:hover {
+			color: $orange-hover;
+		}
+	}
+}
