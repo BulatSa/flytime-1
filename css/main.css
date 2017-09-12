@@ -5347,3 +5347,7 @@ button::-moz-focus-inner {
   color: #FFF;
   background: url("../img/home/photoalbums-bg.jpg") center top no-repeat #4bcddf;
 }
+
+.s-sections {
+  padding-bottom: 56px;
+}
