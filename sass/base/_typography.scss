@@ -143,3 +143,21 @@ h5,.h5{
 		}
 	}
 }
+
+
+.s-page-title{
+	padding: $pad-l 0 $pad-m 0;
+	@include res(xl){
+		padding: $pad-s 0 $pad-m 0;
+	}
+	@include res(l){
+		padding: $pad-xs 0 $pad-s 0;
+	}
+
+	.h1{
+		padding-left: 20px;
+		@include res(m){
+			padding-left: 0;
+		}
+	}
+}

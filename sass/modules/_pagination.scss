@@ -1,0 +1,44 @@
+.pagination{
+	padding: $pad-l 0 $pad-xl 0;
+	@include res(s){
+		text-align: center;
+	}
+
+	a{
+		display: inline-flex;
+		vertical-align: top;
+		width: 57px;
+		height: 57px;
+		background: #FFF;
+		border-radius: 50%;
+		font-size: 18px;
+		font-weight: 500;
+		align-items: center;
+		justify-content: center;
+		margin: 0 4px 4px 4px;
+		transition: all 0.3s ease;
+		@include res(l){
+			width: 50px;
+			height: 50px;
+			font-size: 16px;
+		}
+		@include res(s){
+			width: 40px;
+			height: 40px;
+			font-size: 14px;
+		}
+
+		&:hover{
+			background: $blue;
+			color: #FFF;
+		}
+
+		&.active{
+			color: #FFF;
+			background: $orange;
+			pointer-events: none;
+		}
+
+
+	}
+}

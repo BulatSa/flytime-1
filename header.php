@@ -118,11 +118,11 @@
 		</nav>
 
 		<nav class="top-nav">
-			<a href="#">О нас</a>
+			<a href="/about.php">О нас</a>
 			<a href="#" class="active">Доставка</a>
 			<a href="#">Оплата</a>
 			<a href="#">Гарантия качества</a>
-			<a href="#">Отзывы</a>
+			<a href="/reviews.php">Отзывы</a>
 			<a href="#">Акции</a>
 			<a href="#">Бизнесу</a>
 			<a href="#">Контакты</a>
@@ -145,11 +145,11 @@
 	<div class="container">
 		
 		<nav class="top-nav">
-			<a href="#">О нас</a>
+			<a href="/about.php">О нас</a>
 			<a href="#" class="active">Доставка</a>
 			<a href="#">Оплата</a>
 			<a href="#">Гарантия качества</a>
-			<a href="#">Отзывы</a>
+			<a href="/reviews.php">Отзывы</a>
 			<a href="#">Акции</a>
 			<a href="#">Бизнесу</a>
 			<a href="#">Контакты</a>
@@ -272,14 +272,12 @@
 	<div class="container">
 
 		<!--Если не главная страница-->
-		<? if ($_SERVER['REQUEST_URI'] == '/index.php') : ?>
-			<div class="breadcrumbs">
-				<a href="#">Главная</a>
-				<a href="#">Каталог</a>
-				<a href="#">Оформление по событиям</a>
-				<a href="#">Красные шары на праздник</a href="#">
-			</div>
-		<? endif; ?>
+		<div class="breadcrumbs">
+			<a href="#">Главная</a>
+			<a href="#">Каталог</a>
+			<a href="#">Оформление по событиям</a>
+			<a href="#">Красные шары на праздник</a href="#">
+		</div>
 		<!--Если не главная страница-->
 
 	</div>
