@@ -219,3 +219,18 @@ $(document).ready(function() {
 /***********************
 Intro slider END
 ***********************/
+
+
+/***********************
+Reviews-wall BEGIN
+***********************/
+$(document).ready(function() {
+	$('.reviews-wall').masonry({
+		itemSelector: '.reviews-wall__item',
+		columnWidth: '.grid-sizer',
+		percentPosition: true
+	});
+});
+/***********************
+Reviews-wall END
+***********************/

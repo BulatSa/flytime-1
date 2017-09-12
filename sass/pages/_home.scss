@@ -248,7 +248,27 @@
 
 //s-home-reviews
 .s-home-reviews{
-	@extend %padding-for-sections;
+	padding-top: $pad-xxl;
+	padding-bottom: $pad-xl;
+	@include res(xl){
+		padding-top: $pad-xl;
+		padding-bottom: $pad-l;
+	}
+	@include res(l){
+		padding-top: $pad-l;
+		padding-bottom: $pad-m;
+	}
+
+	.h1{
+		padding-top: $pad-xxl;
+		@include res(l){
+			padding-top: 0;
+			margin-bottom: $pad-l;
+		}
+		@include res(m){
+			margin-bottom: $pad-m;
+		}
+	}
 }
 //s-home-reviews
 

@@ -274,26 +274,47 @@
 	<div class="container">
 
 		<div class="row">
-			<div class="grid-3">
-				<p class="h2">Отзывы наших клиентов</p>
+			<div class="grid-3 grid-12_l">
+				<p class="h1">Отзывы наших клиентов</p>
 			</div>
 
-			<div class="grid-9">
-				<div class="b-review">
-					<div class="b-review__img">
-						<img src="/img/thumbs/review-text.jpg" alt="r">
+			<div class="grid-9 grid-12_l">
+
+				<div class="row reviews-wall">
+					<div class="grid-4 grid-6_m grid-12_xs grid-sizer"></div>
+					<div class="grid-4 grid-6_m grid-12_xs reviews-wall__item">
+						<a href="https://www.youtube.com/watch?v=j2b4Xr363Is" class="b-review b-review--video fancy-video">
+							<img src="/img/thumbs/review-video.jpg" alt="r">
+							<figure class="play-icon"></figure>
+						</a>
+					</div>
+					<div class="grid-4 grid-6_m grid-12_xs reviews-wall__item">
+						<div class="b-review">
+							<img src="/img/thumbs/review-text-2.jpg" alt="r">
+						</div>
+					</div>
+					<div class="grid-4 grid-6_m grid-12_xs reviews-wall__item">
+						<div class="b-review">
+							<img src="/img/thumbs/review-text.jpg" alt="r">
+						</div>
+					</div>
+					<div class="grid-4 grid-6_m grid-12_xs reviews-wall__item">
+						<div class="b-review">
+							<img src="/img/thumbs/review-text-2.jpg" alt="r">
+						</div>
+					</div>
+					<div class="grid-4 grid-6_m grid-12_xs reviews-wall__item">
+						<div class="b-review">
+							<img src="/img/thumbs/review-text.jpg" alt="r">
+						</div>
+					</div>
+					<div class="grid-4 grid-6_m grid-12_xs reviews-wall__item">
+						<div class="b-review">
+							<img src="/img/thumbs/review-text.jpg" alt="r">
+						</div>
 					</div>
 				</div>
-				<div class="b-review">
-					<div class="b-review__img">
-						<img src="/img/thumbs/review-text.jpg" alt="r">
-					</div>
-				</div>
-				<div class="b-review">
-					<div class="b-review__img">
-						<img src="/img/thumbs/review-text.jpg" alt="r">
-					</div>
-				</div>
+
 			</div>
 
 		</div>
@@ -380,32 +401,6 @@
 				</a>
 			</div>
 		</div>
-
-	</div>
-</section>
-
-
-<section style="background:#FFF;">
-	<div class="container">
-		<p>Хотите подчеркнуть особенность и оригинальность вашего мероприятия? Желаете создать неповторимую атмосферу и сказочное настроение? Белые большие гелиевые шары с доставкой – это именно то, что вам нужно! Благодаря гигантским размерам, они создают впечатление целостной композиции. Несколько таких украшений будут хорошо смотреться как в небольшом помещении, так и в просторном зале.</p>
-		<p>У нас представлен самый широкий ассортимент подобных изделий: матовые, глянцевые и перламутровые и прозрачные, которые могут быть заполнены конфетти, лепестками цветов, мишурой или любыми мелкими элементами.</p>
-		<h1>Hello from the other side</h1>
-		<h2>Hello from the other side</h2>
-		<h3>Hello from the other side</h3>
-		<p>Экстренная помощь MIG</p>
-		<ul>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-		</ul>
-
-		<a href="#" class="fancy btn" data-src="#modal-order-1">Открыть order</a>
-		<a href="#" class="fancy btn" data-src="#modal-order-2">Открыть order 2</a>
-
-		<button type="submit" class="btn btn--big">Отправить</button>
-		<button type="submit" class="btn btn--outline">Отправить</button>
-		<button type="submit" class="btn btn--big btn--outline">Все готовые решения <i class="i-right"></i></button>
-		<button type="submit" class="btn btn--big">Все готовые решения <i class="i-right"></i></button>
 
 	</div>
 </section>

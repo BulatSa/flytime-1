@@ -78,7 +78,7 @@
 				</div>
 				<div class="grid-3 grid-6_s">
 					<div class="footer__bottom-col footer__bottom-col--last">
-						<a href="#">Сайт разработан Pen&Brain</a>
+						<a href="https://penbrain.ru" target="_blank">Сайт разработан Pen&Brain</a>
 					</div>
 				</div>
 			</div>
