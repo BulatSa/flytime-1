@@ -153,6 +153,7 @@
 	margin: 0 $pad-s;
 	flex-shrink: 1;
 	@include res(m){
+		width: calc(100% / 3);
 		align-items: center;
 		text-align: center;
 		flex-direction: column;
@@ -247,7 +248,7 @@
 
 //s-home-reviews
 .s-home-reviews{
-	height: 500px;
+	@extend %padding-for-sections;
 }
 //s-home-reviews
 

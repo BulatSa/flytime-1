@@ -1,17 +1,17 @@
-.s-home-ready, .s-home-sales, .s-photoalbums {
+.s-home-ready, .s-home-sales, .s-home-reviews, .s-photoalbums {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
 @media (max-width: 1400px) {
-  .s-home-ready, .s-home-sales, .s-photoalbums {
+  .s-home-ready, .s-home-sales, .s-home-reviews, .s-photoalbums {
     padding-top: 56px;
     padding-bottom: 56px;
   }
 }
 
 @media (max-width: 1024px) {
-  .s-home-ready, .s-home-sales, .s-photoalbums {
+  .s-home-ready, .s-home-sales, .s-home-reviews, .s-photoalbums {
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -1378,6 +1378,9 @@ h5, .h5 {
 
 .section-title .h1 {
   display: block;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
 }
 
 @media (max-width: 768px) {
@@ -4158,6 +4161,9 @@ button::-moz-focus-inner {
   white-space: nowrap;
   top: -19px;
   right: 24px;
+  -webkit-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
 }
 
 @media (max-width: 1400px) {
@@ -4321,6 +4327,10 @@ button::-moz-focus-inner {
 .b-product:hover .b-product__img {
   -webkit-transform: scale3d(1.1, 1.1, 1.1);
   transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.b-product:hover .b-product__sale {
+  background: #f65d2a;
 }
 
 .b-photoalbum {
@@ -4491,6 +4501,16 @@ button::-moz-focus-inner {
 .b-photoalbum:hover .b-photoalbum__front {
   -webkit-transform: scale3d(0.95, 0.95, 0.95);
   transform: scale3d(0.95, 0.95, 0.95);
+}
+
+.b-review {
+  border-radius: 20px;
+  overflow: hidden;
+  background: #FFF;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 0 0 30px 0 rgba(205, 231, 243, 0.5);
+  box-shadow: 0 0 30px 0 rgba(205, 231, 243, 0.5);
+  display: inline-block;
 }
 
 .intro-slider .flickity-prev-next-button {
@@ -4724,6 +4744,7 @@ button::-moz-focus-inner {
 
 @media (max-width: 768px) {
   .home-trigger {
+    width: calc(100% / 3);
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -4851,10 +4872,6 @@ button::-moz-focus-inner {
   .s-home-sales .products-list .grid-3:nth-child(4) {
     display: block;
   }
-}
-
-.s-home-reviews {
-  height: 500px;
 }
 
 .s-photoalbums {

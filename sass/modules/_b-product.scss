@@ -64,6 +64,7 @@
 		white-space: nowrap;
 		top: -19px;
 		right: $pad-m;
+		transition: background 0.3s ease;
 		@include res(xl){
 			right: $pad-s;
 			top: -24px;
@@ -161,6 +162,10 @@
 		
 		.b-product__img{
 			transform: scale3d(1.1,1.1,1.1);
+		}
+
+		.b-product__sale{
+			background: $orange;
 		}
 	}
 

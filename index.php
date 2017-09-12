@@ -5,7 +5,7 @@
 	<div class="intro-wrapper">
 
 		<div class="intro-slider">
-			<div class="intro intro-slide" style="background-image: url('/img/home/intro-bg.jpg');" data-flickity-bg-lazyload="image.jpg">
+			<div class="intro intro-slide" data-flickity-bg-lazyload="/img/home/intro-bg.jpg">
 				<div class="intro__content">
 					<span class="h1">Эксклюзивное предложение</span>
 					<div class="intro-slide-sale">
@@ -15,7 +15,7 @@
 					<div class="intro-slide-promocode">Промокод: sunsale</div>
 				</div>
 			</div>
-			<div class="intro intro-slide" style="background-image: url('/img/home/intro-bg-2.jpg');">
+			<div class="intro intro-slide" data-flickity-bg-lazyload="/img/home/intro-bg-2.jpg">
 				<div class="intro__content">
 					<span class="h1">Успей забронировать в&nbsp;октябре!</span>
 					<div class="intro-slide-sale">
@@ -23,6 +23,12 @@
 						<small>на декоративные элементы<br>к&nbsp;красным шарам на&nbsp;праздник</small>
 					</div>
 					<div class="intro-slide-promocode">Промокод: red-is-cool</div>
+				</div>
+			</div>
+			<div class="intro intro-slide" data-flickity-bg-lazyload="/img/home/intro-bg-3.jpg">
+				<div class="intro__content">
+					<span class="h1">Настоящие монстры — взрослые</span>
+					<div class="intro-slide-promocode">Промокод: оно</div>
 				</div>
 			</div>
 		</div>
@@ -152,7 +158,6 @@
 </section>
 
 
-
 <section class="s-home-sales">
 	<div class="container">
 
@@ -268,7 +273,30 @@
 <section class="s-home-reviews wave-bottom-light-blue">
 	<div class="container">
 
+		<div class="row">
+			<div class="grid-3">
+				<p class="h2">Отзывы наших клиентов</p>
+			</div>
 
+			<div class="grid-9">
+				<div class="b-review">
+					<div class="b-review__img">
+						<img src="/img/thumbs/review-text.jpg" alt="r">
+					</div>
+				</div>
+				<div class="b-review">
+					<div class="b-review__img">
+						<img src="/img/thumbs/review-text.jpg" alt="r">
+					</div>
+				</div>
+				<div class="b-review">
+					<div class="b-review__img">
+						<img src="/img/thumbs/review-text.jpg" alt="r">
+					</div>
+				</div>
+			</div>
+
+		</div>
 
 	</div>
 </section>

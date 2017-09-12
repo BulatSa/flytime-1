@@ -3,3 +3,4 @@
 //@prepros-append vendors/device.min.js
 //@prepros-append vendors/flickity.pkgd.min.js
 //@prepros-append vendors/bg-lazyload.js
+//@prepros-append vendors/masonry.pkgd.min.js
