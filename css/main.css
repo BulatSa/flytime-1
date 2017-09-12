@@ -4349,14 +4349,6 @@ button::-moz-focus-inner {
   display: block;
   width: 100%;
   height: auto;
-  -webkit-transition: -webkit-transform 1s ease;
-  transition: -webkit-transform 1s ease;
-  -o-transition: transform 1s ease;
-  transition: transform 1s ease;
-  transition: transform 1s ease, -webkit-transform 1s ease;
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
-  will-change: transform;
 }
 
 .b-product__content {
@@ -4573,11 +4565,6 @@ button::-moz-focus-inner {
 
 .b-product:hover .b-product__title {
   color: #f67f28;
-}
-
-.b-product:hover .b-product__img {
-  -webkit-transform: scale3d(1.1, 1.1, 1.1);
-  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 .b-product:hover .b-product__sale {

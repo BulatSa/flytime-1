@@ -17,9 +17,6 @@
 		display: block;
 		width: 100%;
 		height: auto;
-		transition: transform 1s ease;
-		transform: scale3d(1,1,1);
-		will-change: transform;
 	}
 
 	&__content{
@@ -158,10 +155,6 @@
 
 		.b-product__title{
 			color: $orange-hover;
-		}
-		
-		.b-product__img{
-			transform: scale3d(1.1,1.1,1.1);
 		}
 
 		.b-product__sale{
