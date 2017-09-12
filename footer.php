@@ -9,7 +9,7 @@
 					<div class="footer__payment-list">
 						<img src="img/footer-payment-1.jpg" alt="1">
 						<img src="img/footer-payment-2.jpg" alt="2">
-						<img src="img/footer-payment-3.jpg" alt="">
+						<img src="img/footer-payment-3.jpg" alt="3">
 						<img src="img/footer-payment-4.jpg" alt="">
 						<img src="img/footer-payment-5.jpg" alt="">
 						<img src="img/footer-payment-6.jpg" alt="">
