@@ -75,7 +75,7 @@
 
 		<div class="section-title">
 			<span class="h1">Готовые уникальные решения</span>
-			<a href="#" class="btn btn--big btn--outline">Все готовые решения <i class="i-right"></i></a>
+			<a href="/catalog-sections.php" class="btn btn--big btn--outline">Все готовые решения <i class="i-right"></i></a>
 		</div>
 
 		<div class="cat-list row-float">
@@ -163,7 +163,7 @@
 
 		<div class="section-title">
 			<span class="h1">Распродажа</span>
-			<a href="#" class="btn btn--big btn--outline">Все скидки <i class="i-right"></i></a>
+			<a href="/sales-list.php" class="btn btn--big btn--outline">Все скидки <i class="i-right"></i></a>
 		</div>
 
 		<div class="products-list row">

@@ -107,22 +107,6 @@
 					</div>
 				</a>
 			</div>
-			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
-					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
-					<div class="cat-item__content">
-						<span class="h5 cat-item__title">Шарики с гелием<br>от 100 руб.</span>
-					</div>
-				</a>
-			</div>
-			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
-					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
-					<div class="cat-item__content">
-						<span class="h5 cat-item__title">Шарики с гелием черного цвета<br>от 200 руб.</span>
-					</div>
-				</a>
-			</div>
 		</div>
 
 		<div class="pagination">

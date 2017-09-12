@@ -1,5 +1,5 @@
 .pagination{
-	padding: $pad-l 0 $pad-xl 0;
+	padding-top: $pad-l;
 	@include res(s){
 		text-align: center;
 	}

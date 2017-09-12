@@ -4884,7 +4884,7 @@ button::-moz-focus-inner {
 }
 
 .pagination {
-  padding: 40px 0 56px 0;
+  padding-top: 40px;
 }
 
 @media (max-width: 680px) {
@@ -5348,6 +5348,6 @@ button::-moz-focus-inner {
   background: url("../img/home/photoalbums-bg.jpg") center top no-repeat #4bcddf;
 }
 
-.s-sections {
+.s-sections, .s-reviews {
   padding-bottom: 56px;
 }
