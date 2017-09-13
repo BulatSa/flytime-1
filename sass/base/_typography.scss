@@ -96,6 +96,53 @@ h5,.h5{
 	}
 }
 
+.user-content {
+	font-size: 15px;
+	line-height: 1.6;
+	@include res(s) {
+		font-size: 14px;
+		line-height:1.6;
+	}
+	p {
+		font-size: 15px;
+		line-height: 1.6;
+		padding-bottom:12px;
+		@include res(s) {
+			font-size: 14px;
+		}
+	}
+	ul {
+		list-style: none;
+		li {
+			position: relative;
+			padding-left: 25px;
+			padding-bottom: 12px;
+			@include res(s) {
+				padding-left: 20px;
+			}
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0.3em;
+				left: 0;
+				width: 16px;
+				height: 14px;
+				background: url("../img/svg/icon-list-style.svg") no-repeat center;
+				background-size: cover;
+				@include res(l) {
+					width: 14px;
+					height: 12px;
+				}
+				@include res(s) {
+					top: 0.4em;
+					width: 12px;
+					height: 10px;
+				}
+			}
+		}
+	}
+}
+
 
 //links
 .link{

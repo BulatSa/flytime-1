@@ -1,0 +1,85 @@
+.about-info-sec {
+	padding-top: $pad-xxl;
+	padding-bottom: $pad-xl;
+	background: #fff;
+	@include res(l) {
+		padding-top: $pad-xl;
+		padding-bottom: $pad-l;
+	}
+	@include res(m) {
+		padding-top: $pad-l;
+	}
+	@include res(s) {
+		padding-top: $pad-m;
+	}
+}
+
+.about-info {
+
+}
+
+.about-info__title {
+	display: block;
+	margin-bottom:0.5em;
+}
+
+.about-info__text-wrap {
+	&--individual {
+		padding-top:$pad-xxl;
+		@include res(xl) {
+			padding-top:$pad-xl;
+		}
+		@include res(s) {
+			padding-top:$pad-m;
+		}
+		.about-info__title {
+			margin-right: -0.9em;
+			@include res(l) {
+				margin-right: -0.6em;
+			}
+		}
+	}
+}
+
+.about-info__text {
+	padding-bottom: $pad-xl;
+	@include res(l) {
+		padding-bottom: $pad-l;
+	}
+	@include res(m) {
+		padding-bottom: $pad-m;
+	}
+	@include res(s) {
+		padding-bottom: 0;
+	}
+}
+
+.about-info__baloons {
+	max-width: 100%;
+}
+
+.about-info__girl {
+	max-width: 100%;
+	margin-top: -$pad-xl;
+	@include res(xl) {
+		margin-top: -$pad-l;
+	}
+	@include res(s) {
+		display: none;
+	}
+}
+
+.about-info__sign {
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	color: #282828;
+	z-index: 1;
+	p {
+		font-size: 16px;
+		line-height:1.1;
+		@include res(m) {
+			font-size: 14px;
+		}
+	}
+}
