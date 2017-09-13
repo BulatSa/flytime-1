@@ -1,5 +1,6 @@
 <?php include('header.php'); ?>
 
+
 <section class="s-intro">
 	<div class="intro-wrapper">
 		<div class="intro intro--about">
@@ -30,6 +31,7 @@
 		</div>
 	</div>
 </section>
+
 
 <section class="about-info-sec">
 	<div class="container">

@@ -33,7 +33,7 @@
 			</div>
 
 			<div class="grid-6 grid-5_l grid-4_s hidden_xs">
-				<div class="b-promo">
+				<div class="b-promo b-promo--details">
 					<img src="/img/thumbs/promo-thumb.jpg" alt="1" class="b-promo__img">
 				</div>
 			</div>
