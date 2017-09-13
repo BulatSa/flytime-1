@@ -21,6 +21,9 @@
 .about-info__title {
 	display: block;
 	margin-bottom:0.5em;
+	@include res(m) {
+		margin-bottom: 0.3em;
+	}
 }
 
 .about-info__text-wrap {
