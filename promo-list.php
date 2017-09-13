@@ -2,7 +2,7 @@
 
 <section class="s-page-title">
 	<div class="container">
-		<h1 class="h1">Акции </h1>
+		<h1 class="h1">Акции</h1>
 	</div>
 </section>
 
@@ -12,63 +12,63 @@
 
 		<div class="promo-list row">
 
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
-				<a href="#" class="b-promo">
+			<div class="grid-3 grid-4_l grid-6_s">
+				<a href="/promo-details.php" class="b-promo">
 					<img src="/img/thumbs/promo-thumb.jpg" alt="1" class="b-promo__img">
 				</a>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
-				<a href="#" class="b-promo">
+			<div class="grid-3 grid-4_l grid-6_s">
+				<a href="/promo-details.php" class="b-promo">
 					<img src="/img/thumbs/promo-thumb-2.jpg" alt="1" class="b-promo__img">
 				</a>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
-				<a href="#" class="b-promo">
+			<div class="grid-3 grid-4_l grid-6_s">
+				<a href="/promo-details.php" class="b-promo">
 					<img src="/img/thumbs/promo-thumb.jpg" alt="1" class="b-promo__img">
 				</a>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
-				<a href="#" class="b-promo">
+			<div class="grid-3 grid-4_l grid-6_s">
+				<a href="/promo-details.php" class="b-promo">
 					<img src="/img/thumbs/promo-thumb-2.jpg" alt="1" class="b-promo__img">
 				</a>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
-				<a href="#" class="b-promo">
+			<div class="grid-3 grid-4_l grid-6_s">
+				<a href="/promo-details.php" class="b-promo">
 					<img src="/img/thumbs/promo-thumb.jpg" alt="1" class="b-promo__img">
 				</a>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
-				<a href="#" class="b-promo">
+			<div class="grid-3 grid-4_l grid-6_s">
+				<a href="/promo-details.php" class="b-promo">
 					<img src="/img/thumbs/promo-thumb-2.jpg" alt="1" class="b-promo__img">
 				</a>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
-				<a href="#" class="b-promo b-promo--old">
+			<div class="grid-3 grid-4_l grid-6_s">
+				<a href="/promo-details.php" class="b-promo b-promo--old">
 					<img src="/img/thumbs/promo-thumb.jpg" alt="1" class="b-promo__img">
 				</a>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
-				<a href="#" class="b-promo b-promo--old">
+			<div class="grid-3 grid-4_l grid-6_s">
+				<a href="/promo-details.php" class="b-promo b-promo--old">
 					<img src="/img/thumbs/promo-thumb-2.jpg" alt="1" class="b-promo__img">
 				</a>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
-				<a href="#" class="b-promo b-promo--old">
+			<div class="grid-3 grid-4_l grid-6_s">
+				<a href="/promo-details.php" class="b-promo b-promo--old">
 					<img src="/img/thumbs/promo-thumb.jpg" alt="1" class="b-promo__img">
 				</a>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
-				<a href="#" class="b-promo b-promo--old">
+			<div class="grid-3 grid-4_l grid-6_s">
+				<a href="/promo-details.php" class="b-promo b-promo--old">
 					<img src="/img/thumbs/promo-thumb-2.jpg" alt="1" class="b-promo__img">
 				</a>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
-				<a href="#" class="b-promo b-promo--old">
+			<div class="grid-3 grid-4_l grid-6_s">
+				<a href="/promo-details.php" class="b-promo b-promo--old">
 					<img src="/img/thumbs/promo-thumb.jpg" alt="1" class="b-promo__img">
 				</a>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
-				<a href="#" class="b-promo b-promo--old">
+			<div class="grid-3 grid-4_l grid-6_s">
+				<a href="/promo-details.php" class="b-promo b-promo--old">
 					<img src="/img/thumbs/promo-thumb-2.jpg" alt="1" class="b-promo__img">
 				</a>
 			</div>

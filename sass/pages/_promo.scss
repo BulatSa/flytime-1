@@ -52,3 +52,50 @@
 	}
 }
 //subscribe-form
+
+
+//s-promo-related
+.s-promo-related{
+	padding-bottom: $pad-l;
+
+	.h2{
+		margin-bottom: 0.4em;
+	}
+}
+//s-promo-related
+
+
+//s-promo-details
+.s-promo-details{
+	padding-top: $pad-m;
+	padding-bottom: $pad-xl;
+
+	&__title{
+		margin-bottom: 0.5em;
+	}
+
+	&__preview{
+		margin-bottom: $pad-m;
+	}
+
+	&__conditions{
+		margin-bottom: $pad-m;
+	}
+
+	.b-promo{
+		width: 390px;
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+//s-promo-details
+
+
+//social-share
+.social-share{
+	.h5{
+		margin-bottom: $pad-xs;
+	}
+}
+//social-share
