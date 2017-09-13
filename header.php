@@ -73,42 +73,42 @@
 		</div>
 
 		<nav class="cat-menu">
-			<a href="#" class="cat-menu-item cat-menu-item--1">
+			<a href="/catalog-sections.php" class="cat-menu-item cat-menu-item--1">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
 				</div>
 				<span>Каталог<br>шаров</span>
 			</a>
-			<a href="#" class="cat-menu-item cat-menu-item--2">
+			<a href="/catalog-sections.php" class="cat-menu-item cat-menu-item--2">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
 				</div>
 				<span>Оформление<br>по&nbsp;событиям</span>
 			</a>
-			<a href="#" class="cat-menu-item cat-menu-item--3">
+			<a href="/catalog-sections.php" class="cat-menu-item cat-menu-item--3">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
 				</div>
 				<span>Готовые<br>решения</span>
 			</a>
-			<a href="#" class="cat-menu-item cat-menu-item--4 active">
+			<a href="/catalog-sections.php" class="cat-menu-item cat-menu-item--4 active">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
 				</div>
 				<span>Все для<br>праздника</span>
 			</a>
-			<a href="#" class="cat-menu-item cat-menu-item--5">
+			<a href="/price-list.php" class="cat-menu-item cat-menu-item--5">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
 				</div>
 				<span>Услуги<br>и&nbsp;цены</span>
 			</a>
-			<a href="#" class="cat-menu-item cat-menu-item--6">
+			<a href="/sales-list.php" class="cat-menu-item cat-menu-item--6">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
@@ -118,12 +118,12 @@
 		</nav>
 
 		<nav class="top-nav">
-			<a href="#">О нас</a>
+			<a href="/about.php">О нас</a>
 			<a href="#" class="active">Доставка</a>
 			<a href="#">Оплата</a>
 			<a href="#">Гарантия качества</a>
-			<a href="#">Отзывы</a>
-			<a href="#">Акции</a>
+			<a href="/reviews.php">Отзывы</a>
+			<a href="/promo-list.php">Акции</a>
 			<a href="#">Бизнесу</a>
 			<a href="#">Контакты</a>
 		</nav>
@@ -145,12 +145,12 @@
 	<div class="container">
 		
 		<nav class="top-nav">
-			<a href="#">О нас</a>
+			<a href="/about.php">О нас</a>
 			<a href="#" class="active">Доставка</a>
 			<a href="#">Оплата</a>
 			<a href="#">Гарантия качества</a>
-			<a href="#">Отзывы</a>
-			<a href="#">Акции</a>
+			<a href="/reviews.php">Отзывы</a>
+			<a href="/promo-list.php">Акции</a>
 			<a href="#">Бизнесу</a>
 			<a href="#">Контакты</a>
 		</nav>
@@ -211,42 +211,42 @@
 	<div class="container">
 		
 		<nav class="cat-menu">
-			<a href="#" class="cat-menu-item cat-menu-item--1">
+			<a href="/catalog-sections.php" class="cat-menu-item cat-menu-item--1">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
 				</div>
 				<span>Каталог<br>шаров</span>
 			</a>
-			<a href="#" class="cat-menu-item cat-menu-item--2">
+			<a href="/catalog-sections.php" class="cat-menu-item cat-menu-item--2">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
 				</div>
 				<span>Оформление<br>по&nbsp;событиям</span>
 			</a>
-			<a href="#" class="cat-menu-item cat-menu-item--3">
+			<a href="/catalog-sections.php" class="cat-menu-item cat-menu-item--3">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
 				</div>
 				<span>Готовые<br>решения</span>
 			</a>
-			<a href="#" class="cat-menu-item cat-menu-item--4 active">
+			<a href="/catalog-sections.php" class="cat-menu-item cat-menu-item--4 active">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
 				</div>
 				<span>Все для<br>праздника</span>
 			</a>
-			<a href="#" class="cat-menu-item cat-menu-item--5">
+			<a href="/price-list.php" class="cat-menu-item cat-menu-item--5">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
 				</div>
 				<span>Услуги<br>и&nbsp;цены</span>
 			</a>
-			<a href="#" class="cat-menu-item cat-menu-item--6">
+			<a href="/sales-list.php" class="cat-menu-item cat-menu-item--6">
 				<div class="cat-menu-item__iconwrap">
 					<figure class="cat-menu-item__decor"></figure>
 					<figure class="cat-menu-item__icon"></figure>
@@ -272,14 +272,12 @@
 	<div class="container">
 
 		<!--Если не главная страница-->
-		<? if ($_SERVER['REQUEST_URI'] == '/index.php') : ?>
-			<div class="breadcrumbs">
-				<a href="#">Главная</a>
-				<a href="#">Каталог</a>
-				<a href="#">Оформление по событиям</a>
-				<a href="#">Красные шары на праздник</a href="#">
-			</div>
-		<? endif; ?>
+		<div class="breadcrumbs">
+			<a href="#">Главная</a>
+			<a href="#">Каталог</a>
+			<a href="#">Оформление по событиям</a>
+			<a href="#">Красные шары на праздник</a href="#">
+		</div>
 		<!--Если не главная страница-->
 
 	</div>

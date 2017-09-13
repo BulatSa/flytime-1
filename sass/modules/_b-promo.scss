@@ -1,0 +1,60 @@
+.b-promo{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: $pad-l;
+	@include res(l){
+		margin-bottom: $pad-m;
+	}
+
+	&:after{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: -50%;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+		background: transparentize($blue,0.2);
+		border-radius: 50%;
+		transform: scale3d(0,0,0);
+		transform-origin: left center;
+		will-change: transform;
+		transition: transform 0.7s ease;
+	}
+
+	&:before{
+		content: '';
+		width: calc(100% + 4px);
+		height: calc(100% + 4px);
+		top: -2px;
+		left: -2px;
+		background: url("../img/svg/promo-frame.svg") center top no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		z-index: 10;
+		pointer-events: none;
+		user-select: none;
+	}
+
+	&__img{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	&:hover{
+		&:after{
+			transform: scale3d(2,2,2);
+		}
+	}
+
+	&--old{
+		.b-promo__img{
+			filter: grayscale(100%);
+		}
+		&:after{
+			background: transparentize($black,0.8);
+		}
+	}
+}
