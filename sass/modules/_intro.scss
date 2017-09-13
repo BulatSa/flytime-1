@@ -98,8 +98,14 @@
 			background-image: url('../img/about/bg-intro-tablet.jpg');
 		}
 	}
+	&--garant {
+		background-image: url('../img/garant/bg-intro.jpg');
+		@include res(l) {
+			background-image: url('../img/garant/bg-intro-tab.jpg');
+		}
+	}
 
-	&__content{
+	&__content {
 		width: 610px;
 		max-width: 100%;
 		&>.h1 {
@@ -135,6 +141,27 @@
 		line-height:1.1;
 		@include res(l) {
 			font-size: 14px;
+		}
+	}
+}
+
+.intro__big-phone {
+	padding-top: $pad-l;
+	@include res(s) {
+		padding-top: $pad-m;
+	}
+	span {
+		display: block;
+		padding-bottom: 10px;
+		font-size: 16px;
+		line-height:1.1;
+		@include res(m) {
+			font-size: 14px;
+			padding-bottom: 6px;
+		}
+		@include res(s) {
+			font-size: 12px;
+			padding-bottom: 5px;
 		}
 	}
 }
