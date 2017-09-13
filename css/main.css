@@ -1,17 +1,17 @@
-.s-home-ready, .s-home-sales, .s-photoalbums {
+.s-home-ready, .s-home-sales, .s-photoalbums, .s-price-details {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
 @media (max-width: 1400px) {
-  .s-home-ready, .s-home-sales, .s-photoalbums {
+  .s-home-ready, .s-home-sales, .s-photoalbums, .s-price-details {
     padding-top: 56px;
     padding-bottom: 56px;
   }
 }
 
 @media (max-width: 1024px) {
-  .s-home-ready, .s-home-sales, .s-photoalbums {
+  .s-home-ready, .s-home-sales, .s-photoalbums, .s-price-details {
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -1324,7 +1324,7 @@ h5, .h5 {
 @media (max-width: 680px) {
   .user-content {
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.5;
   }
 }
 
@@ -4380,6 +4380,43 @@ button::-moz-focus-inner {
   }
 }
 
+.intro__price {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .intro__price {
+    margin-top: 24px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 680px) {
+  .intro__price {
+    margin-top: 8px;
+    font-size: 20px;
+  }
+}
+
+.intro__btn {
+  margin-top: 16px;
+  width: 250px;
+  max-width: 100%;
+}
+
+@media (max-width: 680px) {
+  .intro__btn {
+    width: auto;
+  }
+}
+
+@media (max-width: 680px) {
+  .intro__btn {
+    margin-top: 8px;
+  }
+}
+
 .flickity-prev-next-button {
   background: none;
   width: 54px;
@@ -5351,6 +5388,10 @@ button::-moz-focus-inner {
   background: rgba(40, 40, 40, 0.2);
 }
 
+.b-promo--details:after {
+  display: none;
+}
+
 .pagination {
   padding-top: 40px;
   text-align: center;
@@ -6030,4 +6071,8 @@ button::-moz-focus-inner {
 
 .social-share .h5 {
   margin-bottom: 8px;
+}
+
+.s-price-details {
+  background: #FFF;
 }

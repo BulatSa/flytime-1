@@ -57,4 +57,10 @@
 			background: transparentize($black,0.8);
 		}
 	}
+
+	&--details{
+		&:after{
+			display: none;
+		}
+	}
 }

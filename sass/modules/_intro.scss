@@ -92,6 +92,7 @@
 	@include res(s){
 		padding: 20px 20px 30px 20px;
 	}
+
 	&--about {
 		background-image: url('../img/about/bg-intro.jpg');
 		@include res(m) {
@@ -157,5 +158,31 @@
 		@include res(l) {
 			font-size: 14px;
 		}
+	}
+}
+
+
+.intro__price{
+	margin-top: $pad-l;
+	font-size: 30px;
+	@include res(m){
+		margin-top: $pad-m;
+		font-size: 24px;
+	}
+	@include res(s){
+		margin-top: $pad-xs;
+		font-size: 20px;
+	}
+}
+
+.intro__btn{
+	margin-top: $pad-s;
+	width: 250px;
+	max-width: 100%;
+	@include res(s){
+		width: auto;
+	}
+	@include res(s){
+		margin-top: $pad-xs;
 	}
 }
