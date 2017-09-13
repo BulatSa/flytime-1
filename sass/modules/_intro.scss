@@ -87,10 +87,75 @@
 	}
 	@include res(l){
 		min-height: 400px;
+		padding: 50px;
+	}
+	@include res(s){
+		padding: 20px 20px 30px 20px;
+	}
+	&--about {
+		background-image: url('../img/about/bg-intro.jpg');
+		@include res(m) {
+			background-image: url('../img/about/bg-intro-tablet.jpg');
+		}
 	}
 
 	&__content{
 		width: 610px;
 		max-width: 100%;
+		&>.h1 {
+			display: block;
+			margin-bottom:0.5em;
+		}
+	}
+}
+
+.intro__facts {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: $pad-xxl;
+	@include res(xl) {
+		padding-top: $pad-xl;
+	}
+	@include res(l) {
+		padding-top: $pad-l;
+	}
+	@include res(s) {
+		padding-top: $pad-m;
+	}
+}
+
+.intro__fact {
+	width: 33.33333%;
+	padding-right: 10px;
+	span {
+		display: block;
+	}
+	p {
+		font-size: 16px;
+		line-height:1.1;
+		@include res(l) {
+			font-size: 14px;
+		}
+	}
+}
+
+.intro__sign {
+	padding-top: $pad-xxl;
+	@include res(xl) {
+		padding-top: $pad-xl;
+	}
+	@include res(l) {
+		padding-top: $pad-l;
+	}
+	@include res(s) {
+		padding-top: $pad-m;
+	}
+	span {}
+	p {
+		font-size: 16px;
+		line-height:1.1;
+		@include res(l) {
+			font-size: 14px;
+		}
 	}
 }
