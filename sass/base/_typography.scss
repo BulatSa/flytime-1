@@ -100,15 +100,15 @@ h5,.h5{
 .user-content {
 	font-size: 15px;
 	line-height: 1.6;
-	@include res(s) {
+	@include res(m) {
 		font-size: 14px;
 		line-height:1.5;
 	}
 	p {
 		font-size: 15px;
 		line-height: 1.6;
-		padding-bottom:12px;
-		@include res(s) {
+		padding-bottom: 0.8em;
+		@include res(m) {
 			font-size: 14px;
 		}
 	}
