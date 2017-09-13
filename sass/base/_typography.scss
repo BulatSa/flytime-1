@@ -110,6 +110,7 @@ h5,.h5{
 		padding-bottom: 0.8em;
 		@include res(m) {
 			font-size: 14px;
+			padding-bottom: 0.6em;
 		}
 	}
 	ul {
@@ -146,7 +147,7 @@ h5,.h5{
 
 
 //links
-.link{
+.link {
 	font-size: 15px;
 	display: inline-flex;
 	align-items: center;
@@ -155,6 +156,12 @@ h5,.h5{
 	line-height: 1;
 
 	&:hover{
+		color: $orange;
+	}
+
+	.i-right {
+		margin-left: 7px;
+		margin-bottom: -2px;
 		color: $orange;
 	}
 

@@ -7,12 +7,12 @@
 				</div>
 				<div class="grid-9 grid-12_s">
 					<div class="footer__payment-list">
-						<img src="img/footer-payment-1.jpg" alt="">
-						<img src="img/footer-payment-2.jpg" alt="">
-						<img src="img/footer-payment-3.jpg" alt="">
-						<img src="img/footer-payment-4.jpg" alt="">
-						<img src="img/footer-payment-5.jpg" alt="">
-						<img src="img/footer-payment-6.jpg" alt="">
+						<img src="img/footer-payment-1.png" alt="">
+						<img src="img/footer-payment-2.png" alt="">
+						<img src="img/footer-payment-3.png" alt="">
+						<img src="img/footer-payment-4.png" alt="">
+						<img src="img/footer-payment-5.png" alt="">
+						<img src="img/footer-payment-6.png" alt="">
 					</div>
 				</div>
 			</div>
