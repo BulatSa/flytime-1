@@ -5817,7 +5817,6 @@ button::-moz-focus-inner {
   background: url("../img/home/photoalbums-bg.jpg") center top no-repeat #4bcddf;
 }
 
-
 .about-info-sec {
   padding-top: 80px;
   padding-bottom: 56px;
@@ -5935,8 +5934,6 @@ button::-moz-focus-inner {
     font-size: 14px;
   }
 }
-
-/*# sourceMappingURL=main.css.map */
 
 .s-sections, .s-reviews {
   padding-bottom: 56px;
