@@ -295,12 +295,12 @@
 					</div>
 					<div class="grid-4 grid-6_m grid-12_xs reviews-wall__item">
 						<div class="b-review">
-							<img src="/img/thumbs/review-text.jpg" alt="r">
+							<img src="/img/thumbs/review-text-2.jpg" alt="r">
 						</div>
 					</div>
 					<div class="grid-4 grid-6_m grid-12_xs reviews-wall__item">
 						<div class="b-review">
-							<img src="/img/thumbs/review-text-2.jpg" alt="r">
+							<img src="/img/thumbs/review-text.jpg" alt="r">
 						</div>
 					</div>
 					<div class="grid-4 grid-6_m grid-12_xs reviews-wall__item">

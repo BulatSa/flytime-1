@@ -123,7 +123,7 @@
 			<a href="#">Оплата</a>
 			<a href="#">Гарантия качества</a>
 			<a href="/reviews.php">Отзывы</a>
-			<a href="#">Акции</a>
+			<a href="/promo-list.php">Акции</a>
 			<a href="#">Бизнесу</a>
 			<a href="#">Контакты</a>
 		</nav>
@@ -150,7 +150,7 @@
 			<a href="#">Оплата</a>
 			<a href="#">Гарантия качества</a>
 			<a href="/reviews.php">Отзывы</a>
-			<a href="#">Акции</a>
+			<a href="/promo-list.php">Акции</a>
 			<a href="#">Бизнесу</a>
 			<a href="#">Контакты</a>
 		</nav>

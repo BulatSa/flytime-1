@@ -3331,8 +3331,8 @@ button::-moz-focus-inner {
 .footer-sec {
   padding-top: 40px;
   padding-bottom: 40px;
-  -webkit-box-shadow: 0 -10px 45px #fff;
-  box-shadow: 0 -10px 45px #fff;
+  -webkit-box-shadow: 0 -10px 45px #e7f1f4;
+  box-shadow: 0 -10px 45px #e7f1f4;
   background: #fff;
 }
 
@@ -4883,6 +4883,79 @@ button::-moz-focus-inner {
   will-change: transform;
 }
 
+.b-promo {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1024px) {
+  .b-promo {
+    margin-bottom: 24px;
+  }
+}
+
+.b-promo:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: rgba(75, 205, 223, 0.8);
+  border-radius: 50%;
+  -webkit-transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  will-change: transform;
+  -webkit-transition: -webkit-transform 0.7s ease;
+  transition: -webkit-transform 0.7s ease;
+  -o-transition: transform 0.7s ease;
+  transition: transform 0.7s ease;
+  transition: transform 0.7s ease, -webkit-transform 0.7s ease;
+}
+
+.b-promo:before {
+  content: '';
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  top: -2px;
+  left: -2px;
+  background: url("../img/svg/promo-frame.svg") center top no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  z-index: 10;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.b-promo__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.b-promo:hover:after {
+  -webkit-transform: scale3d(2, 2, 2);
+  transform: scale3d(2, 2, 2);
+}
+
+.b-promo--old .b-promo__img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.b-promo--old:after {
+  background: rgba(40, 40, 40, 0.2);
+}
+
 .pagination {
   padding-top: 40px;
   text-align: center;
@@ -5351,4 +5424,61 @@ button::-moz-focus-inner {
 
 .s-sections, .s-reviews {
   padding-bottom: 56px;
+}
+
+.s-promo-list {
+  padding-bottom: 56px;
+}
+
+.s-subscribe {
+  padding: 80px 0;
+  background: url("../img/subscribe-bg.png") center top no-repeat;
+}
+
+.s-subscribe .h1 {
+  text-align: center;
+  margin-bottom: 0.7em;
+}
+
+.subscribe-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 480px;
+  max-width: 100%;
+}
+
+.subscribe-form__block {
+  position: relative;
+}
+
+.subscribe-form__block input {
+  width: 100%;
+  height: 56px;
+}
+
+.subscribe-form__block .btn {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 0;
+  height: 56px;
+  width: 56px;
+  padding: 0;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.subscribe-form__block .btn i {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.subscribe-form .style-checkbox {
+  margin-top: 16px;
 }
