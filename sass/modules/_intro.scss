@@ -111,6 +111,12 @@
 			background-image: url('../img/payment/bg-intro-tab.jpg');
 		}
 	}
+	&--delivery {
+		background-image: url('../img/delivery/bg-intro.jpg');
+		@include res(l) {
+			background-image: url('../img/delivery/bg-intro-tab.jpg');
+		}
+	}
 
 	&__content {
 		width: 610px;
@@ -231,6 +237,87 @@
 	}
 }
 
+.intro__delivery-list {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding-top: $pad-l;
+	@include res(l) {
+		padding-top: $pad-m;
+	}
+	@include res(s) {
+		padding-top: $pad-s;
+	}
+	@include res(xs) {
+		justify-content: center;
+	}
+}
+
+.intro__delivery-item {
+	width: 33.33333%;
+	padding-right: 7%;
+	padding-bottom: 15px;
+	@include res(m) {
+		padding-right: 3%;
+		padding-left: 3%;
+	}
+	@include res(xs) {
+		width: 50%;
+	}
+	span {
+		display: block;
+		font-size: 16px;
+		line-height: 1.1;
+		@include res(m) {
+			text-align: center;
+			font-size: 14px;
+		}
+		@include res(s) {
+			font-size: 12px;
+		}
+	}
+}
+
+.intro__delivery-item-img {
+	display: flex;
+	align-items: flex-end;
+	height: 75px;
+	margin-bottom: 10px;
+	@include res(m) {
+		justify-content: center;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		flex-shrink: 0;
+	}
+}
+
+.intro__delivery-descr {
+	position: absolute;
+	bottom: 60px;
+	left: 60px;
+	font-size: 14px;
+	line-height: 1.1;
+	color: #b6b6b6;
+	@include res(xl) {
+		bottom: 20px;
+	}
+	@include res(l) {
+		left: 50px;
+	}
+	@include res(s) {
+		position: relative;
+		left: inherit;
+		bottom: inherit;
+		display: block;
+		padding-top: 25px;
+	}
+	@include res(xs) {
+		padding-top: 15px;
+		font-size: 12px;
+	}
+}
 
 .intro__price{
 	margin-top: $pad-l;

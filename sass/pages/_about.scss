@@ -55,10 +55,78 @@
 	@include res(s) {
 		padding-bottom: $pad-s;
 	}
+	&+.btn {
+		margin-top: -$pad-m;
+		margin-bottom: $pad-m;
+		@include res(m) {
+			margin-top: -$pad-s;
+		}
+		@include res(s) {
+			margin-top: -$pad-xs;
+		}
+	}
 }
 
 .about-info__baloons {
 	max-width: 100%;
+}
+
+.about-info__delivery-ballons {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: $pad-xxl;
+	@include res(s) {
+		margin-bottom: -$pad-l;
+	}
+	@include res(xs) {
+		padding-top: $pad-xl;
+	}
+	span {
+		display: block;
+		padding-left: 15%;
+		padding-top: 5px;
+		padding-bottom: 15px;
+		@include res(s) {
+			padding-bottom: 10px;
+		}
+		@include res(xs) {
+			padding-bottom: 5px;
+		}
+	}
+}
+
+.about-info__delivery-ballon {
+	position: relative;
+	margin-bottom: 70px;
+	&:after{
+		content: '';
+		position: absolute;
+		bottom: -$pad-m;
+		width: 80%;
+		left: 0;
+		right: 0;
+		margin: auto;
+		height: 12px;
+		border-radius: 50%;
+		background: rgba(213, 223, 225, 0.3);
+		filter: blur(6px);
+		@include res(l){
+			bottom: -$pad-s;
+		}
+		@include res(s){
+			display: none;
+		}
+	}
+	img {
+		max-width: 100%;
+	}
+	&--toped {
+		margin-top: -50px;
+		&:after {
+			background: rgba(213, 223, 225, 0.2);
+			filter: blur(5px);
+		}
+	}
 }
 
 .about-info__girl {
