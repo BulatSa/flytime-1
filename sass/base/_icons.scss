@@ -20,6 +20,9 @@ i {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.i-cool:before {
+	content: "\e911";
+}
 .i-phone:before {
 	content: "\e910";
 }

@@ -32,7 +32,7 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
@@ -57,7 +57,7 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
@@ -107,7 +107,7 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
@@ -132,7 +132,7 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
@@ -157,7 +157,7 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
@@ -182,7 +182,7 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
@@ -207,7 +207,7 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
@@ -232,7 +232,7 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
@@ -257,7 +257,7 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
@@ -282,7 +282,7 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
@@ -307,7 +307,7 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>

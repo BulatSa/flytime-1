@@ -1,0 +1,26 @@
+.rating{
+	display: inline-block;
+	display: inline-flex;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.rate{
+	font-size: 25px;
+	line-height: 1;
+	margin: 0 2px;
+	cursor: pointer;
+	color: $grey-light;
+	@include res(xs){
+		font-size: 20px;
+	}
+
+	&:before{
+		content: "\e911";
+		font-family: $font-icon;
+	}
+
+	&--full{
+		color: $orange;
+	}
+}

@@ -170,12 +170,12 @@
 
 			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
 				<div class="b-product">
-					<a href="#" class="b-product__imgwrap">
+					<a href="/catalog-details.php" class="b-product__imgwrap">
 						<img src="/img/thumbs/product-thumb.jpg" alt="1" class="b-product__img">
 					</a>
 					<div class="b-product__content">
 						<div class="b-product__sale">-50%</div>
-						<a href="#" class="b-product__title">Короткое название</a>
+						<a href="/catalog-details.php" class="b-product__title">Короткое название</a>
 						<span class="b-product__oldprice">3 500 руб.</span>
 						<span class="b-product__price">1 500 руб.</span>
 						<div class="b-product__triggers">
@@ -188,18 +188,18 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
 
 			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
 				<div class="b-product">
-					<a href="#" class="b-product__imgwrap">
+					<a href="/catalog-details.php" class="b-product__imgwrap">
 						<img src="/img/thumbs/product-thumb.jpg" alt="1" class="b-product__img">
 					</a>
 					<div class="b-product__content">
-						<a href="#" class="b-product__title">Большой прозрачный шар Морской пузырик</a>
+						<a href="/catalog-details.php" class="b-product__title">Большой прозрачный шар Морской пузырик</a>
 						<span class="b-product__price">1 500 руб.</span>
 						<div class="b-product__triggers">
 							<i class="i-tr-gift" title="Подарок"></i>
@@ -211,19 +211,19 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
 
 			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
 				<div class="b-product">
-					<a href="#" class="b-product__imgwrap">
+					<a href="/catalog-details.php" class="b-product__imgwrap">
 						<img src="/img/thumbs/product-thumb.jpg" alt="1" class="b-product__img">
 					</a>
 					<div class="b-product__content">
 						<div class="b-product__sale">-50%</div>
-						<a href="#" class="b-product__title">Большой прозрачный шар Морской пузырик очень длинное название</a>
+						<a href="/catalog-details.php" class="b-product__title">Большой прозрачный шар Морской пузырик очень длинное название</a>
 						<span class="b-product__oldprice">3 500 руб.</span>
 						<span class="b-product__price">1 500 руб.</span>
 						<div class="b-product__triggers">
@@ -236,18 +236,18 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
 
 			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
 				<div class="b-product">
-					<a href="#" class="b-product__imgwrap">
+					<a href="/catalog-details.php" class="b-product__imgwrap">
 						<img src="/img/thumbs/product-thumb.jpg" alt="1" class="b-product__img">
 					</a>
 					<div class="b-product__content">
-						<a href="#" class="b-product__title">Большой прозрачный шар Морской пузырик</a>
+						<a href="/catalog-details.php" class="b-product__title">Большой прозрачный шар Морской пузырик</a>
 						<span class="b-product__price">1 500 руб.</span>
 						<div class="b-product__triggers">
 							<i class="i-tr-gift" title="Подарок"></i>
@@ -259,7 +259,7 @@
 					</div>
 					<div class="b-product__actions">
 						<a href="#" class="btn">В корзину</a>
-						<a href="#" class="link">В 1 клик</a>
+						<a href="#" class="link fancy" data-src="#modal-oneclick" rel="nofollow">В 1 клик</a>
 					</div>
 				</div>
 			</div>
