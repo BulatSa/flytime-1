@@ -4,6 +4,12 @@
 	.pagination{
 		text-align: left;
 	}
+
+	.b-promo{
+		@include res(l){
+			display: none;
+		}
+	}
 }
 
 .catalog-sort{
@@ -28,14 +34,15 @@
 .filter-block{
 	background: #FFF;
 	border-radius: 30px;
+	margin-bottom: $pad-l;
 	@include res(l){
 		display: none;
 		flex-wrap: wrap;
+		margin-bottom: $pad-s;
 	}
 
 	&.open{
 		display: flex;
-		margin-bottom: $pad-s;
 	}
 
 	&__footer{

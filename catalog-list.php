@@ -1,5 +1,6 @@
 <?php include('header.php'); ?>
 
+
 <section class="s-page-title">
 	<div class="container">
 		<h1 class="h1">Арки из шаров</h1>
@@ -7,12 +8,12 @@
 </section>
 
 
-
 <section class="s-catalog-list">
 	<div class="container">
 		<div class="row">
 
 			<div class="grid-3 grid-12_l">
+
 				<a href="#" class="btn btn--big filter-show-btn">Фильтр <i class="i-down"></i></a>
 				<div class="filter-block">
 
@@ -97,6 +98,14 @@
 					</div>
 
 				</div>
+
+				<a href="/promo-details.php" class="b-promo">
+					<img src="/img/thumbs/promo-thumb.jpg" alt="1" class="b-promo__img">
+				</a>
+
+				<a href="/promo-details.php" class="b-promo">
+					<img src="/img/thumbs/promo-thumb-2.jpg" alt="1" class="b-promo__img">
+				</a>
 
 			</div>
 
