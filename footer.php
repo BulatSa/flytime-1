@@ -130,7 +130,7 @@
 				<span class="input-block__label">Телефон*</span>
 				<input type="tel" name="user_tel" class="input-text" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
 			</label>
-			<label class="style-checkbox style-checkbox--policy" focus>
+			<label class="style-checkbox style-checkbox--policy">
 				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked>
 				<span class="style-checkbox__label">
 					<span class="style-checkbox__descr">Заполняя поля и нажимая на кнопку “Оплатить”, я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="#">политики конфиденциальности</a>.</span>

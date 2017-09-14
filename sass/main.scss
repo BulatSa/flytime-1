@@ -4,6 +4,9 @@
 
 @import 'vendors/fancybox';
 @import 'vendors/flickity';
+@import 'vendors/nice-select';
+@import 'vendors/ion.rangeSlider';
+@import 'vendors/ion.rangeSlider.skin';
 
 @import 'base/reset';
 @import 'base/fonts';
@@ -30,5 +33,6 @@
 @import 'pages/home';
 @import 'pages/about';
 @import 'pages/catalog_sections';
+@import 'pages/catalog_list';
 @import 'pages/promo';
 @import 'pages/price-details';

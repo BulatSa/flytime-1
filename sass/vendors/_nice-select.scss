@@ -1,0 +1,123 @@
+// Default variables
+$font_size: 14px !default;
+$font_size_small: 12px !default;
+
+$input_height_small: 36px !default;
+$dropdown_padding: 18px !default;
+
+$gray_dark: #444 !default;
+$gray: #999 !default;
+$gray_light: #e8e8e8 !default;
+$gray_lighter: #f6f6f6 !default;
+$primary_light: $gray !default;
+$arrow_color: $gray !default;
+
+// Style the dropdown
+.nice-select {
+	@extend .btn;
+	@extend .btn--outline;
+
+	// Arrow
+	&:after {
+		content: '';
+		display: block;
+		position: relative;
+		width: 8px;
+		height: 8px;
+		top: -1px;
+		border: 2px solid $orange;
+		border-top: 0;
+		border-right: 0;
+		transform: rotate(-45deg);
+		margin-left: $pad-s;
+		line-height: 1;
+		color: $orange;
+		@include res(xs){
+			width: 6px;
+			height: 6px;
+			margin-left: $pad-xs;
+		}
+	}
+
+	&.open {
+		.list {
+			opacity: 1;
+			pointer-events: auto;
+			transform: scale(1) translateY(0);
+		}
+	}
+	&.disabled {
+		border-color: lighten($gray_light, 2%);
+		color: $gray;
+		pointer-events: none;
+		&:after {
+			border-color: lighten($arrow_color, 20%);
+		}
+	}
+
+
+	// List and options
+	.list {
+		background-color: #fff;
+		box-shadow: 2px 2px 6px 0 transparentize($black,0.8);
+		box-sizing: border-box;
+		margin-top: 4px;
+		opacity: 0;
+		overflow: hidden;
+		padding: 0;
+		pointer-events: none;
+		position: absolute;
+		top: 100%;
+		min-width: 100%;
+		border-radius: 20px;
+		left: 0;
+		transform-origin: 50% 0;
+		transform: scale(.8) translate3d(0,-10px,0);
+		transition: all .15s ease, opacity .15s ease-out;
+		z-index: 20;
+		color: $black;
+		&:hover .option:not(:hover) {
+			background-color: transparent !important;
+		}
+	}
+	.option {
+		cursor: pointer;
+		font-weight: 400;
+		list-style: none;
+		line-height: 40px;
+		min-height: 40px;
+		outline: none;
+		padding-left: $dropdown_padding;
+		padding-right: $dropdown_padding + 11;
+		text-align: left;
+		transition: all 0.2s;
+		@include res(xs){
+			line-height: 30px;
+			min-height: 30px;
+		}
+		&:hover, &.focus, &.selected.focus {
+			background-color: $gray_lighter;
+		}
+		&.selected {
+			font-weight: bold;
+			color: $orange;
+		}
+		&.disabled {
+			background-color: transparent;
+			color: $gray;
+			cursor: default;
+		}
+	}
+}
+
+// Use display instead of opacity for IE <= 10
+.no-csspointerevents .nice-select {
+	.list {
+		display: none;
+	}
+	&.open {
+		.list {
+			display: block;
+		}
+	}
+}

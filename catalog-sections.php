@@ -12,7 +12,7 @@
 
 		<div class="cat-list row">
 			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
+				<a href="/catalog-list.php" class="cat-item">
 					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
 					<div class="cat-item__content">
 						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
@@ -20,7 +20,7 @@
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
+				<a href="/catalog-list.php" class="cat-item">
 					<img src="/img/thumbs/cat-thumb--white.jpg" alt="cat" class="cat-item__img">
 					<div class="cat-item__content">
 						<span class="h5 cat-item__title">Украшение на хеллоуин</span>
@@ -28,7 +28,7 @@
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
+				<a href="/catalog-list.php" class="cat-item">
 					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
 					<div class="cat-item__content">
 						<span class="h5 cat-item__title">Новогоднее супер красочное украшение шарами</span>
@@ -36,7 +36,7 @@
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
+				<a href="/catalog-list.php" class="cat-item">
 					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
 					<div class="cat-item__content">
 						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
@@ -44,7 +44,7 @@
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
+				<a href="/catalog-list.php" class="cat-item">
 					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
 					<div class="cat-item__content">
 						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
@@ -52,7 +52,7 @@
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
+				<a href="/catalog-list.php" class="cat-item">
 					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
 					<div class="cat-item__content">
 						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
@@ -60,7 +60,7 @@
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
+				<a href="/catalog-list.php" class="cat-item">
 					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
 					<div class="cat-item__content">
 						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
@@ -68,7 +68,7 @@
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
+				<a href="/catalog-list.php" class="cat-item">
 					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
 					<div class="cat-item__content">
 						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
@@ -76,7 +76,7 @@
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
+				<a href="/catalog-list.php" class="cat-item">
 					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
 					<div class="cat-item__content">
 						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
@@ -84,7 +84,7 @@
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
+				<a href="/catalog-list.php" class="cat-item">
 					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
 					<div class="cat-item__content">
 						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
@@ -92,7 +92,7 @@
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
+				<a href="/catalog-list.php" class="cat-item">
 					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
 					<div class="cat-item__content">
 						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
@@ -100,7 +100,7 @@
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
+				<a href="/catalog-list.php" class="cat-item">
 					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
 					<div class="cat-item__content">
 						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>
@@ -108,7 +108,7 @@
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m">
-				<a href="#" class="cat-item">
+				<a href="/catalog-list.php" class="cat-item">
 					<img src="/img/thumbs/cat-thumb.jpg" alt="cat" class="cat-item__img">
 					<div class="cat-item__content">
 						<span class="h5 cat-item__title">Свадьба в стиле надувного шара</span>

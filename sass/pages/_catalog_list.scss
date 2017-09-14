@@ -1,0 +1,142 @@
+.s-catalog-list{
+	padding-bottom: $pad-xl;
+	
+	.pagination{
+		text-align: left;
+	}
+}
+
+.catalog-sort{
+	padding-bottom: $pad-m;
+	@include res(xs){
+		padding-bottom: $pad-xs;
+	}
+
+	.style-select{
+		margin-right: $pad-s;
+		margin-bottom: $pad-xs;
+		max-width: 100%;
+		@include res(xs){
+			margin-right: 2px;
+			font-size: 10px;
+		}
+	}
+}
+
+
+//filter-block
+.filter-block{
+	background: #FFF;
+	border-radius: 30px;
+	@include res(l){
+		display: none;
+		flex-wrap: wrap;
+	}
+
+	&.open{
+		display: flex;
+		margin-bottom: $pad-s;
+	}
+
+	&__footer{
+		padding: 0 $pad-m $pad-m $pad-m;
+		width: 100%;
+		@include res(l){
+			border-top: 1px solid $color-bg;
+			padding: $pad-s;
+		}
+
+		.btn{
+			width: 100%;
+			max-width: 250px;
+			@include res(s){
+				width: auto;
+				max-width: inherit;
+			}
+		}
+	}
+
+	&__reset{
+		margin-top: $pad-s;
+		margin-left: $pad-s;
+		@include res(l){
+			margin-top: 20px;
+		}
+		@include res(xs){
+			font-size: 12px;
+			margin-top: 8px;
+		}
+	}
+
+}
+
+.filter{
+	padding: $pad-m;
+	border-top: 1px solid $color-bg;
+	@include res(l){
+		width: calc(100% / 3);
+		border-top: 0;
+	}
+	@include res(s){
+		width: 100%;
+		border-top: 1px solid $color-bg;
+	}
+	@include res(xs){
+		padding: $pad-s;
+	}
+
+	&:first-child{
+		border-top: 0;
+	}
+
+	&__title{
+		display: block;
+		margin-bottom: $pad-s;
+	}
+
+	.style-checkbox{
+		margin-bottom: $pad-s;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
+
+.price-filter{
+
+	&__header{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: $pad-s;
+
+		label{
+			display: block;
+			width: calc(50% - 4px);
+		}
+
+		span{
+			display: block;
+			font-size: 14px;
+			color: $grey;
+			margin-bottom: 4px;
+		}
+
+		input{
+			width: 100%;
+			@extend .input-text;
+			text-align: center;
+			padding-left: 4px;
+			padding-right: 4px;
+		}
+	}
+}
+
+.filter-show-btn{
+	display: none;
+	@include res(l){
+		display: inline-flex;
+		margin-bottom: $pad-s;
+	}
+}
+//filter-block

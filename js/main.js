@@ -235,3 +235,61 @@ $(document).ready(function() {
 /***********************
 Reviews-wall END
 ***********************/
+
+
+/***********************
+Nice Select BEGIN
+***********************/
+$(document).ready(function() {
+	$('.style-select').niceSelect();
+});
+/***********************
+Nice Select END
+***********************/
+
+
+/***********************
+Filters BEGIN
+***********************/
+$(document).ready(function() {
+
+	//price-slider
+	var price_slider = $(".price_range");
+
+	price_slider.ionRangeSlider({
+		type: "double",
+		hide_min_max: true,
+		hide_from_to: true,
+		grid: false
+	});
+
+	price_slider.on('change',function () {
+		var from = $(this).data("from");
+		var to = $(this).data("to");
+		$('.price-filter--from').val(from);
+		$('.price-filter--to').val(to);
+	});
+
+	var price_slider_data = price_slider.data("ionRangeSlider");
+	$('.price-filter--from').on('change',function () {
+		price_slider_data.update({
+			from: $(this).val()
+		});
+	});
+	$('.price-filter--to').on('change',function () {
+		price_slider_data.update({
+			to: $(this).val()
+		});
+	});
+	//price-slider
+
+
+	$('.filter-show-btn').on('click touchstart',function (e) {
+		e.preventDefault();
+		$('.filter-block').toggleClass('open');
+	})
+
+});
+/***********************
+Filters END
+***********************/
