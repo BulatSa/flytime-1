@@ -278,5 +278,19 @@
 	color: #FFF;
 	@extend %padding-for-sections;
 	background: url("../img/home/photoalbums-bg.jpg") center top no-repeat $blue;
+	&--black {
+		background: url("../img/business/photoalbums-bg.jpg") center top no-repeat #35383d;
+		background-size: cover;
+	}
+}
+
+.s-photoalbums__btn-bottom {
+	margin-top: $pad-m;
+	@include res(xl) {
+		margin-bottom:$pad-m;
+	}
+	@include res(l) {
+		margin-top:$pad-s;
+	}
 }
 //s-photoalbums
