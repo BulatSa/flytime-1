@@ -124,7 +124,7 @@
 			<a href="/garant.php">Гарантия качества</a>
 			<a href="/reviews.php">Отзывы</a>
 			<a href="/promo-list.php">Акции</a>
-			<a href="#">Бизнесу</a>
+			<a href="/business.php">Бизнесу</a>
 			<a href="#">Контакты</a>
 		</nav>
 
@@ -151,7 +151,7 @@
 			<a href="/garant.php">Гарантия качества</a>
 			<a href="/reviews.php">Отзывы</a>
 			<a href="/promo-list.php">Акции</a>
-			<a href="#">Бизнесу</a>
+			<a href="/business.php">Бизнесу</a>
 			<a href="#">Контакты</a>
 		</nav>
 
