@@ -12,6 +12,12 @@
 	@include res(s) {
 		padding-top: $pad-m;
 	}
+	&.wave-bottom-white {
+		padding-bottom: $pad-l;
+		@include res(l) {
+			padding-bottom: $pad-m;
+		}
+	}
 }
 
 .about-info {
@@ -125,6 +131,22 @@
 		&:after {
 			background: rgba(213, 223, 225, 0.2);
 			filter: blur(5px);
+		}
+	}
+}
+
+.about-info__facts {}
+
+.about-info__fact {
+	padding-bottom: $pad-m;
+	p {
+		font-size: 16px;
+		line-height:1.1;
+		@include res(l) {
+			font-size: 14px;
+		}
+		@include res(xs) {
+			font-size: 12px;
 		}
 	}
 }

@@ -112,9 +112,16 @@
 		}
 	}
 	&--delivery {
-		background-image: url('../img/delivery/bg-intro.jpg');
+		 background-image: url('../img/delivery/bg-intro.jpg');
+		 @include res(l) {
+			 background-image: url('../img/delivery/bg-intro-tab.jpg');
+		 }
+	 }
+	&--business {
+		color: #fff;
+		background-image: url('../img/business/bg-intro.jpg');
 		@include res(l) {
-			background-image: url('../img/delivery/bg-intro-tab.jpg');
+			background-image: url('../img/business/bg-intro-tab.jpg');
 		}
 	}
 
@@ -124,6 +131,9 @@
 		&>.h1 {
 			display: block;
 			margin-bottom:0.5em;
+		}
+		&>.btn {
+			margin-top: $pad-l;
 		}
 	}
 }
