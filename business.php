@@ -8,7 +8,7 @@
 				<div class="user-content">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
 				</div>
-				<a href="#" class="btn btn--big">Рассчитать стоимость <i class="i-down"></i>
+				<a href="#" class="btn btn--big fancy" data-src="#modal-price">Рассчитать стоимость <i class="i-down"></i>
 				</a>
 			</div>
 		</div>
@@ -161,33 +161,6 @@
 		</div>
 
 	</div>
-
-	<div id="modal-price" class="modal">
-		<p class="modal__title h3">Рассчитать стоимость</p>
-		<p class="modal__subtitle">Оставьте заявку и наш администратор свяжется с&nbsp;Вами в&nbsp;течение 10 минут</p>
-		<form class="ajax-form vertical-form">
-			<label class="input-block">
-				<span class="input-block__label">Имя</span>
-				<input type="text" name="user_name" class="input-text" placeholder="Введите имя" data-label="Имя пользователя">
-			</label>
-			<label class="input-block">
-				<span class="input-block__label">E-mail*</span>
-				<input type="email" name="user_email" class="input-text" placeholder="Введите e-mail*" data-label="Email" data-req="true">
-			</label>
-			<label class="input-block">
-				<span class="input-block__label">Телефон*</span>
-				<input type="tel" name="user_tel" class="input-text" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
-			</label>
-			<label class="style-checkbox style-checkbox--policy">
-				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked>
-				<span class="style-checkbox__label">
-					<span class="style-checkbox__descr">Заполняя поля и нажимая на кнопку “Оплатить”, я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="#">политики конфиденциальности</a>.</span>
-				</span>
-			</label>
-			<input type="hidden" value="Рассчитать стоимость" name="form_subject">
-			<button type="submit" class="btn">Отправить</button>
-		</form>
-	</div>
 </section>
 
 <section class="s-home-ready wave-top-light-blue">
@@ -234,5 +207,34 @@
 
 	</div>
 </section>
+
+
+<div id="modal-price" class="modal">
+	<p class="modal__title h3">Рассчитать стоимость</p>
+	<p class="modal__subtitle">Оставьте заявку и наш администратор свяжется с&nbsp;Вами в&nbsp;течение 10 минут</p>
+	<form class="ajax-form vertical-form">
+		<label class="input-block">
+			<span class="input-block__label">Имя</span>
+			<input type="text" name="user_name" class="input-text" placeholder="Введите имя" data-label="Имя пользователя">
+		</label>
+		<label class="input-block">
+			<span class="input-block__label">E-mail*</span>
+			<input type="email" name="user_email" class="input-text" placeholder="Введите e-mail*" data-label="Email" data-req="true">
+		</label>
+		<label class="input-block">
+			<span class="input-block__label">Телефон*</span>
+			<input type="tel" name="user_tel" class="input-text" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
+		</label>
+		<label class="style-checkbox style-checkbox--policy">
+			<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked>
+			<span class="style-checkbox__label">
+				<span class="style-checkbox__descr">Заполняя поля и нажимая на кнопку “Оплатить”, я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="#">политики конфиденциальности</a>.</span>
+			</span>
+		</label>
+		<input type="hidden" value="Рассчитать стоимость" name="form_subject">
+		<button type="submit" class="btn">Отправить</button>
+	</form>
+</div>
+
 
 <?php include('footer.php'); ?>
