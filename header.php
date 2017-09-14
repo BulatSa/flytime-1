@@ -119,7 +119,7 @@
 
 		<nav class="top-nav">
 			<a href="/about.php">О нас</a>
-			<a href="#" class="active">Доставка</a>
+			<a href="/delivery.php" class="active">Доставка</a>
 			<a href="/payment.php">Оплата</a>
 			<a href="/garant.php">Гарантия качества</a>
 			<a href="/reviews.php">Отзывы</a>
@@ -146,7 +146,7 @@
 		
 		<nav class="top-nav">
 			<a href="/about.php">О нас</a>
-			<a href="#" class="active">Доставка</a>
+			<a href="/delivery.php" class="active">Доставка</a>
 			<a href="/payment.php">Оплата</a>
 			<a href="/garant.php">Гарантия качества</a>
 			<a href="/reviews.php">Отзывы</a>

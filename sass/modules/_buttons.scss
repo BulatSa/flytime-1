@@ -20,7 +20,7 @@
 	border: 1px solid $orange;
 	border-radius: 30px;
 	@include res(xs){
-		padding: 8px $pad-xs;
+		padding: 10px $pad-xs;
 		font-size: 12px;
 	}
 
@@ -104,7 +104,7 @@ button::-moz-focus-inner {
 		font-size: 14px;
 	}
 	@include res(xs){
-		padding: 8px $pad-xs;
+		padding: 10px $pad-xs;
 		font-size: 12px;
 	}
 }
