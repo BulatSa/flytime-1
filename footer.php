@@ -164,7 +164,7 @@
 					<span class="style-checkbox__descr">Заполняя поля и нажимая на кнопку “Оплатить”, я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="#">политики конфиденциальности</a>.</span>
 				</span>
 			</label>
-			<input type="hidden" value="Новая заявка" name="form_subject">
+			<input type="hidden" value="Покупка в 1 клик" name="form_subject">
 			<button type="submit" class="btn">Отправить</button>
 		</form>
 	</div>
