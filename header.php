@@ -58,7 +58,7 @@
 				<strong>5</strong>
 				<span>Избранное</span>
 			</a>
-			<a href="#" class="user-nav__link">
+			<a href="/basket.php" class="user-nav__link">
 				<i class="i-cart"></i>
 				<strong>25</strong>
 				<span>Корзина</span>
@@ -171,7 +171,7 @@
 				<strong>5</strong>
 				<span>Избранное</span>
 			</a>
-			<a href="#" class="user-nav__link">
+			<a href="/basket.php" class="user-nav__link">
 				<i class="i-cart"></i>
 				<strong>25</strong>
 				<span>Корзина</span>
