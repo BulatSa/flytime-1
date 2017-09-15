@@ -121,7 +121,18 @@
 		color: #fff;
 		background-image: url('../img/business/bg-intro.jpg');
 		@include res(l) {
-			background-image: url('../img/business/bg-intro-tab.jpg');
+			background-image: url('../img/business/photoalbums-bg.jpg');
+		}
+	}
+	&--contact {
+		background-image: url('../img/business/bg-intro.jpg');
+		@include res(l) {
+			background-image: url('../img/business/photoalbums-bg.jpg');
+		}
+		.intro__content {
+			position: relative;
+			pointer-events: none;
+			z-index: 1;
 		}
 	}
 
@@ -339,6 +350,16 @@
 	@include res(s){
 		margin-top: $pad-xs;
 		font-size: 20px;
+	}
+}
+
+.intro__map {
+	#contact-map {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 	}
 }
 

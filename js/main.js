@@ -320,3 +320,48 @@ $(document).ready(function() {
 /***********************
 Filters END
 ***********************/
+
+
+/**************************************************
+ Google Maps
+ ***************************************************/
+// gmaps
+if ($('#contact-map').length) { //если карта существует
+	$(document).ready(function(){
+
+		google.maps.event.addDomListener(window, 'load', initMap);
+
+		function initMap() {
+			var latLng= {};
+			latLng.lat = 55.683998;
+			if ($(window).width() < 740) {
+				latLng.lng = 37.578508;
+			} else {
+				latLng.lng = 37.574309;
+			}
+			var mapOptions = {
+				zoom: 16,
+				scrollwheel: false,
+				mapTypeControl: false,
+				zoomControlOptions: {
+					position: google.maps.ControlPosition.LEFT_CENTER
+				},
+				center: new google.maps.LatLng(latLng.lat, latLng.lng)
+			};
+
+			var mapElement = document.getElementById('contact-map');
+
+			var map = new google.maps.Map(mapElement, mapOptions);
+
+			var marker = new google.maps.Marker({
+				position: new google.maps.LatLng(55.683998, 37.578309),
+				map: map,
+				title: 'г. Москва, ул. Дмитрия Ульянова 30 к2',
+				icon: '/img/svg/map-bubble-orange.svg'
+			});
+		}
+	});
+}
+/**************************************************
+ End Google Maps
+ ***************************************************/

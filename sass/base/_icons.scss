@@ -20,12 +20,6 @@ i {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.i-cool:before {
-	content: "\e911";
-}
-.i-phone:before {
-	content: "\e910";
-}
 .i-delivery:before {
 	content: "\e900";
 }
@@ -73,4 +67,22 @@ i {
 }
 .i-up:before {
 	content: "\e90f";
+}
+.i-phone:before {
+	content: "\e910";
+}
+.i-cool:before {
+	content: "\e911";
+}
+.i-clock:before {
+	content: "\e912";
+}
+.i-geo:before {
+	content: "\e913";
+}
+.i-mail:before {
+	content: "\e914";
+}
+.i-phone-btns:before {
+	content: "\e915";
 }
