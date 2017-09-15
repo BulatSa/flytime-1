@@ -125,7 +125,7 @@
 			<a href="/reviews.php">Отзывы</a>
 			<a href="/promo-list.php">Акции</a>
 			<a href="/business.php">Бизнесу</a>
-			<a href="#">Контакты</a>
+			<a href="/contact.php">Контакты</a>
 		</nav>
 
 	</div>
@@ -152,7 +152,7 @@
 			<a href="/reviews.php">Отзывы</a>
 			<a href="/promo-list.php">Акции</a>
 			<a href="/business.php">Бизнесу</a>
-			<a href="#">Контакты</a>
+			<a href="/contact.php">Контакты</a>
 		</nav>
 
 		<nav class="user-nav">

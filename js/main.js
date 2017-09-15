@@ -326,9 +326,8 @@ Filters END
  Google Maps
  ***************************************************/
 // gmaps
-if ($('#contact-map').length) { //если карта существует
-	$(document).ready(function(){
-
+$(document).ready(function(){
+	if ($('#contact-map').length) {
 		google.maps.event.addDomListener(window, 'load', initMap);
 
 		function initMap() {
@@ -360,8 +359,8 @@ if ($('#contact-map').length) { //если карта существует
 				icon: '/img/svg/map-bubble-orange.svg'
 			});
 		}
-	});
-}
+	}
+});
 /**************************************************
  End Google Maps
  ***************************************************/
