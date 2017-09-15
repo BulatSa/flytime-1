@@ -7,13 +7,16 @@
 	display: none !important;
 }
 
-@for $i from 1 through 12 {
+@for $i from 0 through 12 {
 	.grid-#{$i} {
 		@extend %grid;
 		width: 100% / 12 * $i;
 	}
 	.grid-off-#{$i} {
 		margin-left: 1 / 12 * $i * 100%;
+	}
+	.order-#{$i} {
+		order: $i;
 	}
 }
 
@@ -29,19 +32,6 @@
 			.hidden_#{$breakpoint}{
 				display: none;
 			}
-		}
-	}
-}
-
-@for $i from 0 through 12 {
-	.order-#{$i} {
-		order: $i;
-	}
-}
-
-@each $breakpoint,$value in $breakpoints {
-	@include res($breakpoint){
-		@for $i from 0 through 12 {
 			.order-#{$i}_#{$breakpoint} {
 				order: $i;
 			}
