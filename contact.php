@@ -88,6 +88,7 @@
 						<input type="text" name="user_name" class="input-text" placeholder="Введите имя" data-label="Имя пользователя">
 						<input type="tel" name="user_tel" class="input-text" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
 						<input type="mail" name="user_mail" class="input-text" data-label="Почта" placeholder="Введите email*" data-req="true">
+						<input type="hidden" value="Вопросы, пожелания" name="form_subject">
 						<button type="submit" class="btn btn--big">Отправить <i class="i-right"></i></button>
 					</div>
 					<div class="grid-7 grid-6_s grid-12_xs order-0_xs">

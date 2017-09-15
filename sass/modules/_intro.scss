@@ -125,10 +125,7 @@
 		}
 	}
 	&--contact {
-		background-image: url('../img/business/bg-intro.jpg');
-		@include res(l) {
-			background-image: url('../img/business/photoalbums-bg.jpg');
-		}
+		background-color: $blue;
 		.intro__content {
 			position: relative;
 			pointer-events: none;
