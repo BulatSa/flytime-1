@@ -30,6 +30,14 @@
 	@include res(m) {
 		margin-bottom: 0.3em;
 	}
+	&--contact {
+		img {
+			max-height: 45px;
+			@include res(m) {
+				max-height: 28px;
+			}
+		}
+	}
 }
 
 .about-info__text-wrap {
@@ -69,6 +77,56 @@
 		}
 		@include res(s) {
 			margin-top: -$pad-xs;
+		}
+	}
+	&--contact {
+		p {
+			position: relative;
+			span {
+				display: block;
+				margin-left: 35px;
+			}
+		}
+		i {
+			position: absolute;
+			top: 0.15em;
+			left: 0;
+			display: inline-block;
+			width: 25px;
+			height: 20px;
+			margin-right: 10px;
+			text-align: center;
+			font-size: 19px;
+		}
+		a {
+			transition: all 0.3s ease;
+			&:hover {
+				color: $orange-hover
+			}
+		}
+		.i-mail {
+			top: 0.35em;
+			font-size: 14px;
+		}
+	}
+}
+
+.about-info__laws {
+	display: flex;
+	flex-wrap: wrap;
+	span {
+		width: 25%;
+		@include res(xl) {
+			width: 33.33333%;
+		}
+		@include res(m) {
+			width: 50%;
+		}
+		@include res(s) {
+			width: 33.33333%;
+		}
+		@include res(xs) {
+			width: 50%;
 		}
 	}
 }
@@ -141,7 +199,7 @@
 	padding-bottom: $pad-m;
 	p {
 		font-size: 16px;
-		line-height:1.1;
+		line-height: 1.1;
 		@include res(l) {
 			font-size: 14px;
 		}

@@ -1,0 +1,31 @@
+.form-contact-sec {
+	color: #FFF;
+	@extend %padding-for-sections;
+	background: url("../img/home/photoalbums-bg.jpg") center top no-repeat $blue;
+}
+
+.form-contact {
+	max-width: 820px;
+	margin: 0 auto;
+	padding-top: $pad-l;
+	padding-bottom: $pad-l;
+	padding-left: $pad-l;
+	padding-right: $pad-l;
+	border-radius: 30px;
+	background: #fff;
+	@include res(l) {
+		padding-left: $pad-m;
+		padding-right: $pad-m;
+	}
+	@include res(s) {
+		padding-top: $pad-m;
+		padding-bottom: $pad-m;
+		padding-left: $pad-s;
+		padding-right: $pad-s;
+	}
+	.h2 {
+		margin-bottom: $pad-m;
+		text-align: center;
+		color: #000;
+	}
+}

@@ -47,6 +47,56 @@ label{cursor: pointer;}
 	}
 }
 
+.input-textarea{
+	display: inline-block;
+	font-family: $font;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1.3;
+	-webkit-appearance: none;
+	border: 1px solid $grey-light;
+	border-radius: 30px;
+	padding: $pad-s $pad-m;
+	background: #FFF;
+	overflow: visible;
+	box-shadow: 0 0 0 1px transparent,0 4px 15px -3px transparent;
+	transition: all 0.3s ease;
+	@include res(l){
+		padding: 10px $pad-m;
+	}
+	@include res(xs){
+		padding: 10px $pad-s;
+	}
+
+	@include placeholder {
+		font-family: $font;
+		font-size: 15px;
+		font-weight: 400;
+		color: $grey;
+		opacity: 1;
+		transition: all 0.3s ease;
+	}
+
+	&:hover{
+		border: 1px solid $orange-hover;
+	}
+
+	&:focus{
+		outline: none;
+		border: 1px solid $orange;
+		box-shadow: 0 0 0 1px $orange,0 4px 15px -3px rgba(0,0,0,0.3);
+		@include placeholder {
+			opacity: 0;
+		}
+	}
+
+	&.error{
+		background: transparentize($red,0.9);
+		border-color: $red;
+		box-shadow: 0 0 0 3px transparentize($red,0.7);
+	}
+}
+
 
 .input-block{
 	display: flex;
@@ -79,7 +129,7 @@ label{cursor: pointer;}
 }
 
 
-.vertical-form{
+.vertical-form {
 	.input-block{
 		margin-bottom: $pad-xs;
 		@include res(s){
@@ -91,6 +141,33 @@ label{cursor: pointer;}
 
 		&--policy{
 			margin-top: $pad-s;
+		}
+	}
+}
+
+.horizontal-form {
+	&--halfed {
+		.input-text {
+			width: 100%;
+			margin-bottom: $pad-xs;
+			@include res(s){
+				margin-bottom: $pad-s;
+			}
+		}
+		.input-textarea {
+			display: block;
+			width: 100%;
+			height: 100%;
+			@include res(xs) {
+				height: inherit;
+				margin-bottom: $pad-s;
+			}
+		}
+		.style-checkbox {
+			margin-top: $pad-s;
+		}
+		button {
+			width: 100%;
 		}
 	}
 }
