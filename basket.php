@@ -53,7 +53,7 @@
 			</div>
 
 			<div class="basket-item">
-				<div class="basket-item__col--key">55</div>
+				<div class="basket-item__col--key">2</div>
 				<div class="basket-item__col--thumb">
 					<a href="#"><img src="/img/thumbs/basket-thumb.jpg" alt=""></a>
 				</div>
