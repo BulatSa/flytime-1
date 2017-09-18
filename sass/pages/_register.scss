@@ -5,10 +5,13 @@
 
 .white-panel{
 	background: #FFF;
-	padding: $pad-l;
+	padding: $pad-xl;
 	border-radius: 30px;
 	box-shadow: 0 12px 30px transparentize($blue,0.85);
 	margin-bottom: $pad-xl;
+	@include res(xl){
+		padding: $pad-l;
+	}
 	@include res(l){
 		padding: $pad-m;
 	}
