@@ -38,6 +38,22 @@
 		}
 	}
 
+	.style-checkbox__label, .right-btn {
+		max-width: 430px;
+		@include res(m) {
+			max-width: 420px;
+		}
+		@include res(s) {
+			max-width: 300px;
+		}
+	}
+	.right-btn {
+		padding-top: $pad-s;
+		@include res(m) {
+			padding-top: $pad-xs;
+		}
+	}
+
 	.input-block{
 		padding-left: $pad-m;
 		@include res(l){
