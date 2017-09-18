@@ -60,6 +60,7 @@
 	margin-left: -$pad-m;
 	margin-right: -$pad-m;
 	margin-bottom: $pad-m;
+	border-bottom: 1px solid $color-bg;
 	@include res(l){
 		margin-left: -$pad-s;
 		margin-right: -$pad-s;
