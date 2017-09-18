@@ -1,0 +1,27 @@
+.s-register {
+	padding-bottom: $pad-xxl;
+	background: url("../img/register/bg-pattern.jpg") no-repeat top center;
+}
+
+.register__text {
+	padding-left: 5%;
+	@include res(m) {
+		padding-left: 0;
+	}
+	.h2 {
+		padding-bottom: $pad-s;
+		@include res(m) {
+			padding-bottom: $pad-xs;
+		}
+	}
+	img {
+		max-width: 100%;
+		margin-top: $pad-l;
+		@include res(l) {
+			margin-top: $pad-m;
+		}
+		@include res(m) {
+			display: none;
+		}
+	}
+}
