@@ -45,7 +45,6 @@
 								<span class="style-checkbox__descr">Заполняя поля и нажимая на кнопку “Отправить”, я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="#">политики конфиденциальности</a>.</span>
 							</span>
 						</label>
-						<input type="hidden" value="Вход в личный кабинет - Регистрация" name="form_subject">
 						<button type="submit" class="btn btn--big">Зарегистрироваться <i class="i-right"></i></button>
 					</div>
 				</form>
