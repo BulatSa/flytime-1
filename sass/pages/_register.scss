@@ -3,6 +3,24 @@
 	background: url("../img/register/bg-pattern.jpg") no-repeat top center;
 }
 
+.white-panel{
+	background: #FFF;
+	padding: $pad-l;
+	border-radius: 30px;
+	box-shadow: 0 12px 30px transparentize($blue,0.85);
+	margin-bottom: $pad-xl;
+	@include res(l){
+		padding: $pad-m;
+	}
+	@include res(m){
+		margin-bottom: $pad-m;
+	}
+	@include res(xs){
+		padding: $pad-s;
+		border-radius: 10px;
+	}
+}
+
 .register__text {
 	padding-left: 5%;
 	@include res(m) {

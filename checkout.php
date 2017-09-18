@@ -57,23 +57,23 @@
 					<p class="h2 checkout-panel__title">3. О покупателе</p>
 					<label class="input-block">
 						<span class="input-block__label">Имя</span>
-						<input type="text" name="" class="input-text" placeholder="Ваше имя">
+						<input type="text" name="" class="input-text" placeholder="Введите имя">
 					</label>
 					<label class="input-block">
 						<span class="input-block__label">Телефон*</span>
-						<input type="tel" name="" class="input-text error" placeholder="Ваш телефон*">
+						<input type="tel" name="" class="input-text error" placeholder="Введите телефон*">
 					</label>
 					<label class="input-block">
 						<span class="input-block__label">E-mail*</span>
-						<input type="email" name="" class="input-text error" placeholder="Ваш e-mail*">
+						<input type="email" name="" class="input-text error" placeholder="Введите e-mail*">
 					</label>
 					<label class="input-block">
 						<span class="input-block__label">Город</span>
-						<input type="text" name="" class="input-text" placeholder="Ваш город" value="Москва">
+						<input type="text" name="" class="input-text" placeholder="Введите город" value="Москва">
 					</label>
 					<label class="input-block">
 						<span class="input-block__label">Адрес</span>
-						<input type="text" name="" class="input-text" placeholder="Ваш адрес">
+						<input type="text" name="" class="input-text" placeholder="Введите адрес">
 					</label>
 					<label class="input-block">
 						<span class="input-block__label">Комментарии</span>
