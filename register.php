@@ -16,16 +16,16 @@
 				<form>
 					<div class="checkout-panel vertical-form">
 						<label class="input-block">
-							<span class="input-block__label">Имя</span>
-							<input type="text" name="" class="input-text" placeholder="Ваше имя">
+							<span class="input-block__label">E-mail*</span>
+							<input type="email" name="" class="input-text error" placeholder="Ваш e-mail*">
 						</label>
 						<label class="input-block">
 							<span class="input-block__label">Телефон*</span>
 							<input type="tel" name="" class="input-text error" placeholder="Ваш телефон*">
 						</label>
 						<label class="input-block">
-							<span class="input-block__label">E-mail*</span>
-							<input type="email" name="" class="input-text error" placeholder="Ваш e-mail*">
+							<span class="input-block__label">Имя</span>
+							<input type="text" name="" class="input-text" placeholder="Ваше имя">
 						</label>
 						<label class="input-block">
 							<span class="input-block__label">Город</span>
