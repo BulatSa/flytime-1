@@ -105,7 +105,7 @@
 			<label class="style-checkbox style-checkbox--policy">
 				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked>
 				<span class="style-checkbox__label">
-					<span class="style-checkbox__descr">Заполняя поля и нажимая на кнопку “Оплатить”, я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="#">политики конфиденциальности</a>.</span>
+					<span class="style-checkbox__descr">Заполняя поля и нажимая на кнопку “Отправить”, я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="#">политики конфиденциальности</a>.</span>
 				</span>
 			</label>
 			<input type="hidden" value="Заказ обратного звонка" name="form_subject">
@@ -133,7 +133,7 @@
 			<label class="style-checkbox style-checkbox--policy">
 				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked>
 				<span class="style-checkbox__label">
-					<span class="style-checkbox__descr">Заполняя поля и нажимая на кнопку “Оплатить”, я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="#">политики конфиденциальности</a>.</span>
+					<span class="style-checkbox__descr">Заполняя поля и нажимая на кнопку “Отправить”, я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="#">политики конфиденциальности</a>.</span>
 				</span>
 			</label>
 			<input type="hidden" value="Новая заявка" name="form_subject">
@@ -161,7 +161,7 @@
 			<label class="style-checkbox style-checkbox--policy">
 				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked>
 				<span class="style-checkbox__label">
-					<span class="style-checkbox__descr">Заполняя поля и нажимая на кнопку “Оплатить”, я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="#">политики конфиденциальности</a>.</span>
+					<span class="style-checkbox__descr">Заполняя поля и нажимая на кнопку “Отправить”, я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="#">политики конфиденциальности</a>.</span>
 				</span>
 			</label>
 			<input type="hidden" value="Покупка в 1 клик" name="form_subject">

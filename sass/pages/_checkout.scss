@@ -1,0 +1,227 @@
+.s-checkout{
+	padding-bottom: $pad-xxl;
+}
+
+.checkout-panel{
+	background: #FFF;
+	padding: $pad-l $pad-m;
+	border-radius: 30px;
+	box-shadow: 0 12px 30px transparentize($blue,0.85);
+	margin-bottom: $pad-xl;
+	@include res(l){
+		padding: $pad-m $pad-s;
+	}
+	@include res(m){
+		margin-bottom: $pad-m;
+	}
+
+	&__title{
+		display: block;
+		margin-bottom: $pad-m;
+		@include res(xs){
+			margin-bottom: $pad-s;
+		}
+	}
+
+	.style-checkbox:not(.style-checkbox--policy){
+		margin-bottom: $pad-l;
+		padding-left: $pad-m;
+		@include res(l){
+			padding-left: 0;
+		}
+		@include res(xs){
+			margin-bottom: $pad-s;
+		}
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	.input-block{
+		padding-left: $pad-m;
+		@include res(l){
+			padding-left: 0;
+		}
+	}
+}
+
+
+.checkout-products{
+	margin-left: -$pad-m;
+	margin-right: -$pad-m;
+	margin-bottom: $pad-m;
+	@include res(l){
+		margin-left: -$pad-s;
+		margin-right: -$pad-s;
+	}
+
+	table{
+		width: 100%;
+		border-collapse: collapse;
+
+		tr{
+			border-bottom: 1px solid $color-bg;
+		}
+
+		th{
+			font-weight: normal;
+			font-size: 14px;
+			color: $grey;
+			line-height: 1;
+			white-space: nowrap;
+			padding-top: 0 !important;
+			@include res(xs){
+				font-size: 10px;
+			}
+		}
+
+		td,th{
+			text-align: left;
+			padding: $pad-s;
+			vertical-align: top;
+			@include res(xl){
+				padding: $pad-xs;
+			}
+			@include res(l){
+				padding: $pad-xs 4px;
+			}
+
+			&:first-child{
+				padding-left: $pad-m;
+				@include res(l){
+					padding-left: $pad-s;
+				}
+			}
+			&:last-child{
+				padding-right: $pad-m;
+				@include res(l){
+					padding-right: $pad-s;
+				}
+			}
+		}
+	}
+
+	&__price{
+		display: block;
+		font-size: 18px;
+		font-weight: 500;
+		white-space: nowrap;
+		line-height: 1;
+		@include res(xl){
+			font-size: 16px;
+		}
+		@include res(l){
+			font-size: 12px;
+		}
+		@include res(xs){
+			font-size: 10px;
+		}
+	}
+
+	&__oldprice{
+		color: $grey;
+		text-decoration: line-through;
+		white-space: nowrap;
+		@include res(l){
+			font-size: 12px;
+		}
+		@include res(xs){
+			font-size: 8px;
+		}
+	}
+
+	&__num{
+		display: block;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 1;
+		@include res(xl){
+			font-size: 16px;
+		}
+		@include res(l){
+			font-size: 12px;
+		}
+		@include res(xs){
+			font-size: 10px;
+		}
+	}
+
+	.h5{
+		display: block;
+		@include res(l){
+			font-size: 12px;
+		}
+		@include res(xs){
+			font-size: 10px;
+		}
+	}
+}
+
+
+.checkout-summary{
+	display: flex;
+	align-items: baseline;
+	margin-bottom: $pad-s;
+
+	&__param{
+		color: $grey;
+		width: 160px;
+		flex-shrink: 0;
+		line-height: 1;
+		@include res(xs){
+			width: 120px;
+			font-size: 12px;
+		}
+	}
+
+	&__val{
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 1;
+		white-space: nowrap;
+	}
+
+	&--all{
+		.checkout-summary__param{
+			font-size: 24px;
+			color: $black;
+			@include res(xs){
+				font-size: 16px;
+			}
+		}
+		.checkout-summary__val{
+			font-size: 24px;
+			@include res(xs){
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+
+.checkout-actions{
+	margin-top: $pad-l;
+	margin-bottom: $pad-s;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	@include res(xs){
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	@include res(xs){
+		margin-top: $pad-m;
+	}
+
+	.btn--big{
+		width: 250px;
+		max-width: 100%;
+		flex-shrink: 1;
+		@include res(xs){
+			margin-bottom: $pad-s;
+			padding: 14px 16px 16px 16px;
+			font-size: 14px;
+		}
+	}
+}
