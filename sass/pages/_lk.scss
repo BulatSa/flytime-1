@@ -1,0 +1,28 @@
+//lk-nav
+.lk-nav{
+	margin-top: $pad-s;
+	
+	a{
+		display: inline-block;
+		vertical-align: top;
+		white-space: nowrap;
+		font-size: 12px;
+		text-transform: uppercase;
+		background: transparent;
+		transition: all 0.3s ease;
+		padding: 8px $pad-s;
+		border-radius: 20px;
+		font-weight: 500;
+		
+		&:hover{
+			background: #FFF;
+		}
+		
+		&.active{
+			background: #FFF;
+			font-weight: bold;
+			pointer-events: none;
+		}
+	}
+}
+//lk-nav
