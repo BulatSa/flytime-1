@@ -12,7 +12,7 @@
 	<div class="container">
 
 		<a href="#" class="btn btn--big btn--outline fancy" data-src="#modal-oneclick">Оформить в 1 клик <i class="i-right"></i></a>
-		<a href="#" class="btn btn--big">Все верно, перейти к оформлению <i class="i-right"></i></a>
+		<a href="/checkout.php" class="btn btn--big">Все верно, перейти к оформлению <i class="i-right"></i></a>
 
 	</div>
 </section>
@@ -129,7 +129,7 @@
 
 		<a href="#" class="link"><i class="i-left"></i> Продолжить покупки</a>
 		<a href="#" class="btn btn--big btn--outline fancy" data-src="#modal-oneclick">Оформить в 1 клик <i class="i-right"></i></a>
-		<a href="#" class="btn btn--big">Все верно, перейти к оформлению <i class="i-right"></i></a>
+		<a href="/checkout.php" class="btn btn--big">Все верно, перейти к оформлению <i class="i-right"></i></a>
 
 	</div>
 </section>

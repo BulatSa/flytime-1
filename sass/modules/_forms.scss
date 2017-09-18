@@ -143,6 +143,12 @@ label{cursor: pointer;}
 			margin-top: $pad-s;
 		}
 	}
+	.input-text{
+		max-width: calc(100% - 120px);
+		@include res(s){
+			max-width: 100%;
+		}
+	}
 }
 
 .horizontal-form {
@@ -253,7 +259,7 @@ label{cursor: pointer;}
 
 	&__title{
 		display: block;
-		margin-bottom: 0.4em;
+		margin-bottom: 0.3em;
 	}
 
 	&__descr{
