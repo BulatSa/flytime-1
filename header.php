@@ -49,11 +49,11 @@
 			<a href="#" class="user-nav__link">
 				<span>Регистрация</span>
 			</a>-->
-			<a href="#" class="user-nav__link">
+			<a href="/lk-profile.php" class="user-nav__link">
 				<i class="i-enter"></i>
 				<span>Личный кабинет</span>
 			</a>
-			<a href="#" class="user-nav__link">
+			<a href="/lk-favorite.php" class="user-nav__link">
 				<i class="i-heart"></i>
 				<strong>5</strong>
 				<span>Избранное</span>
@@ -162,11 +162,11 @@
 			<a href="#" class="user-nav__link">
 				<span>Регистрация</span>
 			</a>-->
-			<a href="#" class="user-nav__link">
+			<a href="/lk-profile.php" class="user-nav__link">
 				<i class="i-enter"></i>
 				<span>Личный кабинет</span>
 			</a>
-			<a href="#" class="user-nav__link">
+			<a href="/lk-favorite.php" class="user-nav__link">
 				<i class="i-heart"></i>
 				<strong>5</strong>
 				<span>Избранное</span>

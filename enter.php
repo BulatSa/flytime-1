@@ -24,7 +24,7 @@
 						</span>
 						<button type="submit" class="btn btn--big ">Войти <i class="i-right"></i></button>
 					</form>
-					<a href="#" class="form__pass-last">Забыли пароль?</a>
+					<a href="/restore.php" class="form__pass-last">Забыли пароль?</a>
 				</div>
 
 			</div>
@@ -35,7 +35,7 @@
 					<div class="user-content">
 						<p>Регистрация позволит получать бонусы и экономить время при следующих покупках, а так же у вас будет доступ к истории своих заказов.</p>
 					</div>
-					<a href="#" class="btn btn--big btn--outline">Зарегистрироваться<i class="i-right"></i></a>
+					<a href="/register.php" class="btn btn--big btn--outline">Зарегистрироваться<i class="i-right"></i></a>
 					<p class="register__text-descr">Это займет не более минуты</p>
 				</div>
 			</div>
