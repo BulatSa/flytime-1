@@ -322,6 +322,27 @@ Filters END
 ***********************/
 
 
+/***********************
+ Password Open BEGIN
+ ***********************/
+$(document).ready(function() {
+	if($('.input-block-pass .i-eye').length) {
+		$('.input-block-pass .i-eye').on('click', function () {
+			var passInput = $(this).siblings('input')[0];
+			$(this).toggleClass('active');
+			if (passInput.type == 'password') {
+				passInput.type = 'text';
+			} else {
+				passInput.type = 'password';
+			}
+		})
+	}
+});
+/***********************
+ Password Open END
+ ***********************/
+
+
 /**************************************************
  Google Maps
  ***************************************************/
