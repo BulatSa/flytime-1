@@ -9,7 +9,7 @@
 
 
 <section class="s-checkout">
-	<form class="container">
+	<form action="/checkout-end.php" class="container">
 		<div class="row">
 
 			<div class="grid-6 grid-12_m">
