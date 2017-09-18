@@ -53,32 +53,34 @@
 			</div>
 
 			<div class="grid-6 grid-12_m">
-				<div class="checkout-panel vertical-form">
-					<p class="h2 checkout-panel__title">3. О покупателе</p>
-					<label class="input-block">
-						<span class="input-block__label">Имя</span>
-						<input type="text" name="" class="input-text" placeholder="Введите имя">
-					</label>
-					<label class="input-block">
-						<span class="input-block__label">Телефон*</span>
-						<input type="tel" name="" class="input-text error" placeholder="Введите телефон*">
-					</label>
-					<label class="input-block">
-						<span class="input-block__label">E-mail*</span>
-						<input type="email" name="" class="input-text error" placeholder="Введите e-mail*">
-					</label>
-					<label class="input-block">
-						<span class="input-block__label">Город</span>
-						<input type="text" name="" class="input-text" placeholder="Введите город" value="Москва">
-					</label>
-					<label class="input-block">
-						<span class="input-block__label">Адрес</span>
-						<input type="text" name="" class="input-text" placeholder="Введите адрес">
-					</label>
-					<label class="input-block">
-						<span class="input-block__label">Комментарии</span>
-						<textarea  name="" class="input-text" placeholder="Текст комментария" rows="5"></textarea>
-					</label>
+				<div class="checkout-panel">
+					<div class="vertical-form">
+						<p class="h2 checkout-panel__title">3. О покупателе</p>
+						<label class="input-block">
+							<span class="input-block__label">Имя</span>
+							<input type="text" name="" class="input-text" placeholder="Введите имя">
+						</label>
+						<label class="input-block">
+							<span class="input-block__label">Телефон*</span>
+							<input type="tel" name="" class="input-text error" placeholder="Введите телефон*">
+						</label>
+						<label class="input-block">
+							<span class="input-block__label">E-mail*</span>
+							<input type="email" name="" class="input-text error" placeholder="Введите e-mail*">
+						</label>
+						<label class="input-block">
+							<span class="input-block__label">Город</span>
+							<input type="text" name="" class="input-text" placeholder="Введите город" value="Москва">
+						</label>
+						<label class="input-block">
+							<span class="input-block__label">Адрес</span>
+							<input type="text" name="" class="input-text" placeholder="Введите адрес">
+						</label>
+						<label class="input-block">
+							<span class="input-block__label">Комментарии</span>
+							<textarea  name="" class="input-text" placeholder="Текст комментария" rows="5"></textarea>
+						</label>
+					</div>
 				</div>
 			</div>
 

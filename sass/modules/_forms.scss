@@ -99,6 +99,7 @@ label{cursor: pointer;}
 
 
 .input-block{
+	position: relative;
 	display: flex;
 	align-items: flex-start;
 	@include res(s){
@@ -121,19 +122,91 @@ label{cursor: pointer;}
 		}
 	}
 
-	.input-text{
-		width: 300px;
-		max-width: 100%;
+	&>.input-text{
+		width: calc(100% - 120px);
 		flex-shrink: 1;
+		@include res(s) {
+			width: 100%;
+		}
 	}
 }
 
+.input-block-pass {
+	position: relative;
+	display: block;
+
+	@include res(s) {
+		width: 100%;
+	}
+	.input-text {
+		width: 100%;
+	}
+	.i-eye {
+		position: absolute;
+		top: 50%;
+		right: 20px;
+		font-size: 18px;
+		transition: all 0.3s ease;
+		cursor: pointer;
+		transform: translateY(-50%);
+		&:hover {
+			color: $orange-hover;
+		}
+		&.active {
+			color: $blue;
+		}
+	}
+}
+
+.form__descr {
+	padding-top: $pad-xs;
+	padding-bottom: $pad-s;
+	font-size: 14px;
+	line-height: 1.4;
+	@include res(s) {
+		padding-bottom: $pad-xs;
+		font-size: 12px;
+	}
+}
+
+.form__pass-last {
+	display: inline-block;
+	margin-top: $pad-s;
+	transition: all 0.3s ease;
+	&:hover {
+		color: $orange-hover;
+	}
+}
+
+.form__soc-enter {
+	padding-bottom: $pad-s;
+	img {
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+}
+
+.error-block {
+	color: $red;
+	padding-bottom: $pad-s;
+	@include res(l) {
+		padding-bottom: $pad-xs;
+	}
+}
 
 .vertical-form {
+	max-width: 420px;
 	.input-block{
 		margin-bottom: $pad-xs;
 		@include res(s){
 			margin-bottom: $pad-s;
+		}
+	}
+	.input-block-pass {
+		width: calc(100% - 120px);
+		@include res(s) {
+			width: 100%;
 		}
 	}
 	.style-checkbox{
@@ -141,12 +214,6 @@ label{cursor: pointer;}
 
 		&--policy{
 			margin-top: $pad-s;
-		}
-	}
-	.input-text{
-		max-width: calc(100% - 120px);
-		@include res(s){
-			max-width: 100%;
 		}
 	}
 }
@@ -175,6 +242,29 @@ label{cursor: pointer;}
 		button {
 			width: 100%;
 		}
+	}
+}
+
+.enter-form {
+	max-width: 300px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	.input-text, .input-block-pass {
+		width: 100%;
+		margin-bottom: $pad-xs;
+	}
+	.input-block-pass {
+		@include res(l) {
+			margin-bottom: 0;
+		}
+		.input-text {
+			margin-bottom: 0;
+		}
+	}
+	.btn {
+		margin-top: $pad-xs;
+		width: 100%;
 	}
 }
 

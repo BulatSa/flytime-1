@@ -1,6 +1,10 @@
 .s-register {
+	padding-top: $pad-l;
 	padding-bottom: $pad-xxl;
 	background: url("../img/register/bg-pattern.jpg") no-repeat top center;
+	@include res(xl) {
+		padding-top: $pad-m;
+	}
 }
 
 .white-panel{
@@ -22,10 +26,20 @@
 		padding: $pad-s;
 		border-radius: 10px;
 	}
+	&--centered {
+		text-align: center;
+	}
 }
 
 .register__text {
+	padding-top: $pad-xl;
 	padding-left: 5%;
+	@include res(xl) {
+		padding-top: $pad-l;
+	}
+	@include res(l){
+		padding-top: $pad-m;
+	}
 	@include res(m) {
 		padding-left: 0;
 	}
@@ -45,4 +59,17 @@
 			display: none;
 		}
 	}
+	&--new {
+
+		text-align: center;
+
+		.btn {
+			margin-top: $pad-xs;
+		}
+	}
+}
+
+.register__text-descr {
+	padding-top: $pad-m;
+	color: #b6b6b6;
 }

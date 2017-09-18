@@ -1,53 +1,55 @@
 <?php include('header.php'); ?>
 
 
-<section class="s-page-title">
-	<div class="container">
-		<h1 class="h1">Регистрация</h1>
-	</div>
-</section>
-
-
 <section class="s-register">
 	<div class="container">
 		<div class="row">
 
 			<div class="grid-6 grid-12_m">
-				<form>
-					<div class="white-panel vertical-form">
-						<label class="input-block">
-							<span class="input-block__label">E-mail*</span>
-							<input type="email" name="" class="input-text error" placeholder="Введите e-mail*">
-						</label>
-						<label class="input-block">
-							<span class="input-block__label">Телефон*</span>
-							<input type="tel" name="" class="input-text error" placeholder="Введите телефон*">
-						</label>
-						<label class="input-block">
-							<span class="input-block__label">Пароль*</span>
-							<input type="password" name="" class="input-text error" placeholder="Введите пароль*">
-						</label>
-						<label class="input-block">
-							<span class="input-block__label">Имя</span>
-							<input type="text" name="" class="input-text" placeholder="Введите имя">
-						</label>
-						<label class="input-block">
-							<span class="input-block__label">Город</span>
-							<input type="text" name="" class="input-text" placeholder="Введите город" value="Москва">
-						</label>
-						<label class="input-block">
-							<span class="input-block__label">Адрес</span>
-							<input type="text" name="" class="input-text" placeholder="Введите адрес">
-						</label>
-						<label class="style-checkbox style-checkbox--policy">
-							<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked>
-							<span class="style-checkbox__label">
+
+					<div class="white-panel">
+						<p class="h2">Регистрация</p>
+						<div class="error-block">
+							<p>Неверный логин/пароль</p>
+						</div>
+						<form class="vertical-form">
+							<label class="input-block">
+								<span class="input-block__label">E-mail*</span>
+								<input type="email" name="" class="input-text error" placeholder="Введите e-mail*">
+							</label>
+							<label class="input-block">
+								<span class="input-block__label">Телефон*</span>
+								<input type="tel" name="" class="input-text error" placeholder="Введите телефон*">
+							</label>
+							<label class="input-block">
+								<span class="input-block__label">Пароль*</span>
+								<span class="input-block-pass">
+									<input type="password" name="" class="input-text error" placeholder="Введите пароль*">
+									<i class="i-eye" title="Показать/скрыть пароль"></i>
+								</span>
+							</label>
+							<label class="input-block">
+								<span class="input-block__label">Имя</span>
+								<input type="text" name="" class="input-text" placeholder="Введите имя">
+							</label>
+							<label class="input-block">
+								<span class="input-block__label">Город</span>
+								<input type="text" name="" class="input-text" placeholder="Введите город" value="Москва">
+							</label>
+							<label class="input-block">
+								<span class="input-block__label">Адрес</span>
+								<input type="text" name="" class="input-text" placeholder="Введите адрес">
+							</label>
+							<label class="style-checkbox style-checkbox--policy">
+								<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked>
+								<span class="style-checkbox__label">
 								<span class="style-checkbox__descr">Заполняя поля и нажимая на кнопку “Отправить”, я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="#">политики конфиденциальности</a>.</span>
-							</span>
-						</label>
-						<button type="submit" class="btn btn--big">Зарегистрироваться <i class="i-right"></i></button>
+								</span>
+							</label>
+							<button type="submit" class="btn btn--big">Зарегистрироваться <i class="i-right"></i></button>
+						</form>
 					</div>
-				</form>
+
 			</div>
 
 			<div class="grid-6 grid-12_m">

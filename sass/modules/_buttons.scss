@@ -20,8 +20,7 @@
 	border: 1px solid $orange;
 	border-radius: 30px;
 	@include res(xs){
-		padding: 10px $pad-xs;
-		font-size: 12px;
+		padding: 10px $pad-s;
 	}
 
 	&:hover,&:focus{
@@ -103,10 +102,10 @@ button::-moz-focus-inner {
 		padding: 14px $pad-s 16px $pad-s;
 		font-size: 14px;
 	}
-	@include res(xs){
-		padding: 10px $pad-xs;
-		font-size: 12px;
-	}
+}
+
+.btn--blue {
+	background: $blue;
 }
 
 .right-btn {
