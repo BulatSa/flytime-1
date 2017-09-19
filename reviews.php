@@ -10,6 +10,10 @@
 <section class="s-reviews">
 	<div class="container">
 
+		<div class="white-panel">
+			<p class="h3">Отзывов пока нет. Будьте первым, кто его напишет!</p>
+		</div>
+
 		<div class="row reviews-wall">
 			<div class="grid-3 grid-4_l grid-6_m grid-12_xs grid-sizer"></div>
 			<div class="grid-3 grid-4_l grid-6_m grid-12_xs reviews-wall__item">

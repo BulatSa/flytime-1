@@ -10,6 +10,10 @@
 <section class="s-sections">
 	<div class="container">
 
+		<div class="white-panel">
+			<p class="h3">Акций на данный момент нет.</p>
+		</div>
+
 		<div class="products-list row">
 
 			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
