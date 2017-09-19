@@ -10,6 +10,11 @@
 
 <section class="s-catalog-list">
 	<div class="container">
+
+		<div class="white-panel">
+			<p class="h3">В этой категории нет товаров.</p>
+		</div>
+
 		<div class="row">
 
 			<div class="grid-3 grid-12_l">

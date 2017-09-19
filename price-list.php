@@ -10,6 +10,10 @@
 <section class="s-sections">
 	<div class="container">
 
+		<div class="white-panel">
+			<p class="h3">В этой категории нет позиций.</p>
+		</div>
+
 		<div class="cat-list row">
 			<div class="grid-3 grid-6_m">
 				<a href="/price-details.php" class="cat-item">
