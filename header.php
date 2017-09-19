@@ -43,12 +43,12 @@
 		</div>
 
 		<nav class="user-nav">
-			<!--<a href="#" class="user-nav__link">
+			<a href="/enter.php" class="user-nav__link">
 				<span>Вход</span>
 			</a>
-			<a href="#" class="user-nav__link">
+			<a href="/register.php" class="user-nav__link">
 				<span>Регистрация</span>
-			</a>-->
+			</a>
 			<a href="/lk-profile.php" class="user-nav__link">
 				<i class="i-enter"></i>
 				<span>Личный кабинет</span>
@@ -156,12 +156,12 @@
 		</nav>
 
 		<nav class="user-nav">
-			<!--<a href="#" class="user-nav__link">
+			<a href="/enter.php" class="user-nav__link">
 				<span>Вход</span>
 			</a>
-			<a href="#" class="user-nav__link">
+			<a href="/register.php" class="user-nav__link">
 				<span>Регистрация</span>
-			</a>-->
+			</a>
 			<a href="/lk-profile.php" class="user-nav__link">
 				<i class="i-enter"></i>
 				<span>Личный кабинет</span>
