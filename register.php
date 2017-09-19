@@ -7,7 +7,7 @@
 
 			<div class="grid-6 grid-12_m">
 
-					<div class="white-panel">
+				<div class="white-panel">
 						<p class="h2">Регистрация</p>
 						<div class="error-block">
 							<p>Неверный логин/пароль</p>

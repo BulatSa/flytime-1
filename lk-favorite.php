@@ -16,8 +16,12 @@
 </section>
 
 
-<section class="s-sections">
+<section class="s-favorite">
 	<div class="container">
+
+		<div class="white-panel">
+			<p class="h3">Вы еще не добавляли товары в избранное.</p>
+		</div>
 
 		<div class="products-list row">
 
