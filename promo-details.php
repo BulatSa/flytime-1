@@ -9,19 +9,22 @@
 			<div class="grid-6 grid-7_l grid-8_s grid-12_xs">
 				<h1 class="h1 s-promo-details__title">Название акции длинное в несколько строк</h1>
 
-				<div class="user-content s-promo-details__preview">
-					<p>Просьба оплачивать товар после проверки комплектации заказа, каждого товара, а также внешних (видимых) дефектов. Претензии по внутренним (скрытым упаковкой) дефектам, заводскому браку принимаются в течение 7 дней после получения товара.</p>
-				</div>
-				
-				<p class="h4">Условия:</p>
-				<div class="user-content s-promo-details__conditions">
-					<p>Просьба оплачивать товар после проверки комплектации заказа, каждого товара, а также внешних (видимых) дефектов. Претензии по внутренним (скрытым упаковкой) дефектам, заводскому браку принимаются в течение 7 дней после получения товара.</p>
+				<div class="user-content s-promo-details__descr">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur cum debitis facere harum illo minus nihil nulla qui quia quos reiciendis sapiente sed, temporibus unde vel velit, veritatis vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<h3>Lorem ipsum dolor sit amet at culpa cumque facere</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur cum debitis facere harum illo minus nihil nulla qui quia quos reiciendis sapiente sed, temporibus unde vel velit, veritatis vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<h4>Lorem ipsum dolor sit amet at culpa cumque facere</h4>
 					<ul>
-						<li>Просьба оплачивать товар после проверки комплектации заказа, каждого товара</li>
-						<li>Также внешних (видимых) дефектов. Претензии по внутренним (скрытым упаковкой) дефектам</li>
+						<li>Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus; </li>
+						<li>Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus; </li>
+						<li>Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus; </li>
 					</ul>
-					<p>Просьба оплачивать товар после проверки комплектации заказа, каждого товара, а также внешних (видимых) дефектов. Претензии по внутренним (скрытым упаковкой) дефектам, заводскому браку принимаются в течение 7 дней после получения товара.</p>
-					<p>Просьба оплачивать товар после проверки комплектации заказа, каждого товара, а также внешних (видимых) дефектов. Претензии по внутренним (скрытым упаковкой) дефектам, заводскому браку принимаются в течение 7 дней после получения товара.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur cum debitis facere harum illo minus nihil nulla qui quia quos reiciendis sapiente sed, temporibus unde vel velit, veritatis vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<ol>
+						<li>Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus;</li>
+						<li>Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus;</li>
+						<li>Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus;</li>
+					</ol>
 				</div>
 
 				<div class="social-share">

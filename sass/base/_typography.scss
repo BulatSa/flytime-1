@@ -109,13 +109,12 @@ h5,.h5{
 		margin-bottom: $pad-xs;
 	}
 
-	p {
+	p:not(.h1,.h2,.h3,.h4,.h5,.h6) {
 		font-size: 15px;
 		line-height: 1.6;
-		margin-bottom: $pad-s;
+		margin-bottom: $pad-m;
 		@include res(m) {
 			font-size: 14px;
-			margin-bottom: $pad-xs;
 		}
 	}
 
@@ -132,10 +131,12 @@ h5,.h5{
 
 	ul {
 		list-style: none;
+		margin-bottom: $pad-m;
+
 		li {
 			position: relative;
 			padding-left: 25px;
-			padding-bottom: 12px;
+			margin-bottom: 12px;
 			@include res(s) {
 				padding-left: 20px;
 			}
@@ -158,11 +159,33 @@ h5,.h5{
 					height: 10px;
 				}
 			}
+
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	ol{
+		padding-left: 20px;
+		margin-bottom: $pad-m;
+
+		li{
+			margin-bottom: 12px;
+			&:last-child{
+				margin-bottom: 0;
+			}
 		}
 	}
 
 	b,strong {
 		font-weight: bold;
+	}
+
+	img{
+		max-width: 100%;
+		height: auto;
+		margin-bottom: $pad-s;
 	}
 }
 

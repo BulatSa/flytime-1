@@ -60,9 +60,9 @@
 							<input type="text" name="" class="input-text" placeholder="Введите адрес">
 						</label>
 						<label class="style-checkbox style-checkbox--policy">
-							<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked>
+							<input type="checkbox" name="user_policy" value="yes" checked required>
 							<span class="style-checkbox__label">
-							<span class="style-checkbox__descr">Заполняя поля и нажимая на кнопку “Отправить”, я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="#">политики конфиденциальности</a>.</span>
+								<span class="style-checkbox__descr">Заполняя поля и нажимая на кнопку “Сохранить”, я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="#">политики конфиденциальности</a>.</span>
 							</span>
 						</label>
 						<button type="submit" class="btn btn--big btn--outline">Сохранить <i class="i-right"></i></button>
