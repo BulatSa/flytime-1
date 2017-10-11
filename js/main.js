@@ -44,7 +44,7 @@ $(document).ready(function(){
 			$.ajax({
 				type: "POST",
 				async: true,
-				url: "/send.php",
+				url: "/bitrix/templates/flytime/php/send.php",
 				cache: false,
 				contentType: false,
 				processData: false,
@@ -69,7 +69,7 @@ $(document).ready(function(){
 Input mask BEGIN
 ***********************/
 $(function($){
-	$("input[type='tel']").mask("+7 (999) 999-99-99");
+	//$("input[type='tel']").mask("+7 (999) 999-99-99");
 });
 /***********************
 Input mask END
@@ -253,10 +253,14 @@ $(document).ready(function() {
 Reviews-wall BEGIN
 ***********************/
 $(document).ready(function() {
-	$('.reviews-wall').masonry({
+	var reviews_wall = $('.reviews-wall').masonry({
 		itemSelector: '.reviews-wall__item',
 		columnWidth: '.grid-sizer',
 		percentPosition: true
+	});
+
+	reviews_wall.imagesLoaded().progress( function() {
+		reviews_wall.masonry('layout');
 	});
 });
 /***********************
@@ -280,35 +284,6 @@ Filters BEGIN
 ***********************/
 $(document).ready(function() {
 
-	//price-slider
-	var price_slider = $(".price_range");
-
-	price_slider.ionRangeSlider({
-		type: "double",
-		hide_min_max: true,
-		hide_from_to: true,
-		grid: false
-	});
-
-	price_slider.on('change',function () {
-		var from = $(this).data("from");
-		var to = $(this).data("to");
-		$('.price-filter--from').val(from);
-		$('.price-filter--to').val(to);
-	});
-
-	var price_slider_data = price_slider.data("ionRangeSlider");
-	$('.price-filter--from').on('change',function () {
-		price_slider_data.update({
-			from: $(this).val()
-		});
-	});
-	$('.price-filter--to').on('change',function () {
-		price_slider_data.update({
-			to: $(this).val()
-		});
-	});
-	//price-slider
 
 
 	$('.filter-show-btn').on('click touchstart',function (e) {
@@ -353,11 +328,11 @@ $(document).ready(function(){
 
 		function initMap() {
 			var latLng= {};
-			latLng.lat = 55.683998;
+			latLng.lat = 55.746218;
 			if ($(window).width() < 740) {
-				latLng.lng = 37.578508;
+				latLng.lng = 37.509164;
 			} else {
-				latLng.lng = 37.574309;
+				latLng.lng = 37.509164;
 			}
 			var mapOptions = {
 				zoom: 16,
@@ -374,10 +349,10 @@ $(document).ready(function(){
 			var map = new google.maps.Map(mapElement, mapOptions);
 
 			var marker = new google.maps.Marker({
-				position: new google.maps.LatLng(55.683998, 37.578309),
+				position: new google.maps.LatLng(55.746218, 37.509164),
 				map: map,
-				title: 'г. Москва, ул. Дмитрия Ульянова 30 к2',
-				icon: '/img/svg/map-bubble-orange.svg'
+				title: 'г. Москва, ул. Тучковская 11к2',
+				icon: '/bitrix/templates/flytime/img/svg/map-bubble-orange.svg'
 			});
 		}
 	}

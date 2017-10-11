@@ -21,7 +21,7 @@
 
 	&__content{
 		position: relative;
-		z-index: 1;
+		z-index: 2;
 		padding: $pad-m;
 		background: #FFF;
 		border-radius: 0 0 30px 30px;
@@ -102,11 +102,11 @@
 	&__actions{
 		display: flex;
 		position: absolute;
-		z-index: 2;
+		z-index: 1;
 		top: calc(100% - 30px);
 		left: 0;
 		width: 100%;
-		padding: $pad-m;
+		padding: 30px $pad-m $pad-m $pad-m;
 		background: #FFF;
 		border-radius: 0 0 30px 30px;
 		align-items: center;
@@ -115,8 +115,7 @@
 		transform: translate3d(0,5px,0);
 		transition: transform 0.2s ease-in-out,opacity 0.2s ease,visibility 0.2s ease;
 		@include res(xl){
-			padding: $pad-s;
-			top: calc(100% - 24px);
+			padding: 30px $pad-s $pad-s $pad-s;
 		}
 		@include res(l){
 			visibility: visible;
