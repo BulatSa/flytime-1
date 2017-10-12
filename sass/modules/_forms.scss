@@ -303,6 +303,10 @@ label{cursor: pointer;}
 			}
 		}
 
+		&:disabled + .style-checkbox__label{
+			opacity: 0.5;
+		}
+
 		&.error + .style-checkbox__label{
 			&:before{
 				background: transparentize($red,0.8);

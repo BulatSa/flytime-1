@@ -146,4 +146,22 @@
 		margin-bottom: $pad-s;
 	}
 }
+
+.filter-mod{
+	margin-bottom: $pad-s;
+	border-radius: 10px;
+	background: $color-bg;
+	padding: $pad-xs $pad-s;
+
+	a{
+		color: $orange;
+		border-bottom: 1px solid $orange;
+		transition: all 0.3s ease;
+
+		&:hover{
+			color: $orange-hover;
+			border-bottom: 1px solid $orange-hover;
+		}
+	}
+}
 //filter-block
