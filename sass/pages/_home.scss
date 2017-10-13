@@ -39,12 +39,9 @@
 	.h1{
 		display: block;
 		color: #FFF;
-		font-size: 72px;
+		font-size: 54px;
 		text-shadow: 0 0.1em 8px rgba(135,81,95,0.4);
-		margin-bottom: $pad-s;
-		@include res(xl){
-			font-size: 54px;
-		}
+		margin-bottom: $pad-m;
 		@include res(l){
 			font-size: 48px;
 		}
