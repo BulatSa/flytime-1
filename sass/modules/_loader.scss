@@ -1,0 +1,40 @@
+#ag-load{
+	display: none;
+	background: #FFF;
+	height: 100%;
+	opacity: 0.7;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	align-items: center;
+	justify-content: center;
+
+	&.visible{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		figure{
+			animation: load 0.5s ease infinite;
+		}
+	}
+
+	figure{
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		background: $orange;
+	}
+}
+
+@keyframes load {
+	from{
+		transform: scale3d(1,1,1);
+	}
+	to{
+		transform: scale3d(3,3,3);
+		opacity: 0;
+	}
+}
