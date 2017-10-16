@@ -197,12 +197,11 @@
 
 .about-info__fact {
 	padding-bottom: $pad-m;
+	text-align: center;
+
 	p {
-		font-size: 16px;
-		line-height: 1.1;
-		@include res(l) {
-			font-size: 14px;
-		}
+		font-size: 14px;
+		line-height: 1.3;
 		@include res(xs) {
 			font-size: 12px;
 		}
