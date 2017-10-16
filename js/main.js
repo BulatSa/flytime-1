@@ -53,7 +53,7 @@ $(document).ready(function(){
 					console.log(result);
 					$.fancybox.close();
 					$.fancybox.open({src  : '#modal-thanks'});
-					// setTimeout(function() {$.fancybox.close();},4500);
+					setTimeout(function() {$.fancybox.close();},4500);
 					form[0].reset();
 				})
 			});
