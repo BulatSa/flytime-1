@@ -149,7 +149,7 @@
 .intro__facts {
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: $pad-xxl;
+	padding-top: $pad-xl;
 	@include res(xl) {
 		padding-top: $pad-xl;
 	}
