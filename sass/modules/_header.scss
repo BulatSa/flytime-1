@@ -1,9 +1,12 @@
 //s-top-panel
 .s-top-panel{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
 	background: $blue;
 	color: #FFF;
-	position: relative;
-	z-index: 2;
+	z-index: 20;
 	padding: $pad-s 0 14px 0;
 	user-select: none;
 	transform: translate3d(0,0,0);
@@ -156,9 +159,9 @@
 
 //s-head-contacts
 .s-head-contacts{
-	padding: $pad-l 0;
+	padding: 90px 0 $pad-l 0;
 	@include res(xl){
-		padding: $pad-m 0;
+		padding: 60px 0 $pad-m;
 	}
 	@include res(s){
 		padding: $pad-s 0;
