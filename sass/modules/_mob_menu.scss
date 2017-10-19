@@ -79,7 +79,7 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 500px;
+	width: 380px;
 	max-width: 100%;
 	height: 100%;
 	overflow: auto;
@@ -123,21 +123,78 @@
 	}
 
 	.cat-menu{
-		border-top: 2px dotted #FFF;
-		margin-top: $pad-s;
-		padding-top: $pad-s;
 		display: block;
 		width: 100%;
+		margin-top: $pad-s;
+		padding-top: $pad-s;
+		border-top: 2px dotted #FFF;
 		@include res(s){
 			padding-top: $pad-xs;
 		}
 
 		&-item{
-			width: auto;
+			display: inline-block;
+			height: initial;
+			padding: 12px 0;
 			@include res(s){
-				padding: 0 4px;
+				padding: 10px 4px;
+			}
+			&:before {
+				content: none;
+			}
+			&.active{
+				color: $orange;
 			}
 		}
+	}
+
+	.cat-menu-item-wrap{
+		&.with-submenu{
+			&:after {
+				content: '';
+				position: absolute;
+				top: 10px;
+				right: 4px;
+				width: 8px;
+				height: 8px;
+				border-right: 1px solid #000000;
+				border-bottom: 1px solid #000000;
+				transform: rotate(45deg);
+				transform-origin: 65% 65%;
+			}
+			&.open {
+				&:after {
+					transform: rotate(-135deg);
+				}
+			}
+		}
+	}
+
+	.cat-menu-item__iconwrap {
+		display: none;
+	}
+	.cat-submenu {
+		display: none;
+		position: relative;
+		top: initial;
+		left: initial;
+		width: initial;
+		margin-bottom: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: $gutter;
+		padding-right: $gutter;
+		border-radius: 10px;
+		box-shadow: 0 5px 5px transparentize(#000,0.9);
+		opacity: 1;
+		visibility: visible;
+		pointer-events: all;
+		transition: none;
+		transform: translate3d(0,0,0);
+		&:before {
+			content: none;
+		}
+
 	}
 
 	.user-nav{
@@ -200,7 +257,7 @@
 		position: fixed;
 		top: 0;
 		left: 0;
-		width: 504px;
+		width: 384px;
 		height: 100%;
 		max-width: 100%;
 		z-index: 990;

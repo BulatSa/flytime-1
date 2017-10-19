@@ -162,6 +162,22 @@ $(document).ready(function(){
  Mobile menu and search BEGIN
  ***********************/
 $(document).ready(function(){
+
+	$('.mob-panel .cat-menu-item br').each(function(index){
+		$(this).replaceWith(' ');
+	});
+
+	$('.mob-panel .cat-menu-item-wrap').on('click', function () {
+		var this_submenu = $(this).find('.cat-submenu');
+		var this_wrapper = $(this);
+
+		$('.mob-panel .cat-submenu').not(this_submenu).slideUp();
+		this_submenu.slideToggle();
+
+		$('.mob-panel .cat-menu-item-wrap').not(this_wrapper).removeClass('open');
+		this_wrapper.toggleClass('open');
+	});
+
 	$('.menu-btn').click(function(e) {
 		e.preventDefault();
 		$(this).toggleClass('active');
