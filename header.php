@@ -229,7 +229,7 @@
 	</form>
 </div>
 
-<section class="s-top-panel">
+<section class="s-top-panel compensate-for-scrollbar">
 	<div class="container">
 		
 		<nav class="top-nav">
@@ -289,6 +289,14 @@
 			<a href="tel:8 495 000-00-00" class="h3">8 495 000-00-00</a>
 			<span>Работаем: 8:00 — 23:00</span>
 			<a href="#" class="link link--orange fancy" data-src="#modal-call">Заказать обратный звонок</a>
+		</div>
+
+		<div class="mob-fixed-basket">
+			<a href="/basket.php" class="user-nav__link">
+				<i class="i-cart"></i>
+				<strong>25</strong>
+				<span>Корзина</span>
+			</a>
 		</div>
 
 	</div>
