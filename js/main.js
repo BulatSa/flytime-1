@@ -159,6 +159,33 @@ $(document).ready(function(){
 
 
 /***********************
+To top btn BEGIN
+***********************/
+$(document).ready(function() {
+	$(window).on('scroll',function () {
+		var scrolltop = $(this).scrollTop();
+		var to_top_btn = $('.to-top-btn');
+		var page_height = $('body').height();
+		var window_height = $(this).height();
+		if (scrolltop > 200){
+			to_top_btn.addClass('visible');
+		} else {
+			to_top_btn.removeClass('visible');
+		}
+
+		// if (scrolltop+50 > page_height-window_height){
+		// 	to_top_btn.addClass('visible--small');
+		// } else {
+		// 	to_top_btn.removeClass('visible--small');
+		// }
+	})
+});
+/***********************
+To top btn END
+***********************/
+
+
+/***********************
  Mobile menu and search BEGIN
  ***********************/
 $(document).ready(function(){
@@ -299,8 +326,6 @@ Filters BEGIN
 ***********************/
 $(document).ready(function() {
 
-
-
 	$('.filter-show-btn').on('click touchstart',function (e) {
 		e.preventDefault();
 		$('.filter-block').toggleClass('open');
@@ -320,7 +345,7 @@ $(document).ready(function() {
 		$('.input-block-pass .i-eye').on('click', function () {
 			var passInput = $(this).siblings('input')[0];
 			$(this).toggleClass('active');
-			if (passInput.type == 'password') {
+			if (passInput.type === 'password') {
 				passInput.type = 'text';
 			} else {
 				passInput.type = 'password';

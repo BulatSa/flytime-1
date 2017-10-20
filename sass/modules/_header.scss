@@ -523,6 +523,7 @@
 		z-index: 5;
 		position: relative;
 		font-size: 18px;
+		min-width: 80px;
 		@include res(l){
 			font-size: 16px;
 		}
@@ -591,12 +592,14 @@
 	li {
 		position: relative;
 		z-index: 1;
+		margin: 6px 0;
 	}
 	a {
 		display: block;
 		padding-top: 2px;
 		padding-bottom: 2px;
 		transition: all 0.3s ease;
+		line-height: 1.2;
 		&:hover,&.active {
 			color: $orange-hover;
 		}
@@ -763,3 +766,61 @@
 	}
 }
 //mob-fixed-basket
+
+//to top btn
+.to-top-btn{
+	position: fixed;
+	z-index: 50;
+	right: 8px;
+	bottom: 8px;
+	width: 42px;
+	height: 42px;
+	background-color: $blue;
+	border-radius: 50%;
+	color: #FFF;
+	box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	transition: all 0.3s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transform: translate3d(0,50px,0);
+	pointer-events: none;
+
+	&:hover{
+		background: $orange;
+	}
+
+	&:after{
+		content: '';
+		width: 12px;
+		height: 12px;
+		border-top: 2px solid #FFF;
+		border-right: 2px solid #FFF;
+		transform: rotate(-45deg);
+		position: relative;
+		top: 3px;
+		transition: all 0.3s ease;
+	}
+
+	&.visible{
+		transform: none;
+		opacity: 1;
+		pointer-events: all;
+
+		&--small{
+			width: 30px;
+			height: 30px;
+			right: -10px;
+			bottom: -10px;
+
+			&:after{
+				width: 8px;
+				height: 8px;
+				top: 1px;
+			}
+		}
+	}
+}
+//to top btn

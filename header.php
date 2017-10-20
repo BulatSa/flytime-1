@@ -28,6 +28,7 @@
 <body>
 
 
+<a href="#site_begin" class="to-top-btn scrollto"></a>
 
 <!--mobile menu-->
 <div class="menu-btn">
@@ -221,13 +222,13 @@
 <!--mobile menu-->
 
 
-
 <div class="search-panel">
 	<form action="#">
 		<input type="text" class="input-text" placeholder="Поиск...">
 		<button title="Найти"><i class="i-search"></i></button>
 	</form>
 </div>
+
 
 <section class="s-top-panel compensate-for-scrollbar">
 	<div class="container">
@@ -270,7 +271,7 @@
 </section>
 
 
-<section class="s-head-contacts">
+<section class="s-head-contacts" id="site_begin">
 	<div class="container">
 
 		<div class="head-cont">
