@@ -136,6 +136,7 @@
 			display: inline-block;
 			height: initial;
 			padding: 12px 0;
+			max-width: initial;
 			@include res(s){
 				padding: 10px 4px;
 			}
