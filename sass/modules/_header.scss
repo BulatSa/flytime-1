@@ -602,12 +602,15 @@
 
 	&__column{
 		list-style: none;
-		width: 260px;
-		padding-right: $pad-m;
+		width: 240px;
+		margin-right: $pad-m;
 		flex-shrink: 0;
 		@include res(l){
-			width: 200px;
-			padding-right: $pad-s;
+			width: 180px;
+			margin-right: $pad-s;
+		}
+		&:last-child{
+			margin-right: 0;
 		}
 
 		li {
