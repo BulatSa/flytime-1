@@ -173,17 +173,15 @@
 	.cat-menu-item__iconwrap {
 		display: none;
 	}
+
 	.cat-submenu {
 		display: none;
 		position: relative;
 		top: initial;
 		left: initial;
 		width: initial;
+		padding: $pad-s;
 		margin-bottom: 10px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		padding-left: $gutter;
-		padding-right: $gutter;
 		border-radius: 10px;
 		box-shadow: 0 5px 5px transparentize(#000,0.9);
 		opacity: 1;
@@ -195,6 +193,34 @@
 			content: none;
 		}
 
+		.h3{
+			display: none;
+		}
+
+		&__row{
+			display: block;
+		}
+
+		&__column{
+			padding-right: 0;
+			width: 100%;
+			margin-bottom: 10px;
+
+			&:last-of-type{
+				margin-bottom: 0;
+			}
+
+			li{
+				margin-bottom: 10px;
+				&:last-of-type{
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		&__promo{
+			display: none;
+		}
 	}
 
 	.user-nav{

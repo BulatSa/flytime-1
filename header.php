@@ -80,27 +80,39 @@
 						<figure class="cat-menu-item__decor"></figure>
 						<figure class="cat-menu-item__icon"></figure>
 					</div>
-					<span>Каталог<br>шаров</span>
+					<span>Каталог шаров</span>
 				</a>
-				<ul class="cat-submenu">
-					<li><a href="#">Арки из шаров</a></li>
-					<li><a href="#">Шары под потолок</a></li>
-					<li><a href="#">Большие шары</a></li>
-					<li><a href="#">Сердца из шаров</a></li>
-					<li><a href="#">Фигуры из шаров</a></li>
-					<li><a href="#">Аксессуары для шаров</a></li>
-					<li><a href="#">Буквы</a></li>
-					<li><a href="#">Букеты из шаров</a></li>
-					<li><a href="#">Герои мультфильмов</a></li>
-					<li><a href="#">Музыкальные шары</a></li>
-					<li><a href="#">Светящиеся шары</a></li>
-					<li><a href="#">Фольгированные шары</a></li>
-					<li><a href="#">Ходячие фигуры</a></li>
-					<li><a href="#">Цветы из шаров</a></li>
-					<li><a href="#">Цифры</a></li>
-					<li><a href="#">Шары с печатью</a></li>
-					<li><a href="#">Шары с сюрпризом</a></li>
-				</ul>
+				<div class="cat-submenu">
+					<p class="h3">Каталог шаров</p>
+					<div class="cat-submenu__row">
+						<ul class="cat-submenu__column">
+							<li><a href="#">Арки из шаров</a></li>
+							<li><a href="#">Шары под потолок</a></li>
+							<li><a href="#">Большие шары</a></li>
+							<li><a href="#" class="active">Сердца из шаров</a></li>
+							<li><a href="#">Фигуры из шаров</a></li>
+							<li><a href="#">Аксессуары для шаров</a></li>
+							<li><a href="#">Буквы</a></li>
+							<li><a href="#">Букеты из шаров</a></li>
+							<li><a href="#">Герои мультфильмов</a></li>
+							<li><a href="#">Музыкальные шары</a></li>
+						</ul>
+						<ul class="cat-submenu__column">
+							<li><a href="#">Светящиеся шары</a></li>
+							<li><a href="#">Фольгированные шары</a></li>
+							<li><a href="#">Ходячие фигуры</a></li>
+							<li><a href="#">Цветы из шаров</a></li>
+							<li><a href="#">Цифры</a></li>
+							<li><a href="#">Шары с печатью</a></li>
+							<li><a href="#">Шары с сюрпризом</a></li>
+						</ul>
+						<div class="cat-submenu__promo">
+							<a href="/promo-details.php">
+								<img src="/img/thumbs/promo-thumb-2.jpg" alt="1">
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="cat-menu-item-wrap with-submenu">
 				<a href="/catalog-sections.php" class="cat-menu-item cat-menu-item--2">
@@ -108,27 +120,25 @@
 						<figure class="cat-menu-item__decor"></figure>
 						<figure class="cat-menu-item__icon"></figure>
 					</div>
-					<span>Оформление<br>по&nbsp;событиям</span>
+					<span>Оформление по событиям</span>
 				</a>
-				<ul class="cat-submenu">
-					<li><a href="#">Арки из шаров</a></li>
-					<li><a href="#">Шары под потолок</a></li>
-					<li><a href="#">Большие шары</a></li>
-					<li><a href="#">Сердца из шаров</a></li>
-					<li><a href="#">Фигуры из шаров</a></li>
-					<li><a href="#">Аксессуары для шаров</a></li>
-					<li><a href="#">Буквы</a></li>
-					<li><a href="#">Букеты из шаров</a></li>
-					<li><a href="#">Герои мультфильмов</a></li>
-					<li><a href="#">Музыкальные шары</a></li>
-					<li><a href="#">Светящиеся шары</a></li>
-					<li><a href="#">Фольгированные шары</a></li>
-					<li><a href="#">Ходячие фигуры</a></li>
-					<li><a href="#">Цветы из шаров</a></li>
-					<li><a href="#">Цифры</a></li>
-					<li><a href="#">Шары с печатью</a></li>
-					<li><a href="#">Шары с сюрпризом</a></li>
-				</ul>
+				<div class="cat-submenu">
+					<p class="h3">Оформление по событиям</p>
+					<div class="cat-submenu__row">
+						<ul class="cat-submenu__column">
+							<li><a href="#">Арки из шаров</a></li>
+							<li><a href="#">Шары под потолок</a></li>
+							<li><a href="#">Большие шары</a></li>
+							<li><a href="#">Сердца из шаров</a></li>
+							<li><a href="#">Фигуры из шаров</a></li>
+							<li><a href="#">Аксессуары для шаров</a></li>
+							<li><a href="#">Буквы</a></li>
+							<li><a href="#">Букеты из шаров</a></li>
+							<li><a href="#">Герои мультфильмов</a></li>
+							<li><a href="#">Музыкальные шары</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 			<div class="cat-menu-item-wrap with-submenu">
 				<a href="/catalog-sections.php" class="cat-menu-item cat-menu-item--3">
@@ -136,27 +146,26 @@
 						<figure class="cat-menu-item__decor"></figure>
 						<figure class="cat-menu-item__icon"></figure>
 					</div>
-					<span>Готовые<br>решения</span>
+					<span>Готовые решения</span>
 				</a>
-				<ul class="cat-submenu">
-					<li><a href="#">Арки из шаров</a></li>
-					<li><a href="#">Шары под потолок</a></li>
-					<li><a href="#">Большие шары</a></li>
-					<li><a href="#">Сердца из шаров</a></li>
-					<li><a href="#">Фигуры из шаров</a></li>
-					<li><a href="#">Аксессуары для шаров</a></li>
-					<li><a href="#">Буквы</a></li>
-					<li><a href="#">Букеты из шаров</a></li>
-					<li><a href="#">Герои мультфильмов</a></li>
-					<li><a href="#">Музыкальные шары</a></li>
-					<li><a href="#">Светящиеся шары</a></li>
-					<li><a href="#">Фольгированные шары</a></li>
-					<li><a href="#">Ходячие фигуры</a></li>
-					<li><a href="#">Цветы из шаров</a></li>
-					<li><a href="#">Цифры</a></li>
-					<li><a href="#">Шары с печатью</a></li>
-					<li><a href="#">Шары с сюрпризом</a></li>
-				</ul>
+				<div class="cat-submenu">
+					<p class="h3">Готовые решения</p>
+					<div class="cat-submenu__row">
+						<ul class="cat-submenu__column">
+							<li><a href="#">Арки из шаров</a></li>
+							<li><a href="#">Шары под потолок</a></li>
+							<li><a href="#">Большие шары</a></li>
+							<li><a href="#">Сердца из шаров</a></li>
+							<li><a href="#">Фигуры из шаров</a></li>
+							<li><a href="#">Аксессуары для шаров</a></li>
+						</ul>
+						<div class="cat-submenu__promo">
+							<a href="/promo-details.php">
+								<img src="/img/thumbs/promo-thumb.jpg" alt="1">
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="cat-menu-item-wrap with-submenu">
 				<a href="/catalog-sections.php" class="cat-menu-item cat-menu-item--4 active">
@@ -164,27 +173,23 @@
 						<figure class="cat-menu-item__decor"></figure>
 						<figure class="cat-menu-item__icon"></figure>
 					</div>
-					<span>Все для<br>праздника</span>
+					<span>Все для праздника</span>
 				</a>
-				<ul class="cat-submenu">
-					<li><a href="#">Арки из шаров</a></li>
-					<li><a href="#">Шары под потолок</a></li>
-					<li><a href="#" class="active">Большие шары</a></li>
-					<li><a href="#">Сердца из шаров</a></li>
-					<li><a href="#">Фигуры из шаров</a></li>
-					<li><a href="#">Аксессуары для шаров</a></li>
-					<li><a href="#">Буквы</a></li>
-					<li><a href="#">Букеты из шаров</a></li>
-					<li><a href="#">Герои мультфильмов</a></li>
-					<li><a href="#">Музыкальные шары</a></li>
-					<li><a href="#">Светящиеся шары</a></li>
-					<li><a href="#">Фольгированные шары</a></li>
-					<li><a href="#">Ходячие фигуры</a></li>
-					<li><a href="#">Цветы из шаров</a></li>
-					<li><a href="#">Цифры</a></li>
-					<li><a href="#">Шары с печатью</a></li>
-					<li><a href="#">Шары с сюрпризом</a></li>
-				</ul>
+				<div class="cat-submenu">
+					<p class="h3">Все для праздника</p>
+					<div class="cat-submenu__row">
+						<ul class="cat-submenu__column">
+							<li><a href="#">Арки из шаров</a></li>
+							<li><a href="#">Шары под потолок</a></li>
+							<li><a href="#">Большие шары</a></li>
+						</ul>
+						<div class="cat-submenu__promo">
+							<a href="/promo-details.php">
+								<img src="/img/thumbs/promo-thumb.jpg" alt="1">
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="cat-menu-item-wrap">
 				<a href="/price-list.php" class="cat-menu-item cat-menu-item--5">
@@ -314,27 +319,39 @@
 						<figure class="cat-menu-item__decor"></figure>
 						<figure class="cat-menu-item__icon"></figure>
 					</div>
-					<span>Каталог<br>шаров</span>
+					<span>Каталог шаров</span>
 				</a>
-				<ul class="cat-submenu">
-					<li><a href="#">Арки из шаров</a></li>
-					<li><a href="#">Шары под потолок</a></li>
-					<li><a href="#">Большие шары</a></li>
-					<li><a href="#">Сердца из шаров</a></li>
-					<li><a href="#">Фигуры из шаров</a></li>
-					<li><a href="#">Аксессуары для шаров</a></li>
-					<li><a href="#">Буквы</a></li>
-					<li><a href="#">Букеты из шаров</a></li>
-					<li><a href="#">Герои мультфильмов</a></li>
-					<li><a href="#">Музыкальные шары</a></li>
-					<li><a href="#">Светящиеся шары</a></li>
-					<li><a href="#">Фольгированные шары</a></li>
-					<li><a href="#">Ходячие фигуры</a></li>
-					<li><a href="#">Цветы из шаров</a></li>
-					<li><a href="#">Цифры</a></li>
-					<li><a href="#">Шары с печатью</a></li>
-					<li><a href="#">Шары с сюрпризом</a></li>
-				</ul>
+				<div class="cat-submenu">
+					<p class="h3">Каталог шаров</p>
+					<div class="cat-submenu__row">
+						<ul class="cat-submenu__column">
+							<li><a href="#">Арки из шаров</a></li>
+							<li><a href="#">Шары под потолок</a></li>
+							<li><a href="#">Большие шары</a></li>
+							<li><a href="#" class="active">Сердца из шаров</a></li>
+							<li><a href="#">Фигуры из шаров</a></li>
+							<li><a href="#">Аксессуары для шаров</a></li>
+							<li><a href="#">Буквы</a></li>
+							<li><a href="#">Букеты из шаров</a></li>
+							<li><a href="#">Герои мультфильмов</a></li>
+							<li><a href="#">Музыкальные шары</a></li>
+						</ul>
+						<ul class="cat-submenu__column">
+							<li><a href="#">Светящиеся шары</a></li>
+							<li><a href="#">Фольгированные шары</a></li>
+							<li><a href="#">Ходячие фигуры</a></li>
+							<li><a href="#">Цветы из шаров</a></li>
+							<li><a href="#">Цифры</a></li>
+							<li><a href="#">Шары с печатью</a></li>
+							<li><a href="#">Шары с сюрпризом</a></li>
+						</ul>
+						<div class="cat-submenu__promo">
+							<a href="/promo-details.php">
+								<img src="/img/thumbs/promo-thumb-2.jpg" alt="1">
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="cat-menu-item-wrap with-submenu">
 				<a href="/catalog-sections.php" class="cat-menu-item cat-menu-item--2">
@@ -342,27 +359,25 @@
 						<figure class="cat-menu-item__decor"></figure>
 						<figure class="cat-menu-item__icon"></figure>
 					</div>
-					<span>Оформление<br>по&nbsp;событиям</span>
+					<span>Оформление по событиям</span>
 				</a>
-				<ul class="cat-submenu">
-					<li><a href="#">Арки из шаров</a></li>
-					<li><a href="#">Шары под потолок</a></li>
-					<li><a href="#">Большие шары</a></li>
-					<li><a href="#">Сердца из шаров</a></li>
-					<li><a href="#">Фигуры из шаров</a></li>
-					<li><a href="#">Аксессуары для шаров</a></li>
-					<li><a href="#">Буквы</a></li>
-					<li><a href="#">Букеты из шаров</a></li>
-					<li><a href="#">Герои мультфильмов</a></li>
-					<li><a href="#">Музыкальные шары</a></li>
-					<li><a href="#">Светящиеся шары</a></li>
-					<li><a href="#">Фольгированные шары</a></li>
-					<li><a href="#">Ходячие фигуры</a></li>
-					<li><a href="#">Цветы из шаров</a></li>
-					<li><a href="#">Цифры</a></li>
-					<li><a href="#">Шары с печатью</a></li>
-					<li><a href="#">Шары с сюрпризом</a></li>
-				</ul>
+				<div class="cat-submenu">
+					<p class="h3">Оформление по событиям</p>
+					<div class="cat-submenu__row">
+						<ul class="cat-submenu__column">
+							<li><a href="#">Арки из шаров</a></li>
+							<li><a href="#">Шары под потолок</a></li>
+							<li><a href="#">Большие шары</a></li>
+							<li><a href="#">Сердца из шаров</a></li>
+							<li><a href="#">Фигуры из шаров</a></li>
+							<li><a href="#">Аксессуары для шаров</a></li>
+							<li><a href="#">Буквы</a></li>
+							<li><a href="#">Букеты из шаров</a></li>
+							<li><a href="#">Герои мультфильмов</a></li>
+							<li><a href="#">Музыкальные шары</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 			<div class="cat-menu-item-wrap with-submenu">
 				<a href="/catalog-sections.php" class="cat-menu-item cat-menu-item--3">
@@ -370,27 +385,26 @@
 						<figure class="cat-menu-item__decor"></figure>
 						<figure class="cat-menu-item__icon"></figure>
 					</div>
-					<span>Готовые<br>решения</span>
+					<span>Готовые решения</span>
 				</a>
-				<ul class="cat-submenu">
-					<li><a href="#">Арки из шаров</a></li>
-					<li><a href="#">Шары под потолок</a></li>
-					<li><a href="#">Большие шары</a></li>
-					<li><a href="#">Сердца из шаров</a></li>
-					<li><a href="#">Фигуры из шаров</a></li>
-					<li><a href="#">Аксессуары для шаров</a></li>
-					<li><a href="#">Буквы</a></li>
-					<li><a href="#">Букеты из шаров</a></li>
-					<li><a href="#">Герои мультфильмов</a></li>
-					<li><a href="#">Музыкальные шары</a></li>
-					<li><a href="#">Светящиеся шары</a></li>
-					<li><a href="#">Фольгированные шары</a></li>
-					<li><a href="#">Ходячие фигуры</a></li>
-					<li><a href="#">Цветы из шаров</a></li>
-					<li><a href="#">Цифры</a></li>
-					<li><a href="#">Шары с печатью</a></li>
-					<li><a href="#">Шары с сюрпризом</a></li>
-				</ul>
+				<div class="cat-submenu">
+					<p class="h3">Готовые решения</p>
+					<div class="cat-submenu__row">
+						<ul class="cat-submenu__column">
+							<li><a href="#">Арки из шаров</a></li>
+							<li><a href="#">Шары под потолок</a></li>
+							<li><a href="#">Большие шары</a></li>
+							<li><a href="#">Сердца из шаров</a></li>
+							<li><a href="#">Фигуры из шаров</a></li>
+							<li><a href="#">Аксессуары для шаров</a></li>
+						</ul>
+						<div class="cat-submenu__promo">
+							<a href="/promo-details.php">
+								<img src="/img/thumbs/promo-thumb.jpg" alt="1">
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="cat-menu-item-wrap with-submenu">
 				<a href="/catalog-sections.php" class="cat-menu-item cat-menu-item--4 active">
@@ -398,27 +412,23 @@
 						<figure class="cat-menu-item__decor"></figure>
 						<figure class="cat-menu-item__icon"></figure>
 					</div>
-					<span>Все для<br>праздника</span>
+					<span>Все для праздника</span>
 				</a>
-				<ul class="cat-submenu">
-					<li><a href="#">Арки из шаров</a></li>
-					<li><a href="#">Шары под потолок</a></li>
-					<li><a href="#" class="active">Большие шары</a></li>
-					<li><a href="#">Сердца из шаров</a></li>
-					<li><a href="#">Фигуры из шаров</a></li>
-					<li><a href="#">Аксессуары для шаров</a></li>
-					<li><a href="#">Буквы</a></li>
-					<li><a href="#">Букеты из шаров</a></li>
-					<li><a href="#">Герои мультфильмов</a></li>
-					<li><a href="#">Музыкальные шары</a></li>
-					<li><a href="#">Светящиеся шары</a></li>
-					<li><a href="#">Фольгированные шары</a></li>
-					<li><a href="#">Ходячие фигуры</a></li>
-					<li><a href="#">Цветы из шаров</a></li>
-					<li><a href="#">Цифры</a></li>
-					<li><a href="#">Шары с печатью</a></li>
-					<li><a href="#">Шары с сюрпризом</a></li>
-				</ul>
+				<div class="cat-submenu">
+					<p class="h3">Все для праздника</p>
+					<div class="cat-submenu__row">
+						<ul class="cat-submenu__column">
+							<li><a href="#">Арки из шаров</a></li>
+							<li><a href="#">Шары под потолок</a></li>
+							<li><a href="#">Большие шары</a></li>
+						</ul>
+						<div class="cat-submenu__promo">
+							<a href="/promo-details.php">
+								<img src="/img/thumbs/promo-thumb.jpg" alt="1">
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="cat-menu-item-wrap">
 				<a href="/price-list.php" class="cat-menu-item cat-menu-item--5">
