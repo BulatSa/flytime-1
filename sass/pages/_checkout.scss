@@ -27,30 +27,55 @@
 		}
 	}
 
-	.style-checkbox:not(.style-checkbox--policy){
-		margin-bottom: $pad-l;
+	.input-block{
 		padding-left: $pad-m;
 		@include res(l){
 			padding-left: 0;
 		}
-		@include res(xs){
-			margin-bottom: $pad-s;
+	}
+}
 
+
+.delivery-item{
+	margin-bottom: $pad-l;
+	padding-left: $pad-m;
+	@include res(l){
+		padding-left: 0;
+	}
+	@include res(xs){
+		margin-bottom: $pad-s;
+	}
+
+	.style-checkbox{
+		@include res(xs){
 			.style-checkbox__descr{
 				font-size: 12px;
 				font-weight: normal;
 			}
 		}
-
-		&:last-child{
-			margin-bottom: 0;
-		}
 	}
 
-	.input-block{
-		padding-left: $pad-m;
-		@include res(l){
-			padding-left: 0;
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	&__extraservices{
+		padding-left: 35px;
+		padding-top: $pad-s;
+		@include res(xs){
+			padding-top: $pad-xs;
+		}
+
+		.h4{
+			margin-bottom: 0.2em;
+		}
+
+		.style-checkbox{
+			margin-bottom: $pad-xs;
+
+			&:last-child{
+				margin-bottom: 0;
+			}
 		}
 	}
 }
