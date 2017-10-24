@@ -118,10 +118,9 @@
 		 }
 	 }
 	&--business {
-		color: #fff;
 		background-image: url('../img/business/bg-intro.jpg');
 		@include res(l) {
-			background-image: url('../img/business/photoalbums-bg.jpg');
+			background-image: url('../img/payment/bg-intro-tab.jpg');
 		}
 	}
 	&--contact {
