@@ -238,6 +238,20 @@ $(document).ready(function(){
  ***********************/
 
 
+// открытие подменю категорий
+$(document).ready(function(){
+	$('.catalog-show-btn').click(function(e) {
+		e.preventDefault();
+		$('.cats-razdel').toggleClass('opened');
+	});
+	$('.cats-menu__has-sub i').click(function() {
+		var current_razdel = $(this).parent('.cats-menu__has-sub');
+		current_razdel.toggleClass('opened');
+	});
+});
+// открытие подменю категорий
+
+
 /***********************
 Intro slider BEGIN
 ***********************/

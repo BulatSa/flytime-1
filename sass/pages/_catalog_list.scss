@@ -147,6 +147,15 @@
 	}
 }
 
+.catalog-show-btn {
+	display: none;
+	@include res(l){
+		display: inline-flex;
+		margin-bottom: $pad-s;
+		margin-left: $pad-s;
+	}
+}
+
 .filter-mod{
 	margin-bottom: $pad-s;
 	border-radius: 10px;
